@@ -10,37 +10,15 @@ jobs:
           name: Check Points
           command: |
             bash ./report.sh
-      - persist_to_workspace:
-          root: /tmp/works
-          paths:
-            - target/*
-  release:
-    docker:
-      - image: circleci/golang
-    steps:
-      - attach_workspace:
-          at: works
-      - run:
-          name: Release
-          command: |
-            VERSION="latest"
-            go get github.com/tcnksm/ghr
-            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} works/target/
 
 workflows:
   version: 2
   apply:
     jobs:
       - report
-      # - release:
-      #     requires:
-      #       - report
   nightly:
     jobs:
       - report
-      # - release:
-      #     requires:
-      #       - report
     triggers:
       - schedule:
           cron: "0 * * * *"

@@ -4,14 +4,22 @@ OS_NAME="$(uname | awk '{print tolower($0)}')"
 
 SHELL_DIR=$(dirname $0)
 
-URLS=${SHELL_DIR}/urls.txt
-COUNT=$(cat ${URLS} | wc -l | xargs)
+URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
-SEASONS=("2019-05 2019-06 2019-07")
+SEASONS="2019-05 2019-06 2019-07"
+
+USERNAME=${CIRCLE_PROJECT_USERNAME:-nalbam}
+REPONAME=${CIRCLE_PROJECT_REPONAME:-deepracer}
+
+GIT_USERNAME="bot"
+GIT_USEREMAIL="bot@nalbam.com"
+
+CHANGED=
 
 _prepare() {
     mkdir -p ${SHELL_DIR}/build
     mkdir -p ${SHELL_DIR}/target
+    mkdir -p ${SHELL_DIR}/leaderboard
 
     if [ -f ${SHELL_DIR}/build/points.log ]; then
         rm -rf ${SHELL_DIR}/build/points.log
@@ -19,24 +27,18 @@ _prepare() {
 }
 
 _build() {
-    IDX=1
-    while read URL; do
-        LOG_FILE=${SHELL_DIR}/build/leaderboard_100_${IDX}.log
+    for SEASON in ${SEASONS}; do
+        # echo ${SEASON}
+
+        URL="${URL_TEMPLATE}${SEASON}"
 
         curl -sL ${URL} \
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-            > ${SHELL_DIR}/build/leaderboard_100_${IDX}.log
+            > ${SHELL_DIR}/build/leaderboard_${SEASON}.log
+    done
 
-        # curl -sL ${URL} \
-        #     | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-        #     | head -20 \
-        #     > ${SHELL_DIR}/leaderboard/${IDX}.log
-
-        IDX=$(( ${IDX} + 1 ))
-    done < ${URLS}
-
-    for IDX in {1..3}; do
-        LOG_FILE=${SHELL_DIR}/build/leaderboard_100_${IDX}.log
+    for SEASON in ${SEASONS}; do
+        LOG_FILE=${SHELL_DIR}/build/leaderboard_${SEASON}.log
 
         JDX=1
         while read LINE; do
@@ -44,8 +46,8 @@ _build() {
 
             NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
 
-            for KDX in {1..3}; do
-                LOG_TEMP=${SHELL_DIR}/build/leaderboard_100_${KDX}.log
+            for SVAL in ${SEASONS}; do
+                LOG_TEMP=${SHELL_DIR}/build/leaderboard_${SVAL}.log
 
                 COUNT=$(cat ${LOG_TEMP} | grep "\"${NAME}\"" | wc -l | xargs)
 
@@ -53,13 +55,9 @@ _build() {
                     continue
                 fi
 
-                URL="$(cat ${URLS} | head -${KDX} | tail -1 | xargs)"
+                URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
 
-                # echo "${KDX} ${NAME} ${COUNT}    "${URL}"&item.additionalFields.racerName=${NAME}"
-
-                # curl -sL ${URL}"&item.additionalFields.racerName=${NAME}" | jq .
-
-                curl -sL ${URL}"&item.additionalFields.racerName=${NAME}" \
+                curl -sL ${URL} \
                     | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
                     >> ${LOG_TEMP}
             done
@@ -72,6 +70,9 @@ _build() {
         done < ${LOG_FILE}
     done
 
+    FIRST_SEASON="$(echo $SEASONS | cut -d' ' -f1)"
+
+    # collect
     while read LINE; do
         ARR=(${LINE})
 
@@ -79,8 +80,12 @@ _build() {
         TIME="${ARR[1]}"
         POINTS="${ARR[2]}"
 
-        for IDX in {2..3}; do
-            LOG_FILE=${SHELL_DIR}/build/leaderboard_100_${IDX}.log
+        for SEASON in ${SEASONS}; do
+            if [ "${SEASON}" == "${FIRST_SEASON}" ]; then
+                continue
+            fi
+
+            LOG_FILE=${SHELL_DIR}/build/leaderboard_${SEASON}.log
 
             ARR=($(cat ${LOG_FILE} | grep "\"${NAME}\"" | head -1))
 
@@ -97,11 +102,53 @@ _build() {
         done
 
         echo "${POINTS} ${NAME}" >> ${SHELL_DIR}/build/points.log
-    done < ${SHELL_DIR}/build/leaderboard_100_1.log
+    done < ${SHELL_DIR}/build/leaderboard_${FIRST_SEASON}.log
 
+    # backup
+    if [ -f ${SHELL_DIR}/leaderboard/points.log ]; then
+        cp ${SHELL_DIR}/leaderboard/points.log ${SHELL_DIR}/build/backup.log
+    fi
+
+    # print
+    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -25 > ${SHELL_DIR}/leaderboard/points.log
+}
+
+_git_push() {
+    if [ -z ${GITHUB_TOKEN} ]; then
+        return
+    fi
+
+    DATE=$(date +%Y%m%d-%H%M)
+
+    git config --global user.name "${GIT_USERNAME}"
+    git config --global user.email "${GIT_USEREMAIL}"
+
+    git add --all
+    git commit -m "${DATE}" > /dev/null 2>&1 || export CHANGED=true
+
+    if [ -z ${CHANGED} ]; then
+        git push -q https://${GITHUB_TOKEN}@github.com/${USERNAME}/${REPONAME}.git master
+
+        _slack
+    fi
+}
+
+_message() {
+    IDX=1
+    while read LINE; do
+        BACKUP="$(cat ${SHELL_DIR}/build/backup.log | head -${IDX} | tail -1)"
+
+        if [ "${LINE}" == "${BACKUP}" ]; then
+            echo "${IDX}\t${LINE}" >> ${SHELL_DIR}/build/message.log
+        else
+            echo "${IDX}\t${LINE}\t<<<<<<<" >> ${SHELL_DIR}/build/message.log
+        fi
+
+        IDX=$(( ${IDX} + 1 ))
+    done < ${SHELL_DIR}/leaderboard/points.log
 
     echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/target/message.log
-    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -25 | nl >> ${SHELL_DIR}/target/message.log
+    cat ${SHELL_DIR}/build/message.log >> ${SHELL_DIR}/target/message.log
 
     cat ${SHELL_DIR}/target/message.log
 }
@@ -110,6 +157,8 @@ _slack() {
     if [ -z ${SLACK_TOKEN} ]; then
         return
     fi
+
+    _message
 
     json="{\"text\":\"$(cat ${SHELL_DIR}/target/message.log)\"}"
 
@@ -121,4 +170,4 @@ _prepare
 
 _build
 
-_slack
+_git_push
