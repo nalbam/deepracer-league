@@ -27,10 +27,10 @@ _build() {
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
             > ${SHELL_DIR}/build/leaderboard_100_${IDX}.log
 
-        curl -sL ${URL} \
-            | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-            | head -20 \
-            > ${SHELL_DIR}/leaderboard/${IDX}.log
+        # curl -sL ${URL} \
+        #     | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
+        #     | head -20 \
+        #     > ${SHELL_DIR}/leaderboard/${IDX}.log
 
         IDX=$(( ${IDX} + 1 ))
     done < ${URLS}
@@ -101,7 +101,7 @@ _build() {
 
 
     echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/target/message.log
-    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -20 | nl >> ${SHELL_DIR}/target/message.log
+    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -25 | nl >> ${SHELL_DIR}/target/message.log
 
     cat ${SHELL_DIR}/target/message.log
 }
