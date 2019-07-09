@@ -113,6 +113,26 @@ _build() {
     cat ${SHELL_DIR}/build/points.log | sort -r -g | head -25 > ${SHELL_DIR}/leaderboard/points.log
 }
 
+_message() {
+    IDX=1
+    while read LINE; do
+        COUNT=$(cat ${SHELL_DIR}/build/backup.log | grep "${LINE}" | wc -l | xargs)
+
+        if [ "x${COUNT}" != "x0" ]; then
+            echo "${IDX}\t${LINE}" >> ${SHELL_DIR}/build/message.log
+        else
+            echo "${IDX}\t${LINE}\t<<<<<<<" >> ${SHELL_DIR}/build/message.log
+        fi
+
+        IDX=$(( ${IDX} + 1 ))
+    done < ${SHELL_DIR}/leaderboard/points.log
+
+    echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/target/message.log
+    cat ${SHELL_DIR}/build/message.log >> ${SHELL_DIR}/target/message.log
+
+    cat ${SHELL_DIR}/target/message.log
+}
+
 _git_push() {
     if [ -z ${GITHUB_TOKEN} ]; then
         return
@@ -133,32 +153,10 @@ _git_push() {
     fi
 }
 
-_message() {
-    IDX=1
-    while read LINE; do
-        BACKUP="$(cat ${SHELL_DIR}/build/backup.log | head -${IDX} | tail -1)"
-
-        if [ "${LINE}" == "${BACKUP}" ]; then
-            echo "${IDX}\t${LINE}" >> ${SHELL_DIR}/build/message.log
-        else
-            echo "${IDX}\t${LINE}\t<<<<<<<" >> ${SHELL_DIR}/build/message.log
-        fi
-
-        IDX=$(( ${IDX} + 1 ))
-    done < ${SHELL_DIR}/leaderboard/points.log
-
-    echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/target/message.log
-    cat ${SHELL_DIR}/build/message.log >> ${SHELL_DIR}/target/message.log
-
-    cat ${SHELL_DIR}/target/message.log
-}
-
 _slack() {
     if [ -z ${SLACK_TOKEN} ]; then
         return
     fi
-
-    _message
 
     json="{\"text\":\"$(cat ${SHELL_DIR}/target/message.log)\"}"
 
@@ -169,5 +167,7 @@ _slack() {
 _prepare
 
 _build
+
+_message
 
 _git_push
