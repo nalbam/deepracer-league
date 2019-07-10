@@ -18,7 +18,6 @@ CHANGED=
 
 _prepare() {
     mkdir -p ${SHELL_DIR}/build
-    mkdir -p ${SHELL_DIR}/target
     mkdir -p ${SHELL_DIR}/leaderboard
 
     if [ -f ${SHELL_DIR}/build/points.log ]; then
@@ -114,23 +113,51 @@ _build() {
 }
 
 _message() {
+    MESSAGE=${SHELL_DIR}/build/message.tmp
+    README=${SHELL_DIR}/build/readme.tmp
+
+    echo "| # | RacerName | Point |   |" > ${README}
+    echo "| - | --------- | ----- | - |" >> ${README}
+
     IDX=1
     while read LINE; do
         COUNT=$(cat ${SHELL_DIR}/build/backup.log | grep "${LINE}" | wc -l | xargs)
 
+        ARR=(${LINE})
+
         if [ "x${COUNT}" != "x0" ]; then
-            echo "${IDX}\t${LINE}" >> ${SHELL_DIR}/build/message.log
+            echo "${IDX}\t${ARR[0]}\t${ARR[1]}" >> ${MESSAGE}
+            echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | |" >> ${README}
         else
-            echo "${IDX}\t${LINE}\t<<<<<<<" >> ${SHELL_DIR}/build/message.log
+            echo "${IDX}\t${ARR[0]}\t${ARR[1]}\t<<<<<<<" >> ${MESSAGE}
+            echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | * |" >> ${README}
         fi
 
         IDX=$(( ${IDX} + 1 ))
     done < ${SHELL_DIR}/leaderboard/points.log
 
-    echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/target/message.log
-    cat ${SHELL_DIR}/build/message.log >> ${SHELL_DIR}/target/message.log
+    # message
+    echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/build/message.log
+    cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
 
-    cat ${SHELL_DIR}/target/message.log
+    cat ${SHELL_DIR}/build/message.log
+
+    # readme
+    IDX=1
+    while read LINE; do
+        COUNT="$(echo ${LINE} | grep "\-\- leaderboard \-\-" | wc -l | xargs)"
+
+        if [ "x${COUNT}" != "x0" ]; then
+            break
+        fi
+
+        IDX=$(( ${IDX} + 1 ))
+    done < ${SHELL_DIR}/README.md
+
+    sed "${IDX}q" ${SHELL_DIR}/README.md > ${SHELL_DIR}/build/readme.md
+    cat ${README} >> ${SHELL_DIR}/build/readme.md
+
+    cp -rf ${SHELL_DIR}/build/readme.md ${SHELL_DIR}/README.md
 }
 
 _git_push() {
