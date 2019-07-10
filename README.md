@@ -19,14 +19,14 @@
 | 12 | 2962.732 | JasonLian | |
 | 13 | 2962.426 | PGS-Tomasz-Panek | |
 | 14 | 2960.431 | ABaykov | |
-| 15 | 2959.016 | kimwooglae | |
-| 16 | 2957.322 | nalbam | |
-| 17 | 2957.277 | Jochem | |
-| 18 | 2956.151 | TonyJ | |
-| 19 | 2955.56 | t-maru078 | |
-| 20 | 2954.999 | Kire | |
-| 21 | 2953.207 | KAGRAZAKA-DNP | |
-| 22 | 2953.045 | RichardFan | |
-| 23 | 2952.225 | leo-DNPds | |
+| 15 | 2959.315 | leo-DNPds | * |
+| 16 | 2959.016 | kimwooglae | |
+| 17 | 2957.322 | nalbam | |
+| 18 | 2957.277 | Jochem | |
+| 19 | 2956.151 | TonyJ | |
+| 20 | 2955.56 | t-maru078 | |
+| 21 | 2954.999 | Kire | |
+| 22 | 2953.207 | KAGRAZAKA-DNP | |
+| 23 | 2953.045 | RichardFan | |
 | 24 | 2946.848 | rkom | |
 | 25 | 2946.237 | HY-DNP | |
