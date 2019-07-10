@@ -19,7 +19,7 @@
 | 12 | 2962.732 | JasonLian | |
 | 13 | 2962.426 | PGS-Tomasz-Panek | |
 | 14 | 2960.431 | ABaykov | |
-| 15 | 2959.315 | leo-DNPds | * |
+| 15 | 2959.315 | leo-DNPds | |
 | 16 | 2959.016 | kimwooglae | |
 | 17 | 2957.322 | nalbam | |
 | 18 | 2957.277 | Jochem | |
