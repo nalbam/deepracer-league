@@ -235,7 +235,7 @@ _slack() {
     curl -s -d "payload=${json}" "${webhook_url}"
 }
 
-__init__() {
+__main__() {
     _prepare
 
     _build
@@ -249,4 +249,4 @@ __init__() {
     _success
 }
 
-__init__
+__main__
