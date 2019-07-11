@@ -68,7 +68,7 @@ _build() {
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
             > ${SHELL_DIR}/build/leaderboard_${SEASON}.log
 
-        _result "${SEASON}"
+        _result "season ${SEASON}"
     done
 
     for SEASON in ${SEASONS}; do
@@ -95,7 +95,7 @@ _build() {
                     | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
                     >> ${LOG_TEMP}
 
-                _result "${SVAL} ${NAME}"
+                # _result "${SVAL} ${NAME}"
             done
 
             if [ "${JDX}" == "30" ]; then
@@ -170,7 +170,7 @@ _message() {
         else
             CHANGED=true
 
-            _result "${ARR[0]} ${ARR[1]}"
+            _result "changed ${ARR[0]} ${ARR[1]}"
 
             echo "${IDX}\t${ARR[0]}\t${ARR[1]}\t<<<<<<<" >> ${MESSAGE}
             echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | * |" >> ${README}
