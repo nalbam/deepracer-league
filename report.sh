@@ -59,19 +59,19 @@ _prepare() {
 }
 
 _build() {
-    _command "_build"
-
     for SEASON in ${SEASONS}; do
+        _command "_build ${SEASON}"
+
         URL="${URL_TEMPLATE}${SEASON}"
 
         curl -sL ${URL} \
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
             > ${SHELL_DIR}/build/leaderboard_${SEASON}.log
-
-        _result "season ${SEASON}"
     done
 
     for SEASON in ${SEASONS}; do
+        _command "_build ${SEASON} additional"
+
         LOG_FILE=${SHELL_DIR}/build/leaderboard_${SEASON}.log
 
         JDX=1
@@ -106,9 +106,10 @@ _build() {
         done < ${LOG_FILE}
     done
 
+    _command "_build summary"
+
     FIRST_SEASON="$(echo $SEASONS | cut -d' ' -f1)"
 
-    # collect
     while read LINE; do
         ARR=(${LINE})
 
