@@ -116,8 +116,8 @@ _message() {
     MESSAGE=${SHELL_DIR}/build/message.tmp
     README=${SHELL_DIR}/build/readme.tmp
 
-    echo "| # | Point | RacerName |   |" > ${README}
-    echo "| - | ----- | - | --------- |" >> ${README}
+    echo "| # | Score | RacerName |   |" > ${README}
+    echo "| - | ----- | --------- | - |" >> ${README}
 
     IDX=1
     while read LINE; do
