@@ -16,7 +16,40 @@ GIT_USEREMAIL="bot@nalbam.com"
 
 CHANGED=
 
+# command -v tput > /dev/null && TPUT=true
+TPUT=
+
+_echo() {
+    if [ "${TPUT}" != "" ] && [ "$2" != "" ]; then
+        echo -e "$(tput setaf $2)$1$(tput sgr0)"
+    else
+        echo -e "$1"
+    fi
+}
+
+_result() {
+    _echo "# $@" 4
+}
+
+_command() {
+    _echo "$ $@" 3
+}
+
+_success() {
+    _echo "+ $@" 2
+    exit 0
+}
+
+_error() {
+    _echo "- $@" 1
+    exit 1
+}
+
 _prepare() {
+    _command "_prepare"
+
+    rm -rf ${SHELL_DIR}/build
+
     mkdir -p ${SHELL_DIR}/build
     mkdir -p ${SHELL_DIR}/leaderboard
 
@@ -26,14 +59,16 @@ _prepare() {
 }
 
 _build() {
-    for SEASON in ${SEASONS}; do
-        # echo ${SEASON}
+    _command "_build"
 
+    for SEASON in ${SEASONS}; do
         URL="${URL_TEMPLATE}${SEASON}"
 
         curl -sL ${URL} \
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
             > ${SHELL_DIR}/build/leaderboard_${SEASON}.log
+
+        _result "${SEASON}"
     done
 
     for SEASON in ${SEASONS}; do
@@ -59,6 +94,8 @@ _build() {
                 curl -sL ${URL} \
                     | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
                     >> ${LOG_TEMP}
+
+                _result "${SVAL} ${NAME}"
             done
 
             if [ "${JDX}" == "30" ]; then
@@ -113,6 +150,8 @@ _build() {
 }
 
 _message() {
+    _command "_message"
+
     MESSAGE=${SHELL_DIR}/build/message.tmp
     README=${SHELL_DIR}/build/readme.tmp
 
@@ -129,6 +168,10 @@ _message() {
             echo "${IDX}\t${ARR[0]}\t${ARR[1]}" >> ${MESSAGE}
             echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | |" >> ${README}
         else
+            CHANGED=true
+
+            _result "${ARR[0]} ${ARR[1]}"
+
             echo "${IDX}\t${ARR[0]}\t${ARR[1]}\t<<<<<<<" >> ${MESSAGE}
             echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | * |" >> ${README}
         fi
@@ -139,8 +182,6 @@ _message() {
     # message
     echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/build/message.log
     cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
-
-    cat ${SHELL_DIR}/build/message.log
 
     # readme
     IDX=1
@@ -157,10 +198,14 @@ _message() {
     sed "${IDX}q" ${SHELL_DIR}/README.md > ${SHELL_DIR}/build/readme.md
     cat ${README} >> ${SHELL_DIR}/build/readme.md
 
-    cp -rf ${SHELL_DIR}/build/readme.md ${SHELL_DIR}/README.md
+    if [ ! -z ${CHANGED} ]; then
+        cp -rf ${SHELL_DIR}/build/readme.md ${SHELL_DIR}/README.md
+    fi
 }
 
 _git_push() {
+    _command "_git_push"
+
     if [ -z ${GITHUB_TOKEN} ]; then
         return
     fi
@@ -171,30 +216,36 @@ _git_push() {
     git config --global user.email "${GIT_USEREMAIL}"
 
     git add --all
-    git commit -m "${DATE}" > /dev/null 2>&1 || export CHANGED=true
+    git commit -m "${DATE}"
 
-    if [ -z ${CHANGED} ]; then
-        git push -q https://${GITHUB_TOKEN}@github.com/${USERNAME}/${REPONAME}.git master
-
-        _slack
-    fi
+    git push -q https://${GITHUB_TOKEN}@github.com/${USERNAME}/${REPONAME}.git master
 }
 
 _slack() {
+    _command "_slack"
+
     if [ -z ${SLACK_TOKEN} ]; then
         return
     fi
 
-    json="{\"text\":\"$(cat ${SHELL_DIR}/target/message.log)\"}"
+    json="{\"text\":\"$(cat ${SHELL_DIR}/build/message.log)\"}"
 
     webhook_url="https://hooks.slack.com/services/${SLACK_TOKEN}"
     curl -s -d "payload=${json}" "${webhook_url}"
 }
 
-_prepare
+__init__() {
+    _prepare
 
-_build
+    _build
+    _message
 
-_message
+    if [ ! -z ${CHANGED} ]; then
+        _git_push
+        _slack
+    fi
 
-_git_push
+    _success
+}
+
+__init__
