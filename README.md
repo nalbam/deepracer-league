@@ -8,11 +8,11 @@
 | 1 | 2969.488 | Karl-NAB | |
 | 2 | 2966.789 | Fumiaki | |
 | 3 | 2965.215 | Breadcentric | |
-| 4 | 2964.621 | PGS-Tomasz-Panek | * |
-| 5 | 2964.209 | Jouni-Cybercom | |
-| 6 | 2964.15 | Etaggel | |
-| 7 | 2963.848 | sola-DNPds | |
-| 8 | 2963.543 | nero-DNPds | |
+| 4 | 2964.621 | PGS-Tomasz-Panek | |
+| 5 | 2964.411 | nero-DNPds | * |
+| 6 | 2964.209 | Jouni-Cybercom | |
+| 7 | 2964.15 | Etaggel | |
+| 8 | 2963.848 | sola-DNPds | |
 | 9 | 2963.295 | maeda-ai | |
 | 10 | 2963.031 | nalbam-me | |
 | 11 | 2962.95 | hiroisojp | |
