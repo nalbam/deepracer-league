@@ -8,16 +8,16 @@
 | 1 | 2969.488 | Karl-NAB | |
 | 2 | 2966.789 | Fumiaki | |
 | 3 | 2965.215 | Breadcentric | |
-| 4 | 2964.209 | Jouni-Cybercom | |
-| 5 | 2964.15 | Etaggel | |
-| 6 | 2963.848 | sola-DNPds | |
-| 7 | 2963.543 | nero-DNPds | |
-| 8 | 2963.295 | maeda-ai | |
-| 9 | 2963.031 | nalbam-me | |
-| 10 | 2962.95 | hiroisojp | |
-| 11 | 2962.92 | Aiis-DNP | |
-| 12 | 2962.732 | JasonLian | |
-| 13 | 2962.426 | PGS-Tomasz-Panek | |
+| 4 | 2964.621 | PGS-Tomasz-Panek | * |
+| 5 | 2964.209 | Jouni-Cybercom | |
+| 6 | 2964.15 | Etaggel | |
+| 7 | 2963.848 | sola-DNPds | |
+| 8 | 2963.543 | nero-DNPds | |
+| 9 | 2963.295 | maeda-ai | |
+| 10 | 2963.031 | nalbam-me | |
+| 11 | 2962.95 | hiroisojp | |
+| 12 | 2962.92 | Aiis-DNP | |
+| 13 | 2962.732 | JasonLian | |
 | 14 | 2960.431 | ABaykov | |
 | 15 | 2960.28 | yuki-h | |
 | 16 | 2959.315 | leo-DNPds | |
