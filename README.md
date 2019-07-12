@@ -15,18 +15,18 @@
 | 8 | 2963.992 | sola-DNPds | |
 | 9 | 2963.295 | maeda-ai | |
 | 10 | 2963.031 | nalbam-me | |
-| 11 | 2962.967 | Aiis-DNP | |
-| 12 | 2962.95 | hiroisojp | |
-| 13 | 2962.732 | JasonLian | |
+| 11 | 2962.992 | JasonLian | * |
+| 12 | 2962.967 | Aiis-DNP | |
+| 13 | 2962.95 | hiroisojp | |
 | 14 | 2960.431 | ABaykov | |
-| 15 | 2960.28 | yuki-h | |
-| 16 | 2959.315 | leo-DNPds | |
-| 17 | 2959.016 | kimwooglae | |
-| 18 | 2957.322 | nalbam | |
-| 19 | 2957.277 | Jochem | |
+| 15 | 2960.351 | Jochem | * |
+| 16 | 2960.28 | yuki-h | |
+| 17 | 2959.315 | leo-DNPds | |
+| 18 | 2959.016 | kimwooglae | |
+| 19 | 2957.322 | nalbam | |
 | 20 | 2956.151 | TonyJ | |
 | 21 | 2955.56 | t-maru078 | |
 | 22 | 2954.999 | Kire | |
-| 23 | 2954.648 | JimWu | * |
+| 23 | 2954.648 | JimWu | |
 | 24 | 2953.207 | KAGRAZAKA-DNP | |
 | 25 | 2953.045 | RichardFan | |
