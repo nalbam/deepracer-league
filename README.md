@@ -15,11 +15,11 @@
 | 8 | 2963.992 | sola-DNPds | |
 | 9 | 2963.295 | maeda-ai | |
 | 10 | 2963.031 | nalbam-me | |
-| 11 | 2962.992 | JasonLian | * |
+| 11 | 2962.992 | JasonLian | |
 | 12 | 2962.967 | Aiis-DNP | |
 | 13 | 2962.95 | hiroisojp | |
-| 14 | 2960.431 | ABaykov | |
-| 15 | 2960.351 | Jochem | * |
+| 14 | 2960.54 | Jochem | * |
+| 15 | 2960.431 | ABaykov | |
 | 16 | 2960.28 | yuki-h | |
 | 17 | 2959.315 | leo-DNPds | |
 | 18 | 2959.016 | kimwooglae | |
