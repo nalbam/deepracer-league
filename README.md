@@ -8,7 +8,7 @@
 | 1 | 2969.488 | Karl-NAB | |
 | 2 | 2966.789 | Fumiaki | |
 | 3 | 2965.215 | Breadcentric | |
-| 4 | 2964.717 | PGS-Tomasz-Panek | |
+| 4 | 2964.725 | PGS-Tomasz-Panek | * |
 | 5 | 2964.419 | nero-DNPds | |
 | 6 | 2964.297 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
@@ -18,7 +18,7 @@
 | 11 | 2962.992 | JasonLian | |
 | 12 | 2962.967 | Aiis-DNP | |
 | 13 | 2962.95 | hiroisojp | |
-| 14 | 2961.115 | Jochem | * |
+| 14 | 2961.115 | Jochem | |
 | 15 | 2960.431 | ABaykov | |
 | 16 | 2960.28 | yuki-h | |
 | 17 | 2959.315 | leo-DNPds | |
