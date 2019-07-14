@@ -8,7 +8,7 @@
 | 1 | 2969.488 | Karl-NAB | |
 | 2 | 2966.789 | Fumiaki | |
 | 3 | 2965.215 | Breadcentric | |
-| 4 | 2965.04 | PGS-Tomasz-Panek | * |
+| 4 | 2965.144 | PGS-Tomasz-Panek | * |
 | 5 | 2964.419 | nero-DNPds | |
 | 6 | 2964.297 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
