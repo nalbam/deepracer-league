@@ -14,7 +14,7 @@
 | 7 | 2964.209 | Jouni-Cybercom | |
 | 8 | 2963.992 | sola-DNPds | |
 | 9 | 2963.295 | maeda-ai | |
-| 10 | 2963.102 | JasonLian | * |
+| 10 | 2963.175 | JasonLian | * |
 | 11 | 2963.031 | nalbam-me | |
 | 12 | 2962.967 | Aiis-DNP | |
 | 13 | 2962.95 | hiroisojp | |
