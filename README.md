@@ -10,7 +10,7 @@
 | 3 | 2965.549 | PGS-Tomasz-Panek | |
 | 4 | 2965.215 | Breadcentric | |
 | 5 | 2964.419 | nero-DNPds | |
-| 6 | 2964.338 | Etaggel | * |
+| 6 | 2964.338 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
 | 8 | 2963.992 | sola-DNPds | |
 | 9 | 2963.295 | maeda-ai | |
@@ -21,8 +21,8 @@
 | 14 | 2961.416 | ABaykov | |
 | 15 | 2961.115 | Jochem | |
 | 16 | 2960.28 | yuki-h | |
-| 17 | 2959.315 | leo-DNPds | |
-| 18 | 2959.138 | JimWu | |
+| 17 | 2959.606 | JimWu | * |
+| 18 | 2959.315 | leo-DNPds | |
 | 19 | 2959.112 | kimwooglae | |
 | 20 | 2957.322 | nalbam | |
 | 21 | 2956.151 | TonyJ | |
