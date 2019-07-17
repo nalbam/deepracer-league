@@ -9,13 +9,13 @@
 | 2 | 2966.789 | Fumiaki | |
 | 3 | 2965.549 | PGS-Tomasz-Panek | |
 | 4 | 2965.215 | Breadcentric | |
-| 5 | 2964.683 | nero-DNPds | * |
+| 5 | 2964.683 | nero-DNPds | |
 | 6 | 2964.338 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
 | 8 | 2963.992 | sola-DNPds | |
 | 9 | 2963.295 | maeda-ai | |
-| 10 | 2963.031 | nalbam-me | |
-| 11 | 2962.992 | JasonLian | |
+| 10 | 2963.102 | JasonLian | * |
+| 11 | 2963.031 | nalbam-me | |
 | 12 | 2962.967 | Aiis-DNP | |
 | 13 | 2962.95 | hiroisojp | |
 | 14 | 2961.416 | ABaykov | |
