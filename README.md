@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 2969.488 | Karl-NAB | |
-| 2 | 2967.584 | Fumiaki | * |
+| 2 | 2967.584 | Fumiaki | |
 | 3 | 2965.549 | PGS-Tomasz-Panek | |
 | 4 | 2965.215 | Breadcentric | |
 | 5 | 2964.683 | nero-DNPds | |
@@ -21,8 +21,8 @@
 | 14 | 2961.416 | ABaykov | |
 | 15 | 2961.115 | Jochem | |
 | 16 | 2960.28 | yuki-h | |
-| 17 | 2959.606 | JimWu | |
-| 18 | 2959.315 | leo-DNPds | |
+| 17 | 2959.746 | leo-DNPds | * |
+| 18 | 2959.606 | JimWu | |
 | 19 | 2959.165 | kimwooglae | |
 | 20 | 2957.322 | nalbam | |
 | 21 | 2956.178 | TonyJ | |
