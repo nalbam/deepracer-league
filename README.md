@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 2969.488 | Karl-NAB | |
-| 2 | 2966.923 | Fumiaki | * |
+| 2 | 2967.584 | Fumiaki | * |
 | 3 | 2965.549 | PGS-Tomasz-Panek | |
 | 4 | 2965.215 | Breadcentric | |
 | 5 | 2964.683 | nero-DNPds | |
