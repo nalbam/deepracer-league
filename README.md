@@ -10,7 +10,7 @@
 | 3 | 2965.549 | PGS-Tomasz-Panek | |
 | 4 | 2965.344 | Breadcentric | |
 | 5 | 2964.683 | nero-DNPds | |
-| 6 | 2964.338 | Etaggel | |
+| 6 | 2964.35 | Etaggel | * |
 | 7 | 2964.209 | Jouni-Cybercom | |
 | 8 | 2963.992 | sola-DNPds | |
 | 9 | 2963.335 | JasonLian | |
@@ -28,5 +28,5 @@
 | 21 | 2956.178 | TonyJ | |
 | 22 | 2955.56 | t-maru078 | |
 | 23 | 2954.999 | Kire | |
-| 24 | 2953.608 | SF | * |
+| 24 | 2953.608 | SF | |
 | 25 | 2953.207 | KAGRAZAKA-DNP | |
