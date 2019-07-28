@@ -21,12 +21,12 @@
 | 14 | 2961.115 | Jochem | |
 | 15 | 2961.093 | leo-DNPds | |
 | 16 | 2960.28 | yuki-h | |
-| 17 | 2959.766 | JimWu | * |
+| 17 | 2959.766 | JimWu | |
 | 18 | 2959.45 | kimwooglae | |
 | 19 | 2957.322 | nalbam | |
 | 20 | 2956.178 | TonyJ | |
 | 21 | 2955.56 | t-maru078 | |
-| 22 | 2954.999 | Kire | |
-| 23 | 2954.772 | Robin-Castro | |
-| 24 | 2953.207 | KAGRAZAKA-DNP | |
-| 25 | 2953.045 | RichardFan | |
+| 22 | 2955.534 | BespinRacer | * |
+| 23 | 2954.999 | Kire | |
+| 24 | 2954.772 | Robin-Castro | |
+| 25 | 2953.207 | KAGRAZAKA-DNP | |
