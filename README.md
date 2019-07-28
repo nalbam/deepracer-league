@@ -11,7 +11,7 @@
 | 4 | 2964.774 | nero-DNPds | |
 | 5 | 2964.209 | Jouni-Cybercom | |
 | 6 | 2963.992 | sola-DNPds | |
-| 7 | 2963.335 | JasonLian | |
+| 7 | 2963.478 | JasonLian | * |
 | 8 | 2963.295 | maeda-ai | |
 | 9 | 2963.137 | hiroisojp | |
 | 10 | 2963.031 | nalbam-me | |
@@ -26,7 +26,7 @@
 | 19 | 2957.322 | nalbam | |
 | 20 | 2956.178 | TonyJ | |
 | 21 | 2955.56 | t-maru078 | |
-| 22 | 2955.534 | BespinRacer | * |
+| 22 | 2955.534 | BespinRacer | |
 | 23 | 2954.999 | Kire | |
 | 24 | 2954.772 | Robin-Castro | |
 | 25 | 2953.207 | KAGRAZAKA-DNP | |
