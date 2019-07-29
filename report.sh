@@ -131,10 +131,12 @@ _build() {
 
             if [ "${SUB_TIME}" != "" ]; then
                 if [ "${SUB_POINTS}" == "null" ]; then
-                    SUB_POINTS=$(perl -e "print 1000-${ARR[1]:3}")
+                    # SUB_POINTS=$(perl -e "print 1000-${ARR[1]:3}")
+                    SUB_POINTS=$(echo "1000-${ARR[1]:3}" | bc)
                 fi
 
-                POINTS=$(perl -e "print ${POINTS}+${SUB_POINTS}")
+                # POINTS=$(perl -e "print ${POINTS}+${SUB_POINTS}")
+                POINTS=$(echo "${POINTS}+${SUB_POINTS}" | bc)
             fi
         done
 
