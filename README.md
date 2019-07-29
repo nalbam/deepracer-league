@@ -9,7 +9,7 @@
 | 2 | 2967.584 | Fumiaki | |
 | 3 | 2965.819 | PGS-Tomasz-Panek | |
 | 4 | 2965.574 | Breadcentric | |
-| 5 | 2965.071 | nero-DNPds | * |
+| 5 | 2965.071 | nero-DNPds | |
 | 6 | 2965.000 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
 | 8 | 2963.992 | sola-DNPds | |
@@ -24,7 +24,7 @@
 | 17 | 2961.093 | leo-DNPds | |
 | 18 | 2960.280 | yuki-h | |
 | 19 | 2959.766 | JimWu | |
-| 20 | 2959.450 | kimwooglae | |
+| 20 | 2959.485 | kimwooglae | * |
 | 21 | 2957.322 | nalbam | |
 | 22 | 2956.178 | TonyJ | |
 | 23 | 2955.560 | t-maru078 | |
