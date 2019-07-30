@@ -183,7 +183,7 @@ _message() {
     done < ${SHELL_DIR}/leaderboard/points.log
 
     # message
-    echo "*DeepRacer Virtual Circuit*" > ${SHELL_DIR}/build/message.log
+    echo "*DeepRacer Virtual Circuit Scoreboard*" > ${SHELL_DIR}/build/message.log
     cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
 
     # readme
