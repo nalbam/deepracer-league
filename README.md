@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 2970.874 | Karl-NAB | |
 | 2 | 2967.584 | Fumiaki | |
-| 3 | 2965.819 | PGS-Tomasz-Panek | |
+| 3 | 2965.850 | PGS-Tomasz-Panek | * |
 | 4 | 2965.574 | Breadcentric | |
 | 5 | 2965.071 | nero-DNPds | |
 | 6 | 2965.000 | Etaggel | |
@@ -19,7 +19,7 @@
 | 12 | 2963.031 | nalbam-me | |
 | 13 | 2962.967 | Aiis-DNP | |
 | 14 | 2962.347 | mogamin | |
-| 15 | 2961.899 | ABaykov | * |
+| 15 | 2961.899 | ABaykov | |
 | 16 | 2961.115 | Jochem | |
 | 17 | 2961.093 | leo-DNPds | |
 | 18 | 2960.280 | yuki-h | |
