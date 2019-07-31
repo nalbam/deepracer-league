@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 2970.874 | Karl-NAB | |
-| 2 | 2970.379 | Paul-NAB | * |
+| 2 | 2970.379 | Paul-NAB | |
 | 3 | 2967.584 | Fumiaki | |
 | 4 | 2965.850 | PGS-Tomasz-Panek | |
 | 5 | 2965.574 | Breadcentric | |
@@ -30,3 +30,13 @@
 | 23 | 2957.114 | hyeonwoo | |
 | 24 | 2956.178 | TonyJ | |
 | 25 | 2955.560 | t-maru078 | |
+| 26 | 2955.534 | BespinRacer | * |
+| 27 | 2954.999 | Kire | * |
+| 28 | 2954.772 | Robin-Castro | * |
+| 29 | 2953.207 | KAGRAZAKA-DNP | * |
+| 30 | 2953.045 | RichardFan | * |
+| 31 | 2950.718 | RayG | * |
+| 32 | 2949.858 | HY-DNP | * |
+| 33 | 2946.848 | rkom | * |
+| 34 | 2944.484 | Alex-Schultz | * |
+| 35 | 2943.073 | Holly | * |
