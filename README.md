@@ -12,7 +12,7 @@
 | 5 | 2965.071 | nero-DNPds | |
 | 6 | 2965.000 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
-| 8 | 2964.173 | maeda-ai | * |
+| 8 | 2964.173 | maeda-ai | |
 | 9 | 2963.992 | sola-DNPds | |
 | 10 | 2963.478 | JasonLian | |
 | 11 | 2963.137 | hiroisojp | |
@@ -26,7 +26,7 @@
 | 19 | 2959.766 | JimWu | |
 | 20 | 2959.485 | kimwooglae | |
 | 21 | 2957.322 | nalbam | |
-| 22 | 2956.178 | TonyJ | |
-| 23 | 2955.560 | t-maru078 | |
-| 24 | 2955.534 | BespinRacer | |
-| 25 | 2954.999 | Kire | |
+| 22 | 2957.114 | hyeonwoo | * |
+| 23 | 2956.178 | TonyJ | |
+| 24 | 2955.560 | t-maru078 | |
+| 25 | 2955.534 | BespinRacer | |
