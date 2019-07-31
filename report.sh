@@ -149,7 +149,7 @@ _build() {
     fi
 
     # print
-    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -25 > ${SHELL_DIR}/leaderboard/points.log
+    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -35 > ${SHELL_DIR}/leaderboard/points.log
 }
 
 _message() {
