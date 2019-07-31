@@ -98,7 +98,7 @@ _build() {
                 # _result "${SVAL} ${NAME}"
             done
 
-            if [ "${JDX}" == "30" ]; then
+            if [ "${JDX}" == "50" ]; then
                 break
             fi
 
