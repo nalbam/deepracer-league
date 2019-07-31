@@ -12,7 +12,7 @@
 | 5 | 2965.071 | nero-DNPds | |
 | 6 | 2965.000 | Etaggel | |
 | 7 | 2964.209 | Jouni-Cybercom | |
-| 8 | 2964.155 | maeda-ai | * |
+| 8 | 2964.173 | maeda-ai | * |
 | 9 | 2963.992 | sola-DNPds | |
 | 10 | 2963.478 | JasonLian | |
 | 11 | 2963.137 | hiroisojp | |
