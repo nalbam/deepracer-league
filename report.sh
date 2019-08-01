@@ -51,7 +51,7 @@ _prepare() {
     rm -rf ${SHELL_DIR}/build
 
     mkdir -p ${SHELL_DIR}/build
-    mkdir -p ${SHELL_DIR}/leaderboard
+    mkdir -p ${SHELL_DIR}/cache
 
     if [ -f ${SHELL_DIR}/build/points.log ]; then
         rm -rf ${SHELL_DIR}/build/points.log
@@ -144,12 +144,12 @@ _build() {
     done < ${SHELL_DIR}/build/leaderboard_${FIRST_SEASON}.log
 
     # backup
-    if [ -f ${SHELL_DIR}/leaderboard/points.log ]; then
-        cp ${SHELL_DIR}/leaderboard/points.log ${SHELL_DIR}/build/backup.log
+    if [ -f ${SHELL_DIR}/cache/points.log ]; then
+        cp ${SHELL_DIR}/cache/points.log ${SHELL_DIR}/build/backup.log
     fi
 
     # print
-    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -35 > ${SHELL_DIR}/leaderboard/points.log
+    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -35 > ${SHELL_DIR}/cache/points.log
 }
 
 _message() {
@@ -180,7 +180,7 @@ _message() {
         fi
 
         IDX=$(( ${IDX} + 1 ))
-    done < ${SHELL_DIR}/leaderboard/points.log
+    done < ${SHELL_DIR}/cache/points.log
 
     # message
     echo "*DeepRacer Virtual Circuit Scoreboard*" > ${SHELL_DIR}/build/message.log
