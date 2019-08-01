@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3955.448 | nero-DNPds | * |
+| 1 | 3955.468 | nero-DNPds | * |
 | 2 | 3948.309 | hiroisojp | |
 | 3 | 3944.698 | nalbam | |
 | 4 | 3942.214 | kimwooglae | |
