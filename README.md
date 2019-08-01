@@ -5,13 +5,13 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3948.309 | hiroisojp | * |
-| 2 | 3944.698 | nalbam | * |
-| 3 | 3938.722 | kimwooglae | * |
-| 4 | 3937.783 | Etaggel | * |
-| 5 | 3935.732 | KJH | * |
-| 6 | 3930.392 | Alex-Schultz | * |
-| 7 | 3856.880 | kito-DNPds | * |
+| 1 | 3948.309 | hiroisojp | |
+| 2 | 3944.698 | nalbam | |
+| 3 | 3938.722 | kimwooglae | |
+| 4 | 3937.783 | Etaggel | |
+| 5 | 3935.732 | KJH | |
+| 6 | 3930.707 | Alex-Schultz | * |
+| 7 | 3856.880 | kito-DNPds | |
 | 8 | 2970.874 | Karl-NAB | |
 | 9 | 2967.584 | Fumiaki | |
 | 10 | 2965.850 | PGS-Tomasz-Panek | |
