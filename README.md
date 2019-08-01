@@ -5,18 +5,18 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3948.309 | hiroisojp | |
-| 2 | 3944.698 | nalbam | |
-| 3 | 3942.214 | kimwooglae | |
-| 4 | 3937.783 | Etaggel | |
-| 5 | 3935.732 | KJH | |
-| 6 | 3931.380 | Alex-Schultz | * |
-| 7 | 3856.880 | kito-DNPds | |
-| 8 | 2970.874 | Karl-NAB | |
-| 9 | 2967.584 | Fumiaki | |
-| 10 | 2965.850 | PGS-Tomasz-Panek | |
-| 11 | 2965.574 | Breadcentric | |
-| 12 | 2965.071 | nero-DNPds | |
+| 1 | 3955.448 | nero-DNPds | * |
+| 2 | 3948.309 | hiroisojp | |
+| 3 | 3944.698 | nalbam | |
+| 4 | 3942.214 | kimwooglae | |
+| 5 | 3937.783 | Etaggel | |
+| 6 | 3935.732 | KJH | |
+| 7 | 3931.380 | Alex-Schultz | |
+| 8 | 3856.880 | kito-DNPds | |
+| 9 | 2970.874 | Karl-NAB | |
+| 10 | 2967.584 | Fumiaki | |
+| 11 | 2965.850 | PGS-Tomasz-Panek | |
+| 12 | 2965.574 | Breadcentric | |
 | 13 | 2964.209 | Jouni-Cybercom | |
 | 14 | 2964.173 | maeda-ai | |
 | 15 | 2963.992 | sola-DNPds | |
