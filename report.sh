@@ -6,7 +6,9 @@ SHELL_DIR=$(dirname $0)
 
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
-SEASONS="2019-05 2019-06 2019-07"
+SEASONS="2019-05 2019-06 2019-07 2019-08"
+
+LATEST="2019-08"
 
 USERNAME=${CIRCLE_PROJECT_USERNAME:-nalbam}
 REPONAME=${CIRCLE_PROJECT_REPONAME:-deepracer}
@@ -59,53 +61,59 @@ _prepare() {
 }
 
 _build() {
+    # leaderboard
     for SEASON in ${SEASONS}; do
         _command "_build ${SEASON}"
+
+        if [ -f ${SHELL_DIR}/cache/${SEASON}.log ] && [ "${SEASON}" != "${LATEST}" ]; then
+            _command "_build ${SEASON} cached"
+            continue
+        fi
 
         URL="${URL_TEMPLATE}${SEASON}"
 
         curl -sL ${URL} \
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-            > ${SHELL_DIR}/build/leaderboard_${SEASON}.log
+            > ${SHELL_DIR}/cache/${SEASON}.log
     done
 
-    for SEASON in ${SEASONS}; do
-        _command "_build ${SEASON} additional"
+    # additional
+    _command "_build ${LATEST} additional"
 
-        LOG_FILE=${SHELL_DIR}/build/leaderboard_${SEASON}.log
+    LOG_FILE=${SHELL_DIR}/cache/${LATEST}.log
 
-        JDX=1
-        while read LINE; do
-            ARR=(${LINE})
+    JDX=1
+    while read LINE; do
+        ARR=(${LINE})
 
-            NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
+        NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
 
-            for SVAL in ${SEASONS}; do
-                LOG_TEMP=${SHELL_DIR}/build/leaderboard_${SVAL}.log
+        for SVAL in ${SEASONS}; do
+            LOG_TEMP=${SHELL_DIR}/cache/${SVAL}.log
 
-                COUNT=$(cat ${LOG_TEMP} | grep "\"${NAME}\"" | wc -l | xargs)
+            COUNT=$(cat ${LOG_TEMP} | grep "\"${NAME}\"" | wc -l | xargs)
 
-                if [ "x${COUNT}" != "x0" ]; then
-                    continue
-                fi
-
-                URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
-
-                curl -sL ${URL} \
-                    | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-                    >> ${LOG_TEMP}
-
-                # _result "${SVAL} ${NAME}"
-            done
-
-            if [ "${JDX}" == "50" ]; then
-                break
+            if [ "x${COUNT}" != "x0" ]; then
+                continue
             fi
 
-            JDX=$(( ${JDX} + 1 ))
-        done < ${LOG_FILE}
-    done
+            URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
 
+            curl -sL ${URL} \
+                | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
+                >> ${LOG_TEMP}
+
+            # _result "${SVAL} ${NAME}"
+        done
+
+        if [ "${JDX}" == "50" ]; then
+            break
+        fi
+
+        JDX=$(( ${JDX} + 1 ))
+    done < ${LOG_FILE}
+
+    # summary
     _command "_build summary"
 
     FIRST_SEASON="$(echo $SEASONS | cut -d' ' -f1)"
@@ -122,7 +130,7 @@ _build() {
                 continue
             fi
 
-            LOG_FILE=${SHELL_DIR}/build/leaderboard_${SEASON}.log
+            LOG_FILE=${SHELL_DIR}/cache/${SEASON}.log
 
             ARR=($(cat ${LOG_FILE} | grep "\"${NAME}\"" | head -1))
 
@@ -141,7 +149,7 @@ _build() {
         done
 
         echo "${POINTS} ${NAME}" >> ${SHELL_DIR}/build/points.log
-    done < ${SHELL_DIR}/build/leaderboard_${FIRST_SEASON}.log
+    done < ${SHELL_DIR}/cache/${FIRST_SEASON}.log
 
     # backup
     if [ -f ${SHELL_DIR}/cache/points.log ]; then
