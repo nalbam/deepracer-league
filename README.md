@@ -10,7 +10,7 @@
 | 3 | 3942.214 | kimwooglae | |
 | 4 | 3937.783 | Etaggel | |
 | 5 | 3935.732 | KJH | |
-| 6 | 3930.995 | Alex-Schultz | * |
+| 6 | 3931.380 | Alex-Schultz | * |
 | 7 | 3856.880 | kito-DNPds | |
 | 8 | 2970.874 | Karl-NAB | |
 | 9 | 2967.584 | Fumiaki | |
