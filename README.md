@@ -6,22 +6,22 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 3955.468 | nero-DNPds | |
-| 2 | 3948.309 | hiroisojp | |
-| 3 | 3945.671 | Breadcentric | * |
-| 4 | 3944.698 | nalbam | |
-| 5 | 3942.214 | kimwooglae | |
-| 6 | 3937.783 | Etaggel | |
-| 7 | 3935.732 | KJH | |
-| 8 | 3931.380 | Alex-Schultz | |
-| 9 | 3856.880 | kito-DNPds | |
-| 10 | 2970.874 | Karl-NAB | |
-| 11 | 2967.584 | Fumiaki | |
-| 12 | 2965.850 | PGS-Tomasz-Panek | |
-| 13 | 2964.209 | Jouni-Cybercom | |
-| 14 | 2964.173 | maeda-ai | |
-| 15 | 2963.992 | sola-DNPds | |
-| 16 | 2963.478 | JasonLian | |
-| 17 | 2963.031 | nalbam-me | |
+| 2 | 3950.484 | nalbam-me | * |
+| 3 | 3948.309 | hiroisojp | |
+| 4 | 3945.671 | Breadcentric | |
+| 5 | 3944.698 | nalbam | |
+| 6 | 3942.214 | kimwooglae | |
+| 7 | 3937.783 | Etaggel | |
+| 8 | 3935.732 | KJH | |
+| 9 | 3931.380 | Alex-Schultz | |
+| 10 | 3856.880 | kito-DNPds | |
+| 11 | 2970.874 | Karl-NAB | |
+| 12 | 2967.584 | Fumiaki | |
+| 13 | 2965.850 | PGS-Tomasz-Panek | |
+| 14 | 2964.209 | Jouni-Cybercom | |
+| 15 | 2964.173 | maeda-ai | |
+| 16 | 2963.992 | sola-DNPds | |
+| 17 | 2963.478 | JasonLian | |
 | 18 | 2962.967 | Aiis-DNP | |
 | 19 | 2962.347 | mogamin | |
 | 20 | 2961.899 | ABaykov | |
