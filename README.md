@@ -7,24 +7,24 @@
 | - | ----- | --------- | - |
 | 1 | 3955.512 | nero-DNPds | |
 | 2 | 3950.491 | nalbam-me | |
-| 3 | 3949.451 | hiroisojp | |
-| 4 | 3946.609 | Breadcentric | |
-| 5 | 3944.698 | nalbam | |
-| 6 | 3944.531 | ABaykov | |
-| 7 | 3942.214 | kimwooglae | |
-| 8 | 3937.783 | Etaggel | |
-| 9 | 3936.079 | KAGRAZAKA-DNP | * |
-| 10 | 3935.732 | KJH | |
-| 11 | 3931.380 | Alex-Schultz | |
-| 12 | 3856.880 | kito-DNPds | |
-| 13 | 2970.874 | Karl-NAB | |
-| 14 | 2967.584 | Fumiaki | |
-| 15 | 2965.850 | PGS-Tomasz-Panek | |
-| 16 | 2964.209 | Jouni-Cybercom | |
-| 17 | 2964.173 | maeda-ai | |
-| 18 | 2963.992 | sola-DNPds | |
-| 19 | 2963.478 | JasonLian | |
-| 20 | 2962.967 | Aiis-DNP | |
+| 3 | 3950.397 | Aiis-DNP | * |
+| 4 | 3949.451 | hiroisojp | |
+| 5 | 3946.609 | Breadcentric | |
+| 6 | 3944.698 | nalbam | |
+| 7 | 3944.531 | ABaykov | |
+| 8 | 3942.214 | kimwooglae | |
+| 9 | 3937.783 | Etaggel | |
+| 10 | 3936.079 | KAGRAZAKA-DNP | |
+| 11 | 3935.732 | KJH | |
+| 12 | 3931.380 | Alex-Schultz | |
+| 13 | 3856.880 | kito-DNPds | |
+| 14 | 2970.874 | Karl-NAB | |
+| 15 | 2967.584 | Fumiaki | |
+| 16 | 2965.850 | PGS-Tomasz-Panek | |
+| 17 | 2964.209 | Jouni-Cybercom | |
+| 18 | 2964.173 | maeda-ai | |
+| 19 | 2963.992 | sola-DNPds | |
+| 20 | 2963.478 | JasonLian | |
 | 21 | 2962.347 | mogamin | |
 | 22 | 2961.115 | Jochem | |
 | 23 | 2961.093 | leo-DNPds | |
