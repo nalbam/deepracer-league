@@ -8,9 +8,9 @@
 | 1 | 3955.512 | nero-DNPds | |
 | 2 | 3950.491 | nalbam-me | |
 | 3 | 3950.397 | Aiis-DNP | |
-| 4 | 3949.451 | hiroisojp | |
+| 4 | 3949.553 | hiroisojp | * |
 | 5 | 3946.609 | Breadcentric | |
-| 6 | 3945.536 | ABaykov | * |
+| 6 | 3945.536 | ABaykov | |
 | 7 | 3944.698 | nalbam | |
 | 8 | 3942.214 | kimwooglae | |
 | 9 | 3937.783 | Etaggel | |
