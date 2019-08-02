@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 3955.512 | nero-DNPds | |
 | 2 | 3950.491 | nalbam-me | |
-| 3 | 3948.430 | hiroisojp | * |
+| 3 | 3949.451 | hiroisojp | * |
 | 4 | 3946.609 | Breadcentric | |
 | 5 | 3944.698 | nalbam | |
 | 6 | 3944.531 | ABaykov | |
