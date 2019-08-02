@@ -7,8 +7,8 @@
 | - | ----- | --------- | - |
 | 1 | 3955.512 | nero-DNPds | |
 | 2 | 3950.491 | nalbam-me | |
-| 3 | 3948.309 | hiroisojp | |
-| 4 | 3946.609 | Breadcentric | * |
+| 3 | 3948.430 | hiroisojp | * |
+| 4 | 3946.609 | Breadcentric | |
 | 5 | 3944.698 | nalbam | |
 | 6 | 3944.531 | ABaykov | |
 | 7 | 3942.214 | kimwooglae | |
