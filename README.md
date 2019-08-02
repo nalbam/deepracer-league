@@ -10,13 +10,13 @@
 | 3 | 3950.397 | Aiis-DNP | |
 | 4 | 3949.451 | hiroisojp | |
 | 5 | 3946.609 | Breadcentric | |
-| 6 | 3944.698 | nalbam | |
-| 7 | 3944.531 | ABaykov | |
+| 6 | 3945.536 | ABaykov | * |
+| 7 | 3944.698 | nalbam | |
 | 8 | 3942.214 | kimwooglae | |
 | 9 | 3937.783 | Etaggel | |
 | 10 | 3936.079 | KAGRAZAKA-DNP | |
 | 11 | 3935.732 | KJH | |
-| 12 | 3932.706 | Alex-Schultz | * |
+| 12 | 3932.706 | Alex-Schultz | |
 | 13 | 3856.880 | kito-DNPds | |
 | 14 | 2970.874 | Karl-NAB | |
 | 15 | 2967.584 | Fumiaki | |
