@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 3955.468 | nero-DNPds | |
-| 2 | 3950.484 | nalbam-me | * |
+| 2 | 3950.491 | nalbam-me | * |
 | 3 | 3948.309 | hiroisojp | |
 | 4 | 3945.671 | Breadcentric | |
 | 5 | 3944.698 | nalbam | |
