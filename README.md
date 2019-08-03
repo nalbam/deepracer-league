@@ -16,7 +16,7 @@
 | 9 | 3937.783 | Etaggel | |
 | 10 | 3936.079 | KAGRAZAKA-DNP | |
 | 11 | 3935.732 | KJH | |
-| 12 | 3932.860 | Alex-Schultz | * |
+| 12 | 3932.983 | Alex-Schultz | * |
 | 13 | 3856.880 | kito-DNPds | |
 | 14 | 2970.874 | Karl-NAB | |
 | 15 | 2967.584 | Fumiaki | |
