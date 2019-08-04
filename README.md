@@ -14,7 +14,7 @@
 | 7 | 3944.698 | nalbam | |
 | 8 | 3942.214 | kimwooglae | |
 | 9 | 3937.783 | Etaggel | |
-| 10 | 3936.500 | Maverick | * |
+| 10 | 3936.764 | Maverick | * |
 | 11 | 3936.079 | KAGRAZAKA-DNP | |
 | 12 | 3935.732 | KJH | |
 | 13 | 3933.089 | Alex-Schultz | |
