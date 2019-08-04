@@ -7,13 +7,13 @@
 | - | ----- | --------- | - |
 | 1 | 3955.512 | nero-DNPds | |
 | 2 | 3951.624 | nalbam-me | |
-| 3 | 3951.207 | Jouni-Cybercom | * |
+| 3 | 3951.207 | Jouni-Cybercom | |
 | 4 | 3950.563 | hiroisojp | |
 | 5 | 3950.397 | Aiis-DNP | |
 | 6 | 3947.285 | ABaykov | |
 | 7 | 3946.609 | Breadcentric | |
 | 8 | 3944.698 | nalbam | |
-| 9 | 3942.214 | kimwooglae | |
+| 9 | 3944.138 | kimwooglae | * |
 | 10 | 3938.179 | RayG | |
 | 11 | 3937.783 | Etaggel | |
 | 12 | 3936.764 | Maverick | |
