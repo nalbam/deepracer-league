@@ -9,11 +9,11 @@
 | 2 | 3951.624 | nalbam-me | |
 | 3 | 3950.563 | hiroisojp | |
 | 4 | 3950.397 | Aiis-DNP | |
-| 5 | 3946.609 | Breadcentric | |
-| 6 | 3945.536 | ABaykov | |
+| 5 | 3947.285 | ABaykov | * |
+| 6 | 3946.609 | Breadcentric | |
 | 7 | 3944.698 | nalbam | |
 | 8 | 3942.214 | kimwooglae | |
-| 9 | 3938.179 | RayG | * |
+| 9 | 3938.179 | RayG | |
 | 10 | 3937.783 | Etaggel | |
 | 11 | 3936.764 | Maverick | |
 | 12 | 3936.079 | KAGRAZAKA-DNP | |
