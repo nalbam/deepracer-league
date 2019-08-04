@@ -12,7 +12,7 @@
 | 5 | 3950.397 | Aiis-DNP | |
 | 6 | 3947.285 | ABaykov | |
 | 7 | 3946.609 | Breadcentric | |
-| 8 | 3945.217 | kimwooglae | * |
+| 8 | 3946.365 | kimwooglae | * |
 | 9 | 3944.698 | nalbam | |
 | 10 | 3938.179 | RayG | |
 | 11 | 3937.783 | Etaggel | |
