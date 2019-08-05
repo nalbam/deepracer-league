@@ -8,6 +8,7 @@ URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deep
 
 SEASONS="2019-05 2019-06 2019-07 2019-08"
 
+FIRST="2019-05"
 LATEST="2019-08"
 
 USERNAME=${CIRCLE_PROJECT_USERNAME:-nalbam}
@@ -65,7 +66,9 @@ _build() {
     for SEASON in ${SEASONS}; do
         _command "_build ${SEASON}"
 
-        if [ -f ${SHELL_DIR}/cache/${SEASON}.log ] && [ "${SEASON}" != "${LATEST}" ]; then
+        CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
+
+        if [ -f ${CACHE_FILE} ] && [ "${SEASON}" != "${LATEST}" ]; then
             _command "_build ${SEASON} cached"
             continue
         fi
@@ -74,14 +77,19 @@ _build() {
 
         curl -sL ${URL} \
             | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-            > ${SHELL_DIR}/cache/${SEASON}.log
+            > ${CACHE_FILE}
     done
 
     # additional
     for SEASON in ${SEASONS}; do
         _command "_build ${SEASON} additional"
 
-        LOG_FILE=${SHELL_DIR}/cache/${SEASON}.log
+        CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
+
+        if [ ! -f ${CACHE_FILE} ]; then
+            _command "_build ${SEASON} not found"
+            continue
+        fi
 
         JDX=1
         while read LINE; do
@@ -108,7 +116,7 @@ _build() {
                     | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
                     >> ${LOG_TEMP}
 
-                _result "_build ${SVAL} ${NAME} added"
+                _result "_build ${SVAL} ${NAME}"
             done
 
             if [ "${JDX}" == "35" ]; then
@@ -116,13 +124,11 @@ _build() {
             fi
 
             JDX=$(( ${JDX} + 1 ))
-        done < ${LOG_FILE}
+        done < ${CACHE_FILE}
     done
 
     # summary
     _command "_build summary"
-
-    FIRST_SEASON="$(echo $SEASONS | cut -d' ' -f1)"
 
     while read LINE; do
         ARR=(${LINE})
@@ -132,30 +138,33 @@ _build() {
         POINTS="${ARR[2]}"
 
         for SEASON in ${SEASONS}; do
-            if [ "${SEASON}" == "${FIRST_SEASON}" ]; then
+            if [ "${SEASON}" == "${FIRST}" ]; then
                 continue
             fi
 
-            LOG_FILE=${SHELL_DIR}/cache/${SEASON}.log
+            CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
 
-            ARR=($(cat ${LOG_FILE} | grep "\"${NAME}\"" | head -1))
+            if [ ! -f ${CACHE_FILE} ]; then
+                _command "_build ${SEASON} not found"
+                continue
+            fi
+
+            ARR=($(cat ${CACHE_FILE} | grep "\"${NAME}\"" | head -1))
 
             SUB_TIME="${ARR[1]}"
             SUB_POINTS="${ARR[2]}"
 
             if [ "${SUB_TIME}" != "" ]; then
                 if [ "${SUB_POINTS}" == "null" ]; then
-                    # SUB_POINTS=$(perl -e "print 1000-${ARR[1]:3}")
                     SUB_POINTS=$(echo "1000-${ARR[1]:3}" | bc)
                 fi
 
-                # POINTS=$(perl -e "print ${POINTS}+${SUB_POINTS}")
                 POINTS=$(echo "${POINTS}+${SUB_POINTS}" | bc)
             fi
         done
 
         echo "${POINTS} ${NAME}" >> ${SHELL_DIR}/build/points.log
-    done < ${SHELL_DIR}/cache/${FIRST_SEASON}.log
+    done < ${SHELL_DIR}/cache/${FIRST}.log
 
     # backup
     if [ -f ${SHELL_DIR}/cache/points.log ]; then
