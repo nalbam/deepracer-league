@@ -5,25 +5,25 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3955.512 | nero-DNPds | |
-| 2 | 3951.624 | nalbam-me | |
-| 3 | 3951.207 | Jouni-Cybercom | |
-| 4 | 3950.563 | hiroisojp | |
-| 5 | 3950.397 | Aiis-DNP | |
-| 6 | 3947.285 | ABaykov | |
-| 7 | 3947.192 | kimwooglae | |
-| 8 | 3946.609 | Breadcentric | |
-| 9 | 3945.988 | JimWu | * |
-| 10 | 3944.698 | nalbam | |
-| 11 | 3938.320 | KAGRAZAKA-DNP | |
-| 12 | 3938.179 | RayG | |
-| 13 | 3937.783 | Etaggel | |
-| 14 | 3937.220 | Maverick | |
-| 15 | 3935.732 | KJH | |
-| 16 | 3933.089 | Alex-Schultz | |
-| 17 | 3856.880 | kito-DNPds | |
-| 18 | 2970.874 | Karl-NAB | |
-| 19 | 2967.584 | Fumiaki | |
+| 1 | 3957.599 | Fumiaki | * |
+| 2 | 3955.512 | nero-DNPds | |
+| 3 | 3951.624 | nalbam-me | |
+| 4 | 3951.207 | Jouni-Cybercom | |
+| 5 | 3950.563 | hiroisojp | |
+| 6 | 3950.397 | Aiis-DNP | |
+| 7 | 3947.285 | ABaykov | |
+| 8 | 3947.192 | kimwooglae | |
+| 9 | 3946.609 | Breadcentric | |
+| 10 | 3945.988 | JimWu | |
+| 11 | 3944.698 | nalbam | |
+| 12 | 3938.320 | KAGRAZAKA-DNP | |
+| 13 | 3938.179 | RayG | |
+| 14 | 3937.783 | Etaggel | |
+| 15 | 3937.220 | Maverick | |
+| 16 | 3935.732 | KJH | |
+| 17 | 3933.089 | Alex-Schultz | |
+| 18 | 3856.880 | kito-DNPds | |
+| 19 | 2970.874 | Karl-NAB | |
 | 20 | 2965.850 | PGS-Tomasz-Panek | |
 | 21 | 2964.173 | maeda-ai | |
 | 22 | 2963.992 | sola-DNPds | |
