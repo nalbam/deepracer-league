@@ -11,22 +11,22 @@
 | 4 | 3951.207 | Jouni-Cybercom | |
 | 5 | 3950.563 | hiroisojp | |
 | 6 | 3950.397 | Aiis-DNP | |
-| 7 | 3947.285 | ABaykov | |
-| 8 | 3947.192 | kimwooglae | |
-| 9 | 3946.609 | Breadcentric | |
-| 10 | 3945.988 | JimWu | |
-| 11 | 3944.833 | nalbam | |
-| 12 | 3943.629 | PGS-Tomasz-Panek | |
+| 7 | 3949.388 | PGS-Tomasz-Panek | * |
+| 8 | 3947.285 | ABaykov | |
+| 9 | 3947.192 | kimwooglae | |
+| 10 | 3946.609 | Breadcentric | |
+| 11 | 3945.988 | JimWu | |
+| 12 | 3944.833 | nalbam | |
 | 13 | 3938.320 | KAGRAZAKA-DNP | |
 | 14 | 3938.179 | RayG | |
-| 15 | 3937.783 | Etaggel | * |
+| 15 | 3937.783 | Etaggel | |
 | 16 | 3937.220 | Maverick | |
-| 17 | 3936.215 | HY-DNP | * |
+| 17 | 3936.215 | HY-DNP | |
 | 18 | 3935.732 | KJH | |
 | 19 | 3933.089 | Alex-Schultz | |
 | 20 | 3856.880 | kito-DNPds | |
 | 21 | 2970.874 | Karl-NAB | |
-| 22 | 2970.379 | Paul-NAB | * |
+| 22 | 2970.379 | Paul-NAB | |
 | 23 | 2964.173 | maeda-ai | |
 | 24 | 2963.992 | sola-DNPds | |
 | 25 | 2963.478 | JasonLian | |
