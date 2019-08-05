@@ -12,8 +12,8 @@
 | 5 | 3950.563 | hiroisojp | |
 | 6 | 3950.397 | Aiis-DNP | |
 | 7 | 3949.388 | PGS-Tomasz-Panek | |
-| 8 | 3947.285 | ABaykov | |
-| 9 | 3947.192 | kimwooglae | |
+| 8 | 3947.515 | kimwooglae | * |
+| 9 | 3947.285 | ABaykov | |
 | 10 | 3946.609 | Breadcentric | |
 | 11 | 3945.988 | JimWu | |
 | 12 | 3944.833 | nalbam | |
@@ -24,7 +24,7 @@
 | 17 | 3936.215 | HY-DNP | |
 | 18 | 3935.732 | KJH | |
 | 19 | 3933.089 | Alex-Schultz | |
-| 20 | 3931.429 | GWP | * |
+| 20 | 3931.429 | GWP | |
 | 21 | 3856.880 | kito-DNPds | |
 | 22 | 2970.874 | Karl-NAB | |
 | 23 | 2970.379 | Paul-NAB | |
