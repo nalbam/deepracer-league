@@ -78,40 +78,46 @@ _build() {
     done
 
     # additional
-    _command "_build ${LATEST} additional"
+    for SEASON in ${SEASONS}; do
+        _command "_build ${SEASON} additional"
 
-    LOG_FILE=${SHELL_DIR}/cache/${LATEST}.log
+        LOG_FILE=${SHELL_DIR}/cache/${SEASON}.log
 
-    JDX=1
-    while read LINE; do
-        ARR=(${LINE})
+        JDX=1
+        while read LINE; do
+            ARR=(${LINE})
 
-        NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
+            NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
 
-        for SVAL in ${SEASONS}; do
-            LOG_TEMP=${SHELL_DIR}/cache/${SVAL}.log
+            for SVAL in ${SEASONS}; do
+                if [ "${SVAL}" == "${SEASON}" ]; then
+                    continue
+                fi
 
-            COUNT=$(cat ${LOG_TEMP} | grep "\"${NAME}\"" | wc -l | xargs)
+                LOG_TEMP=${SHELL_DIR}/cache/${SVAL}.log
 
-            if [ "x${COUNT}" != "x0" ]; then
-                continue
+                COUNT=$(cat ${LOG_TEMP} | grep "\"${NAME}\"" | wc -l | xargs)
+
+                if [ "x${COUNT}" != "x0" ]; then
+                    continue
+                fi
+
+                URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
+
+                curl -sL ${URL} \
+                    | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
+                    >> ${LOG_TEMP}
+
+                _result "_build ${SVAL} ${NAME} added"
+            done
+
+            if [ "${JDX}" == "35" ]; then
+                break
             fi
 
-            URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
-
-            curl -sL ${URL} \
-                | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
-                >> ${LOG_TEMP}
-
-            # _result "${SVAL} ${NAME}"
-        done
-
-        if [ "${JDX}" == "50" ]; then
-            break
-        fi
-
-        JDX=$(( ${JDX} + 1 ))
-    done < ${LOG_FILE}
+            JDX=$(( ${JDX} + 1 ))
+        done < ${LOG_FILE}
+    done
 
     # summary
     _command "_build summary"
