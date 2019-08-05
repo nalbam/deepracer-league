@@ -11,7 +11,7 @@
 | 4 | 3951.207 | Jouni-Cybercom | |
 | 5 | 3950.563 | hiroisojp | |
 | 6 | 3950.397 | Aiis-DNP | |
-| 7 | 3949.388 | PGS-Tomasz-Panek | * |
+| 7 | 3949.388 | PGS-Tomasz-Panek | |
 | 8 | 3947.285 | ABaykov | |
 | 9 | 3947.192 | kimwooglae | |
 | 10 | 3946.609 | Breadcentric | |
@@ -24,19 +24,19 @@
 | 17 | 3936.215 | HY-DNP | |
 | 18 | 3935.732 | KJH | |
 | 19 | 3933.089 | Alex-Schultz | |
-| 20 | 3856.880 | kito-DNPds | |
-| 21 | 2970.874 | Karl-NAB | |
-| 22 | 2970.379 | Paul-NAB | |
-| 23 | 2964.173 | maeda-ai | |
-| 24 | 2963.992 | sola-DNPds | |
-| 25 | 2963.478 | JasonLian | |
-| 26 | 2962.347 | mogamin | |
-| 27 | 2961.115 | Jochem | |
-| 28 | 2961.093 | leo-DNPds | |
-| 29 | 2960.280 | yuki-h | |
-| 30 | 2957.114 | hyeonwoo | |
-| 31 | 2956.178 | TonyJ | |
-| 32 | 2955.560 | t-maru078 | |
-| 33 | 2955.534 | BespinRacer | |
-| 34 | 2954.999 | Kire | |
-| 35 | 2954.772 | Robin-Castro | |
+| 20 | 3931.429 | GWP | * |
+| 21 | 3856.880 | kito-DNPds | |
+| 22 | 2970.874 | Karl-NAB | |
+| 23 | 2970.379 | Paul-NAB | |
+| 24 | 2964.173 | maeda-ai | |
+| 25 | 2963.992 | sola-DNPds | |
+| 26 | 2963.478 | JasonLian | |
+| 27 | 2962.347 | mogamin | |
+| 28 | 2961.115 | Jochem | |
+| 29 | 2961.093 | leo-DNPds | |
+| 30 | 2960.280 | yuki-h | |
+| 31 | 2957.114 | hyeonwoo | |
+| 32 | 2956.178 | TonyJ | |
+| 33 | 2955.560 | t-maru078 | |
+| 34 | 2955.534 | BespinRacer | |
+| 35 | 2954.999 | Kire | |
