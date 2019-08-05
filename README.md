@@ -11,13 +11,13 @@
 | 4 | 3950.563 | hiroisojp | |
 | 5 | 3950.397 | Aiis-DNP | |
 | 6 | 3947.285 | ABaykov | |
-| 7 | 3946.609 | Breadcentric | |
-| 8 | 3946.365 | kimwooglae | |
+| 7 | 3947.192 | kimwooglae | * |
+| 8 | 3946.609 | Breadcentric | |
 | 9 | 3944.698 | nalbam | |
-| 10 | 3938.179 | RayG | |
-| 11 | 3937.783 | Etaggel | |
-| 12 | 3937.220 | Maverick | * |
-| 13 | 3936.079 | KAGRAZAKA-DNP | |
+| 10 | 3938.320 | KAGRAZAKA-DNP | * |
+| 11 | 3938.179 | RayG | |
+| 12 | 3937.783 | Etaggel | |
+| 13 | 3937.220 | Maverick | |
 | 14 | 3935.732 | KJH | |
 | 15 | 3933.089 | Alex-Schultz | |
 | 16 | 3856.880 | kito-DNPds | |
