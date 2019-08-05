@@ -12,7 +12,7 @@
 | 5 | 3950.563 | hiroisojp | |
 | 6 | 3950.397 | Aiis-DNP | |
 | 7 | 3949.388 | PGS-Tomasz-Panek | |
-| 8 | 3947.515 | kimwooglae | * |
+| 8 | 3947.515 | kimwooglae | |
 | 9 | 3947.285 | ABaykov | |
 | 10 | 3946.609 | Breadcentric | |
 | 11 | 3945.988 | JimWu | |
@@ -25,18 +25,18 @@
 | 18 | 3935.732 | KJH | |
 | 19 | 3933.089 | Alex-Schultz | |
 | 20 | 3931.429 | GWP | |
-| 21 | 3856.880 | kito-DNPds | |
-| 22 | 2970.874 | Karl-NAB | |
-| 23 | 2970.379 | Paul-NAB | |
-| 24 | 2964.173 | maeda-ai | |
-| 25 | 2963.992 | sola-DNPds | |
-| 26 | 2963.478 | JasonLian | |
-| 27 | 2962.347 | mogamin | |
-| 28 | 2961.115 | Jochem | |
-| 29 | 2961.093 | leo-DNPds | |
-| 30 | 2960.280 | yuki-h | |
-| 31 | 2957.114 | hyeonwoo | |
-| 32 | 2956.178 | TonyJ | |
-| 33 | 2955.560 | t-maru078 | |
-| 34 | 2955.534 | BespinRacer | |
-| 35 | 2954.999 | Kire | |
+| 21 | 3922.198 | woodstocktimes | * |
+| 22 | 3856.880 | kito-DNPds | |
+| 23 | 2970.874 | Karl-NAB | |
+| 24 | 2970.379 | Paul-NAB | |
+| 25 | 2964.173 | maeda-ai | |
+| 26 | 2963.992 | sola-DNPds | |
+| 27 | 2963.478 | JasonLian | |
+| 28 | 2962.347 | mogamin | |
+| 29 | 2961.115 | Jochem | |
+| 30 | 2961.093 | leo-DNPds | |
+| 31 | 2960.280 | yuki-h | |
+| 32 | 2957.114 | hyeonwoo | |
+| 33 | 2956.178 | TonyJ | |
+| 34 | 2955.560 | t-maru078 | |
+| 35 | 2955.534 | BespinRacer | |
