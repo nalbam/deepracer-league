@@ -12,11 +12,11 @@
 | 5 | 3950.397 | Aiis-DNP | |
 | 6 | 3947.285 | ABaykov | |
 | 7 | 3946.609 | Breadcentric | |
-| 8 | 3946.365 | kimwooglae | * |
+| 8 | 3946.365 | kimwooglae | |
 | 9 | 3944.698 | nalbam | |
 | 10 | 3938.179 | RayG | |
 | 11 | 3937.783 | Etaggel | |
-| 12 | 3936.764 | Maverick | |
+| 12 | 3937.220 | Maverick | * |
 | 13 | 3936.079 | KAGRAZAKA-DNP | |
 | 14 | 3935.732 | KJH | |
 | 15 | 3933.089 | Alex-Schultz | |
