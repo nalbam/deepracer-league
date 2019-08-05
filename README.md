@@ -7,11 +7,11 @@
 | - | ----- | --------- | - |
 | 1 | 3957.771 | Fumiaki | |
 | 2 | 3955.512 | nero-DNPds | |
-| 3 | 3951.624 | nalbam-me | |
-| 4 | 3951.207 | Jouni-Cybercom | |
-| 5 | 3950.563 | hiroisojp | |
-| 6 | 3950.397 | Aiis-DNP | |
-| 7 | 3949.388 | PGS-Tomasz-Panek | |
+| 3 | 3954.432 | PGS-Tomasz-Panek | * |
+| 4 | 3951.624 | nalbam-me | |
+| 5 | 3951.207 | Jouni-Cybercom | |
+| 6 | 3950.563 | hiroisojp | |
+| 7 | 3950.397 | Aiis-DNP | |
 | 8 | 3947.515 | kimwooglae | |
 | 9 | 3947.285 | ABaykov | |
 | 10 | 3946.609 | Breadcentric | |
@@ -25,7 +25,7 @@
 | 18 | 3935.732 | KJH | |
 | 19 | 3933.089 | Alex-Schultz | |
 | 20 | 3931.429 | GWP | |
-| 21 | 3922.198 | woodstocktimes | * |
+| 21 | 3922.198 | woodstocktimes | |
 | 22 | 3856.880 | kito-DNPds | |
 | 23 | 2970.874 | Karl-NAB | |
 | 24 | 2970.379 | Paul-NAB | |
