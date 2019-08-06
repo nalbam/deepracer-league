@@ -13,15 +13,15 @@
 | 6 | 3950.563 | hiroisojp | |
 | 7 | 3950.397 | Aiis-DNP | |
 | 8 | 3949.508 | leo-DNPds | |
-| 9 | 3947.515 | kimwooglae | |
-| 10 | 3947.285 | ABaykov | |
-| 11 | 3946.609 | Breadcentric | |
-| 12 | 3945.988 | JimWu | |
+| 9 | 3948.128 | JimWu | * |
+| 10 | 3947.515 | kimwooglae | |
+| 11 | 3947.285 | ABaykov | |
+| 12 | 3946.609 | Breadcentric | |
 | 13 | 3944.833 | nalbam | |
 | 14 | 3942.354 | RichardFan | |
 | 15 | 3942.303 | t-maru078 | |
 | 16 | 3938.550 | KAGRAZAKA-DNP | |
-| 17 | 3938.195 | Kire | * |
+| 17 | 3938.195 | Kire | |
 | 18 | 3938.179 | RayG | |
 | 19 | 3937.783 | Etaggel | |
 | 20 | 3937.220 | Maverick | |
