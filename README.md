@@ -5,14 +5,14 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3957.922 | Fumiaki | * |
+| 1 | 3957.922 | Fumiaki | |
 | 2 | 3955.512 | nero-DNPds | |
 | 3 | 3954.432 | PGS-Tomasz-Panek | |
 | 4 | 3951.753 | nalbam-me | |
 | 5 | 3951.207 | Jouni-Cybercom | |
 | 6 | 3950.563 | hiroisojp | |
 | 7 | 3950.397 | Aiis-DNP | |
-| 8 | 3948.969 | leo-DNPds | |
+| 8 | 3949.508 | leo-DNPds | * |
 | 9 | 3947.515 | kimwooglae | |
 | 10 | 3947.285 | ABaykov | |
 | 11 | 3946.609 | Breadcentric | |
