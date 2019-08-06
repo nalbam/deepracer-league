@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3957.806 | Fumiaki | |
+| 1 | 3957.922 | Fumiaki | * |
 | 2 | 3955.512 | nero-DNPds | |
 | 3 | 3954.432 | PGS-Tomasz-Panek | |
 | 4 | 3951.753 | nalbam-me | |
@@ -19,7 +19,7 @@
 | 12 | 3945.988 | JimWu | |
 | 13 | 3944.833 | nalbam | |
 | 14 | 3942.303 | t-maru078 | |
-| 15 | 3938.550 | KAGRAZAKA-DNP | * |
+| 15 | 3938.550 | KAGRAZAKA-DNP | |
 | 16 | 3938.179 | RayG | |
 | 17 | 3937.783 | Etaggel | |
 | 18 | 3937.220 | Maverick | |
