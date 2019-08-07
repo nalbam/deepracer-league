@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3957.922 | Fumiaki | |
+| 1 | 3958.016 | Fumiaki | * |
 | 2 | 3956.382 | Breadcentric | |
 | 3 | 3955.512 | nero-DNPds | |
 | 4 | 3954.432 | PGS-Tomasz-Panek | |
@@ -23,7 +23,7 @@
 | 16 | 3942.303 | t-maru078 | |
 | 17 | 3942.242 | Kire | |
 | 18 | 3939.033 | RayG | |
-| 19 | 3939.003 | HY-DNP | * |
+| 19 | 3939.003 | HY-DNP | |
 | 20 | 3938.550 | KAGRAZAKA-DNP | |
 | 21 | 3937.783 | Etaggel | |
 | 22 | 3937.220 | Maverick | |
