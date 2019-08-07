@@ -76,7 +76,7 @@ _build() {
         URL="${URL_TEMPLATE}${SEASON}"
 
         curl -sL ${URL} \
-            | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
+            | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
             > ${CACHE_FILE}
     done
 
@@ -93,9 +93,7 @@ _build() {
 
         JDX=1
         while read LINE; do
-            ARR=(${LINE})
-
-            NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
+            NAME="$(echo ${LINE} | cut -d'"' -f2)"
 
             for SVAL in ${SEASONS}; do
                 if [ "${SVAL}" == "${SEASON}" ]; then
@@ -113,13 +111,13 @@ _build() {
                 URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
 
                 curl -sL ${URL} \
-                    | jq -r '.items[].item | "\"\(.additionalFields.racerName)\" \(.additionalFields.lapTime) \(.additionalFields.points)"' \
+                    | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
                     >> ${LOG_TEMP}
 
                 _result "_build ${SVAL} ${NAME}"
             done
 
-            if [ "${JDX}" == "35" ]; then
+            if [ "${JDX}" == "50" ]; then
                 break
             fi
 
@@ -133,8 +131,9 @@ _build() {
     while read LINE; do
         ARR=(${LINE})
 
-        NAME="$(echo ${ARR[0]} | cut -d'"' -f2)"
-        TIME="${ARR[1]}"
+        NAME="$(echo ${LINE} | cut -d'"' -f2)"
+
+        TIME="${ARR[0]}"
         POINTS="${ARR[2]}"
 
         for SEASON in ${SEASONS}; do
@@ -151,12 +150,12 @@ _build() {
 
             ARR=($(cat ${CACHE_FILE} | grep "\"${NAME}\"" | head -1))
 
-            SUB_TIME="${ARR[1]}"
+            SUB_TIME="${ARR[0]}"
             SUB_POINTS="${ARR[2]}"
 
             if [ "${SUB_TIME}" != "" ]; then
                 if [ "${SUB_POINTS}" == "null" ]; then
-                    SUB_POINTS=$(echo "1000-${ARR[1]:3}" | bc)
+                    SUB_POINTS=$(echo "1000-${ARR[0]:3}" | bc)
                 fi
 
                 POINTS=$(echo "${POINTS}+${SUB_POINTS}" | bc)
@@ -186,7 +185,11 @@ _message() {
 
     IDX=1
     while read LINE; do
-        COUNT=$(cat ${SHELL_DIR}/build/backup.log | grep "${LINE}" | wc -l | xargs)
+        if [ -f ${SHELL_DIR}/build/backup.log ]; then
+            COUNT=$(cat ${SHELL_DIR}/build/backup.log | grep "${LINE}" | wc -l | xargs)
+        else
+            COUNT="0"
+        fi
 
         ARR=(${LINE})
 
