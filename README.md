@@ -9,8 +9,8 @@
 | 2 | 3956.382 | Breadcentric | |
 | 3 | 3955.512 | nero-DNPds | |
 | 4 | 3954.432 | PGS-Tomasz-Panek | |
-| 5 | 3953.653 | JasonLian | |
-| 6 | 3953.501 | sola-DNPds | |
+| 5 | 3954.008 | JasonLian | * |
+| 6 | 3953.559 | sola-DNPds | * |
 | 7 | 3952.251 | Aiis-DNP | |
 | 8 | 3951.753 | nalbam-me | |
 | 9 | 3951.207 | Jouni-Cybercom | |
@@ -20,7 +20,7 @@
 | 13 | 3947.515 | kimwooglae | |
 | 14 | 3947.285 | ABaykov | |
 | 15 | 3944.833 | nalbam | |
-| 16 | 3943.011 | Kire | * |
+| 16 | 3943.011 | Kire | |
 | 17 | 3942.790 | RichardFan | |
 | 18 | 3942.303 | t-maru078 | |
 | 19 | 3939.033 | RayG | |
