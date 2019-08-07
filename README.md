@@ -13,7 +13,7 @@
 | 6 | 3953.559 | sola-DNPds | |
 | 7 | 3952.251 | Aiis-DNP | |
 | 8 | 3952.095 | nalbam-me | |
-| 9 | 3951.207 | Jouni-Cybercom | |
+| 9 | 3951.726 | Jouni-Cybercom | * |
 | 10 | 3950.563 | hiroisojp | |
 | 11 | 3949.933 | leo-DNPds | |
 | 12 | 3949.521 | JimWu | |
@@ -23,7 +23,7 @@
 | 16 | 3943.011 | Kire | |
 | 17 | 3942.790 | RichardFan | |
 | 18 | 3942.303 | t-maru078 | |
-| 19 | 3939.309 | RayG | * |
+| 19 | 3939.309 | RayG | |
 | 20 | 3939.003 | HY-DNP | |
 | 21 | 3938.550 | KAGRAZAKA-DNP | |
 | 22 | 3937.783 | Etaggel | |
