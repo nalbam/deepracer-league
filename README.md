@@ -16,7 +16,7 @@
 | 9 | 3951.207 | Jouni-Cybercom | |
 | 10 | 3950.563 | hiroisojp | |
 | 11 | 3949.933 | leo-DNPds | |
-| 12 | 3949.332 | JimWu | |
+| 12 | 3949.521 | JimWu | * |
 | 13 | 3947.515 | kimwooglae | |
 | 14 | 3947.285 | ABaykov | |
 | 15 | 3944.833 | nalbam | |
@@ -27,7 +27,7 @@
 | 20 | 3939.003 | HY-DNP | |
 | 21 | 3938.550 | KAGRAZAKA-DNP | |
 | 22 | 3937.783 | Etaggel | |
-| 23 | 3937.442 | Maverick | * |
+| 23 | 3937.442 | Maverick | |
 | 24 | 3937.000 | KJH | |
 | 25 | 3933.089 | Alex-Schultz | |
 | 26 | 3931.429 | GWP | |
