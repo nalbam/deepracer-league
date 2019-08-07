@@ -12,12 +12,12 @@
 | 5 | 3954.008 | JasonLian | |
 | 6 | 3953.559 | sola-DNPds | |
 | 7 | 3952.251 | Aiis-DNP | |
-| 8 | 3952.073 | nalbam-me | |
+| 8 | 3952.095 | nalbam-me | * |
 | 9 | 3951.207 | Jouni-Cybercom | |
 | 10 | 3950.563 | hiroisojp | |
 | 11 | 3949.933 | leo-DNPds | |
-| 12 | 3949.521 | JimWu | * |
-| 13 | 3947.515 | kimwooglae | |
+| 12 | 3949.521 | JimWu | |
+| 13 | 3947.896 | kimwooglae | * |
 | 14 | 3947.285 | ABaykov | |
 | 15 | 3944.833 | nalbam | |
 | 16 | 3943.011 | Kire | |
@@ -29,7 +29,7 @@
 | 22 | 3937.783 | Etaggel | |
 | 23 | 3937.442 | Maverick | |
 | 24 | 3937.000 | KJH | |
-| 25 | 3933.089 | Alex-Schultz | |
+| 25 | 3933.248 | Alex-Schultz | * |
 | 26 | 3931.429 | GWP | |
 | 27 | 3922.198 | woodstocktimes | |
 | 28 | 3856.880 | kito-DNPds | |
