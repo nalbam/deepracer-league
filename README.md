@@ -7,13 +7,13 @@
 | - | ----- | --------- | - |
 | 1 | 3958.016 | Fumiaki | |
 | 2 | 3956.382 | Breadcentric | |
-| 3 | 3955.512 | nero-DNPds | |
+| 3 | 3955.650 | nero-DNPds | * |
 | 4 | 3954.432 | PGS-Tomasz-Panek | |
 | 5 | 3954.008 | JasonLian | |
 | 6 | 3953.559 | sola-DNPds | |
 | 7 | 3952.251 | Aiis-DNP | |
 | 8 | 3952.095 | nalbam-me | |
-| 9 | 3951.726 | Jouni-Cybercom | * |
+| 9 | 3951.726 | Jouni-Cybercom | |
 | 10 | 3950.563 | hiroisojp | |
 | 11 | 3949.933 | leo-DNPds | |
 | 12 | 3949.521 | JimWu | |
