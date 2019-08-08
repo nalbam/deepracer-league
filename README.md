@@ -6,13 +6,13 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 3958.116 | Fumiaki | |
-| 2 | 3956.405 | Breadcentric | * |
+| 2 | 3956.405 | Breadcentric | |
 | 3 | 3955.650 | nero-DNPds | |
 | 4 | 3954.432 | PGS-Tomasz-Panek | |
 | 5 | 3954.030 | JasonLian | |
 | 6 | 3953.709 | sola-DNPds | |
 | 7 | 3953.035 | nalbam-me | |
-| 8 | 3952.251 | Aiis-DNP | |
+| 8 | 3952.399 | Aiis-DNP | * |
 | 9 | 3951.726 | Jouni-Cybercom | |
 | 10 | 3950.563 | hiroisojp | |
 | 11 | 3949.933 | leo-DNPds | |
@@ -32,7 +32,7 @@
 | 25 | 3933.248 | Alex-Schultz | |
 | 26 | 3931.429 | GWP | |
 | 27 | 3922.198 | woodstocktimes | |
-| 28 | 3856.897 | kito-DNPds | * |
+| 28 | 3856.897 | kito-DNPds | |
 | 29 | 2970.874 | Karl-NAB | |
 | 30 | 2970.379 | Paul-NAB | |
 | 31 | 2964.173 | maeda-ai | |
