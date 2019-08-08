@@ -10,13 +10,13 @@
 | 3 | 3955.650 | nero-DNPds | |
 | 4 | 3954.432 | PGS-Tomasz-Panek | |
 | 5 | 3954.008 | JasonLian | |
-| 6 | 3953.709 | sola-DNPds | * |
-| 7 | 3952.252 | nalbam-me | * |
+| 6 | 3953.709 | sola-DNPds | |
+| 7 | 3952.252 | nalbam-me | |
 | 8 | 3952.251 | Aiis-DNP | |
 | 9 | 3951.726 | Jouni-Cybercom | |
 | 10 | 3950.563 | hiroisojp | |
 | 11 | 3949.933 | leo-DNPds | |
-| 12 | 3949.521 | JimWu | |
+| 12 | 3949.777 | JimWu | * |
 | 13 | 3947.896 | kimwooglae | |
 | 14 | 3947.285 | ABaykov | |
 | 15 | 3944.833 | nalbam | |
