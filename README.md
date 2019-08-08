@@ -12,11 +12,11 @@
 | 5 | 3954.030 | JasonLian | |
 | 6 | 3953.709 | sola-DNPds | |
 | 7 | 3953.035 | nalbam-me | |
-| 8 | 3952.399 | Aiis-DNP | * |
+| 8 | 3952.399 | Aiis-DNP | |
 | 9 | 3951.726 | Jouni-Cybercom | |
 | 10 | 3950.563 | hiroisojp | |
-| 11 | 3949.933 | leo-DNPds | |
-| 12 | 3949.777 | JimWu | |
+| 11 | 3949.974 | JimWu | * |
+| 12 | 3949.933 | leo-DNPds | |
 | 13 | 3947.896 | kimwooglae | |
 | 14 | 3947.285 | ABaykov | |
 | 15 | 3944.833 | nalbam | |
