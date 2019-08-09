@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 3958.116 | Fumiaki | |
-| 2 | 3956.405 | Breadcentric | |
+| 2 | 3956.621 | Breadcentric | * |
 | 3 | 3956.187 | Etaggel | |
 | 4 | 3955.650 | nero-DNPds | |
 | 5 | 3954.432 | PGS-Tomasz-Panek | |
@@ -28,7 +28,7 @@
 | 21 | 3939.003 | HY-DNP | |
 | 22 | 3938.550 | KAGRAZAKA-DNP | |
 | 23 | 3937.442 | Maverick | |
-| 24 | 3937.375 | TonyJ | * |
+| 24 | 3937.375 | TonyJ | |
 | 25 | 3937.000 | KJH | |
 | 26 | 3933.248 | Alex-Schultz | |
 | 27 | 3931.429 | GWP | |
