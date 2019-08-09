@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 3958.116 | Fumiaki | |
-| 2 | 3956.621 | Breadcentric | * |
+| 2 | 3956.621 | Breadcentric | |
 | 3 | 3956.187 | Etaggel | |
 | 4 | 3955.650 | nero-DNPds | |
 | 5 | 3954.432 | PGS-Tomasz-Panek | |
@@ -18,7 +18,7 @@
 | 11 | 3950.834 | JimWu | |
 | 12 | 3950.563 | hiroisojp | |
 | 13 | 3949.933 | leo-DNPds | |
-| 14 | 3948.438 | kimwooglae | |
+| 14 | 3949.045 | kimwooglae | * |
 | 15 | 3947.285 | ABaykov | |
 | 16 | 3944.833 | nalbam | |
 | 17 | 3943.625 | Kire | |
