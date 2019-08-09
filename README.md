@@ -18,7 +18,7 @@
 | 11 | 3950.563 | hiroisojp | |
 | 12 | 3950.543 | JimWu | |
 | 13 | 3949.933 | leo-DNPds | |
-| 14 | 3948.438 | kimwooglae | * |
+| 14 | 3948.438 | kimwooglae | |
 | 15 | 3947.285 | ABaykov | |
 | 16 | 3944.833 | nalbam | |
 | 17 | 3943.625 | Kire | |
@@ -29,14 +29,14 @@
 | 22 | 3938.550 | KAGRAZAKA-DNP | |
 | 23 | 3937.442 | Maverick | |
 | 24 | 3937.000 | KJH | |
-| 25 | 3933.248 | Alex-Schultz | |
-| 26 | 3931.429 | GWP | |
-| 27 | 3922.198 | woodstocktimes | |
-| 28 | 3856.897 | kito-DNPds | |
-| 29 | 2970.874 | Karl-NAB | |
-| 30 | 2970.379 | Paul-NAB | |
-| 31 | 2964.173 | maeda-ai | |
-| 32 | 2962.347 | mogamin | |
-| 33 | 2961.115 | Jochem | |
-| 34 | 2960.280 | yuki-h | |
-| 35 | 2957.114 | hyeonwoo | |
+| 25 | 3936.684 | TonyJ | * |
+| 26 | 3933.248 | Alex-Schultz | |
+| 27 | 3931.429 | GWP | |
+| 28 | 3922.198 | woodstocktimes | |
+| 29 | 3856.897 | kito-DNPds | |
+| 30 | 2970.874 | Karl-NAB | |
+| 31 | 2970.379 | Paul-NAB | |
+| 32 | 2964.173 | maeda-ai | |
+| 33 | 2962.347 | mogamin | |
+| 34 | 2961.115 | Jochem | |
+| 35 | 2960.280 | yuki-h | |
