@@ -15,12 +15,12 @@
 | 8 | 3953.035 | nalbam-me | |
 | 9 | 3952.399 | Aiis-DNP | |
 | 10 | 3951.726 | Jouni-Cybercom | |
-| 11 | 3950.997 | JimWu | * |
+| 11 | 3950.997 | JimWu | |
 | 12 | 3950.563 | hiroisojp | |
 | 13 | 3949.933 | leo-DNPds | |
 | 14 | 3949.045 | kimwooglae | |
 | 15 | 3949.001 | Jochem | |
-| 16 | 3947.285 | ABaykov | |
+| 16 | 3948.547 | ABaykov | * |
 | 17 | 3944.833 | nalbam | |
 | 18 | 3943.625 | Kire | |
 | 19 | 3942.790 | RichardFan | |
