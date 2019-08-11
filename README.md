@@ -19,14 +19,14 @@
 | 12 | 3950.997 | JimWu | |
 | 13 | 3950.563 | hiroisojp | |
 | 14 | 3949.933 | leo-DNPds | |
-| 15 | 3949.500 | ABaykov | * |
+| 15 | 3949.500 | ABaykov | |
 | 16 | 3949.045 | kimwooglae | |
 | 17 | 3949.001 | Jochem | |
 | 18 | 3944.833 | nalbam | |
 | 19 | 3943.625 | Kire | |
 | 20 | 3942.860 | RichardFan | |
-| 21 | 3942.541 | BespinRacer | |
-| 22 | 3942.339 | hyeonwoo | * |
+| 21 | 3942.708 | hyeonwoo | * |
+| 22 | 3942.541 | BespinRacer | |
 | 23 | 3942.303 | t-maru078 | |
 | 24 | 3939.309 | RayG | |
 | 25 | 3939.003 | HY-DNP | |
