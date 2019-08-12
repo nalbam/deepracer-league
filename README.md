@@ -9,7 +9,7 @@
 | 2 | 3957.004 | Breadcentric | |
 | 3 | 3956.187 | Etaggel | |
 | 4 | 3955.650 | nero-DNPds | |
-| 5 | 3954.432 | PGS-Tomasz-Panek | |
+| 5 | 3954.539 | PGS-Tomasz-Panek | * |
 | 6 | 3954.030 | JasonLian | |
 | 7 | 3953.709 | sola-DNPds | |
 | 8 | 3953.035 | nalbam-me | |
@@ -24,7 +24,7 @@
 | 17 | 3949.001 | Jochem | |
 | 18 | 3944.833 | nalbam | |
 | 19 | 3943.625 | Kire | |
-| 20 | 3943.506 | hyeonwoo | * |
+| 20 | 3943.506 | hyeonwoo | |
 | 21 | 3942.868 | RichardFan | |
 | 22 | 3942.541 | BespinRacer | |
 | 23 | 3942.303 | t-maru078 | |
