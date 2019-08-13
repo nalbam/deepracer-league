@@ -9,8 +9,8 @@
 | 2 | 3957.004 | Breadcentric | |
 | 3 | 3956.187 | Etaggel | |
 | 4 | 3955.650 | nero-DNPds | |
-| 5 | 3954.539 | PGS-Tomasz-Panek | |
-| 6 | 3954.030 | JasonLian | |
+| 5 | 3954.694 | JasonLian | * |
+| 6 | 3954.539 | PGS-Tomasz-Panek | |
 | 7 | 3953.709 | sola-DNPds | |
 | 8 | 3953.035 | nalbam-me | |
 | 9 | 3952.399 | Aiis-DNP | |
@@ -20,7 +20,7 @@
 | 13 | 3950.563 | hiroisojp | |
 | 14 | 3949.933 | leo-DNPds | |
 | 15 | 3949.500 | ABaykov | |
-| 16 | 3949.406 | kimwooglae | * |
+| 16 | 3949.406 | kimwooglae | |
 | 17 | 3949.001 | Jochem | |
 | 18 | 3944.833 | nalbam | |
 | 19 | 3943.625 | Kire | |
