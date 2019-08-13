@@ -8,8 +8,8 @@
 | 1 | 3958.175 | Fumiaki | |
 | 2 | 3957.004 | Breadcentric | |
 | 3 | 3956.187 | Etaggel | |
-| 4 | 3955.650 | nero-DNPds | |
-| 5 | 3955.536 | PGS-Tomasz-Panek | * |
+| 4 | 3955.845 | PGS-Tomasz-Panek | * |
+| 5 | 3955.650 | nero-DNPds | |
 | 6 | 3954.694 | JasonLian | |
 | 7 | 3953.709 | sola-DNPds | |
 | 8 | 3953.035 | nalbam-me | |
