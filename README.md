@@ -6,9 +6,9 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 3958.175 | Fumiaki | |
-| 2 | 3957.004 | Breadcentric | |
+| 2 | 3957.060 | Breadcentric | * |
 | 3 | 3956.187 | Etaggel | |
-| 4 | 3956.091 | PGS-Tomasz-Panek | * |
+| 4 | 3956.091 | PGS-Tomasz-Panek | |
 | 5 | 3955.650 | nero-DNPds | |
 | 6 | 3954.694 | JasonLian | |
 | 7 | 3953.709 | sola-DNPds | |
