@@ -9,8 +9,8 @@
 | 2 | 3957.004 | Breadcentric | |
 | 3 | 3956.187 | Etaggel | |
 | 4 | 3955.650 | nero-DNPds | |
-| 5 | 3954.694 | JasonLian | * |
-| 6 | 3954.539 | PGS-Tomasz-Panek | |
+| 5 | 3955.536 | PGS-Tomasz-Panek | * |
+| 6 | 3954.694 | JasonLian | |
 | 7 | 3953.709 | sola-DNPds | |
 | 8 | 3953.035 | nalbam-me | |
 | 9 | 3952.399 | Aiis-DNP | |
