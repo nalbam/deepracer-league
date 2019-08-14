@@ -8,7 +8,7 @@
 | 1 | 3958.175 | Fumiaki | |
 | 2 | 3957.060 | Breadcentric | |
 | 3 | 3956.187 | Etaggel | |
-| 4 | 3956.091 | PGS-Tomasz-Panek | |
+| 4 | 3956.177 | PGS-Tomasz-Panek | * |
 | 5 | 3955.650 | nero-DNPds | |
 | 6 | 3954.694 | JasonLian | |
 | 7 | 3953.709 | sola-DNPds | |
@@ -25,7 +25,7 @@
 | 18 | 3944.833 | nalbam | |
 | 19 | 3943.625 | Kire | |
 | 20 | 3943.506 | hyeonwoo | |
-| 21 | 3943.138 | RichardFan | * |
+| 21 | 3943.138 | RichardFan | |
 | 22 | 3942.541 | BespinRacer | |
 | 23 | 3942.303 | t-maru078 | |
 | 24 | 3939.309 | RayG | |
