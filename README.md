@@ -29,14 +29,14 @@
 | 22 | 3943.138 | RichardFan | |
 | 23 | 3942.541 | BespinRacer | |
 | 24 | 3942.303 | t-maru078 | |
-| 25 | 3940.671 | RayG | * |
+| 25 | 3940.671 | RayG | |
 | 26 | 3939.003 | HY-DNP | |
 | 27 | 3938.550 | KAGRAZAKA-DNP | |
 | 28 | 3937.442 | Maverick | |
 | 29 | 3937.000 | KJH | |
 | 30 | 3933.624 | Alex-Schultz | |
 | 31 | 3931.429 | GWP | |
-| 32 | 3922.198 | woodstocktimes | |
-| 33 | 3856.897 | kito-DNPds | |
-| 34 | 2970.874 | Karl-NAB | |
-| 35 | 2970.379 | Paul-NAB | |
+| 32 | 3856.897 | kito-DNPds | |
+| 33 | 2970.874 | Karl-NAB | |
+| 34 | 2970.379 | Paul-NAB | |
+| 35 | 2962.347 | mogamin | * |
