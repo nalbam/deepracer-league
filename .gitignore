@@ -14,15 +14,19 @@ $RECYCLE.BIN/
 # Mac
 .DS_Store
 
-# java
-*.class
-*.jar
-*.war
-*.ear
+# nodejs
+node_modules/
+package-lock.json
+nohup.out
 
-# maven
+# python
+__pycache__
+.pytest_cache
+
+# build
 target/
 build/
+dist/
 
 # eclipse
 .settings/

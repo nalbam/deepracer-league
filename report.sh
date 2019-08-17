@@ -232,6 +232,29 @@ _message() {
     fi
 }
 
+_json() {
+    _command "_json"
+
+    JSON=${SHELL_DIR}/cache/points.json
+
+    echo "{\"deepracer\":[" > ${JSON}
+
+    IDX=1
+    while read LINE; do
+        ARR=(${LINE})
+
+        if [ "${IDX}" != "1" ]; then
+            echo "," >> ${JSON}
+        fi
+
+        echo "{\"no\":${IDX},\"name\":\"${ARR[1]}\",\"point\":${ARR[0]}}" >> ${JSON}
+
+        IDX=$(( ${IDX} + 1 ))
+    done < ${SHELL_DIR}/build/points.log
+
+    echo "]}" >> ${JSON}
+}
+
 _git_push() {
     _command "_git_push"
 
@@ -268,6 +291,7 @@ __main__() {
 
     _build
     _message
+    _json
 
     if [ ! -z ${CHANGED} ]; then
         _git_push
