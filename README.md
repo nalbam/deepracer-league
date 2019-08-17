@@ -17,14 +17,14 @@
 | 10 | 3952.129 | maeda-ai | |
 | 11 | 3951.726 | Jouni-Cybercom | |
 | 12 | 3951.253 | JimWu | |
-| 13 | 3950.806 | hiroisojp | * |
+| 13 | 3950.806 | hiroisojp | |
 | 14 | 3949.933 | leo-DNPds | |
 | 15 | 3949.500 | ABaykov | |
 | 16 | 3949.406 | kimwooglae | |
 | 17 | 3949.001 | Jochem | |
 | 18 | 3945.460 | hyeonwoo | |
 | 19 | 3944.833 | nalbam | |
-| 20 | 3944.628 | TonyJ | |
+| 20 | 3944.809 | TonyJ | * |
 | 21 | 3943.625 | Kire | |
 | 22 | 3943.138 | RichardFan | |
 | 23 | 3942.541 | BespinRacer | |
