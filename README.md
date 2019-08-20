@@ -11,7 +11,7 @@
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
 | 6 | 3955.775 | nero-DNPds | |
-| 7 | 3955.033 | JasonLian | * |
+| 7 | 3955.058 | JasonLian | * |
 | 8 | 3953.709 | sola-DNPds | |
 | 9 | 3953.035 | nalbam-me | |
 | 10 | 3952.399 | Aiis-DNP | |
