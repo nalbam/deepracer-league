@@ -10,7 +10,7 @@
 | 3 | 3957.189 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
-| 6 | 3955.775 | nero-DNPds | * |
+| 6 | 3955.775 | nero-DNPds | |
 | 7 | 3954.976 | JasonLian | |
 | 8 | 3953.709 | sola-DNPds | |
 | 9 | 3953.035 | nalbam-me | |
@@ -36,7 +36,7 @@
 | 29 | 3937.442 | Maverick | |
 | 30 | 3937.000 | KJH | |
 | 31 | 3933.624 | Alex-Schultz | |
-| 32 | 3856.897 | kito-DNPds | |
-| 33 | 2970.379 | Paul-NAB | |
-| 34 | 2962.347 | mogamin | |
-| 35 | 2960.280 | yuki-h | |
+| 32 | 3921.438 | SF | * |
+| 33 | 3856.897 | kito-DNPds | |
+| 34 | 2970.379 | Paul-NAB | |
+| 35 | 2962.347 | mogamin | |
