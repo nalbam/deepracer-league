@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 3961.632 | Karl-NAB | |
 | 2 | 3958.175 | Fumiaki | |
-| 3 | 3957.463 | Breadcentric | * |
+| 3 | 3957.463 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
 | 6 | 3955.775 | nero-DNPds | |
@@ -30,7 +30,7 @@
 | 23 | 3943.138 | RichardFan | |
 | 24 | 3942.541 | BespinRacer | |
 | 25 | 3942.303 | t-maru078 | |
-| 26 | 3940.671 | RayG | |
+| 26 | 3940.742 | RayG | * |
 | 27 | 3939.003 | HY-DNP | |
 | 28 | 3938.550 | KAGRAZAKA-DNP | |
 | 29 | 3937.442 | Maverick | |
