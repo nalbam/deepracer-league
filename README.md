@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3962.501 | Karl-NAB | * |
+| 1 | 3962.501 | Karl-NAB | |
 | 2 | 3958.175 | Fumiaki | |
 | 3 | 3957.463 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
@@ -26,7 +26,7 @@
 | 19 | 3946.386 | hyeonwoo | |
 | 20 | 3945.067 | TonyJ | |
 | 21 | 3944.833 | nalbam | |
-| 22 | 3943.625 | Kire | |
+| 22 | 3944.418 | Kire | * |
 | 23 | 3943.138 | RichardFan | |
 | 24 | 3942.541 | BespinRacer | |
 | 25 | 3942.303 | t-maru078 | |
