@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3961.632 | Karl-NAB | |
+| 1 | 3962.427 | Karl-NAB | * |
 | 2 | 3958.175 | Fumiaki | |
 | 3 | 3957.463 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
@@ -22,7 +22,7 @@
 | 15 | 3950.365 | ABaykov | |
 | 16 | 3950.312 | leo-DNPds | |
 | 17 | 3949.720 | kimwooglae | |
-| 18 | 3949.578 | Jochem | * |
+| 18 | 3949.578 | Jochem | |
 | 19 | 3946.386 | hyeonwoo | |
 | 20 | 3945.067 | TonyJ | |
 | 21 | 3944.833 | nalbam | |
