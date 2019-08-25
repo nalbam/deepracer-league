@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3962.533 | Karl-NAB | * |
+| 1 | 3962.593 | Karl-NAB | * |
 | 2 | 3958.175 | Fumiaki | |
 | 3 | 3957.463 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
