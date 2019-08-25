@@ -11,10 +11,10 @@
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
 | 6 | 3955.775 | nero-DNPds | |
-| 7 | 3955.065 | JasonLian | * |
+| 7 | 3955.065 | JasonLian | |
 | 8 | 3953.709 | sola-DNPds | |
 | 9 | 3953.035 | nalbam-me | |
-| 10 | 3952.784 | hiroisojp | |
+| 10 | 3952.953 | hiroisojp | * |
 | 11 | 3952.399 | Aiis-DNP | |
 | 12 | 3952.129 | maeda-ai | |
 | 13 | 3951.726 | Jouni-Cybercom | |
