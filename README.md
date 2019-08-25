@@ -11,7 +11,7 @@
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
 | 6 | 3955.775 | nero-DNPds | |
-| 7 | 3955.058 | JasonLian | |
+| 7 | 3955.065 | JasonLian | * |
 | 8 | 3953.709 | sola-DNPds | |
 | 9 | 3953.035 | nalbam-me | |
 | 10 | 3952.784 | hiroisojp | |
@@ -21,7 +21,7 @@
 | 14 | 3951.253 | JimWu | |
 | 15 | 3950.365 | ABaykov | |
 | 16 | 3950.312 | leo-DNPds | |
-| 17 | 3950.271 | kimwooglae | * |
+| 17 | 3950.271 | kimwooglae | |
 | 18 | 3950.223 | Jochem | |
 | 19 | 3946.386 | hyeonwoo | |
 | 20 | 3945.067 | TonyJ | |
