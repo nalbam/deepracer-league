@@ -17,12 +17,12 @@
 | 10 | 3953.035 | nalbam-me | |
 | 11 | 3952.399 | Aiis-DNP | |
 | 12 | 3952.129 | maeda-ai | |
-| 13 | 3951.848 | Jouni-Cybercom | * |
+| 13 | 3951.848 | Jouni-Cybercom | |
 | 14 | 3951.253 | JimWu | |
-| 15 | 3950.448 | kimwooglae | |
-| 16 | 3950.365 | ABaykov | |
-| 17 | 3950.312 | leo-DNPds | |
-| 18 | 3950.223 | Jochem | |
+| 15 | 3951.149 | Jochem | * |
+| 16 | 3950.448 | kimwooglae | |
+| 17 | 3950.365 | ABaykov | |
+| 18 | 3950.312 | leo-DNPds | |
 | 19 | 3946.386 | hyeonwoo | |
 | 20 | 3945.067 | TonyJ | |
 | 21 | 3944.833 | nalbam | |
