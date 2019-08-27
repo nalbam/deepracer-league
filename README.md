@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3962.593 | Karl-NAB | |
+| 1 | 3962.846 | Karl-NAB | * |
 | 2 | 3958.175 | Fumiaki | |
 | 3 | 3957.463 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
@@ -31,7 +31,7 @@
 | 24 | 3942.541 | BespinRacer | |
 | 25 | 3942.303 | t-maru078 | |
 | 26 | 3941.339 | RayG | |
-| 27 | 3939.448 | SF | * |
+| 27 | 3939.448 | SF | |
 | 28 | 3939.003 | HY-DNP | |
 | 29 | 3938.550 | KAGRAZAKA-DNP | |
 | 30 | 3937.442 | Maverick | |
