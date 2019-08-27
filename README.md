@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 3962.846 | Karl-NAB | * |
+| 1 | 3962.846 | Karl-NAB | |
 | 2 | 3958.175 | Fumiaki | |
 | 3 | 3957.463 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
@@ -17,7 +17,7 @@
 | 10 | 3953.035 | nalbam-me | |
 | 11 | 3952.399 | Aiis-DNP | |
 | 12 | 3952.129 | maeda-ai | |
-| 13 | 3951.726 | Jouni-Cybercom | |
+| 13 | 3951.848 | Jouni-Cybercom | * |
 | 14 | 3951.253 | JimWu | |
 | 15 | 3950.448 | kimwooglae | |
 | 16 | 3950.365 | ABaykov | |
