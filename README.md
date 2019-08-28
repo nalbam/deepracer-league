@@ -15,8 +15,8 @@
 | 8 | 3953.709 | sola-DNPds | |
 | 9 | 3953.164 | hiroisojp | |
 | 10 | 3953.035 | nalbam-me | |
-| 11 | 3952.534 | Aiis-DNP | |
-| 12 | 3952.391 | Jouni-Cybercom | * |
+| 11 | 3952.554 | Jouni-Cybercom | * |
+| 12 | 3952.534 | Aiis-DNP | |
 | 13 | 3952.129 | maeda-ai | |
 | 14 | 3951.253 | JimWu | |
 | 15 | 3951.149 | Jochem | |
