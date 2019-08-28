@@ -16,7 +16,7 @@
 | 9 | 3953.164 | hiroisojp | |
 | 10 | 3953.035 | nalbam-me | |
 | 11 | 3952.534 | Aiis-DNP | |
-| 12 | 3952.292 | Jouni-Cybercom | * |
+| 12 | 3952.391 | Jouni-Cybercom | * |
 | 13 | 3952.129 | maeda-ai | |
 | 14 | 3951.253 | JimWu | |
 | 15 | 3951.149 | Jochem | |
