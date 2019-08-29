@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 3962.846 | Karl-NAB | |
 | 2 | 3958.175 | Fumiaki | |
-| 3 | 3957.463 | Breadcentric | |
+| 3 | 3957.540 | Breadcentric | * |
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
 | 6 | 3955.775 | nero-DNPds | |
@@ -21,7 +21,7 @@
 | 14 | 3951.829 | mogamin | |
 | 15 | 3951.253 | JimWu | |
 | 16 | 3951.149 | Jochem | |
-| 17 | 3950.597 | ABaykov | * |
+| 17 | 3950.597 | ABaykov | |
 | 18 | 3950.448 | kimwooglae | |
 | 19 | 3950.312 | leo-DNPds | |
 | 20 | 3946.386 | hyeonwoo | |
