@@ -21,14 +21,14 @@
 | 14 | 3951.829 | mogamin | |
 | 15 | 3951.253 | JimWu | |
 | 16 | 3951.149 | Jochem | |
-| 17 | 3950.448 | kimwooglae | |
-| 18 | 3950.365 | ABaykov | |
+| 17 | 3950.597 | ABaykov | * |
+| 18 | 3950.448 | kimwooglae | |
 | 19 | 3950.312 | leo-DNPds | |
 | 20 | 3946.386 | hyeonwoo | |
 | 21 | 3945.067 | TonyJ | |
 | 22 | 3944.833 | nalbam | |
 | 23 | 3944.418 | Kire | |
-| 24 | 3943.517 | RichardFan | * |
+| 24 | 3943.517 | RichardFan | |
 | 25 | 3942.541 | BespinRacer | |
 | 26 | 3942.303 | t-maru078 | |
 | 27 | 3941.339 | RayG | |
