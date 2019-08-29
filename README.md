@@ -15,7 +15,7 @@
 | 8 | 3953.709 | sola-DNPds | |
 | 9 | 3953.164 | hiroisojp | |
 | 10 | 3953.035 | nalbam-me | |
-| 11 | 3952.554 | Jouni-Cybercom | * |
+| 11 | 3952.554 | Jouni-Cybercom | |
 | 12 | 3952.534 | Aiis-DNP | |
 | 13 | 3952.129 | maeda-ai | |
 | 14 | 3951.253 | JimWu | |
@@ -34,9 +34,9 @@
 | 27 | 3939.448 | SF | |
 | 28 | 3939.003 | HY-DNP | |
 | 29 | 3938.550 | KAGRAZAKA-DNP | |
-| 30 | 3937.442 | Maverick | |
-| 31 | 3937.000 | KJH | |
-| 32 | 3933.624 | Alex-Schultz | |
-| 33 | 3856.897 | kito-DNPds | |
-| 34 | 2970.379 | Paul-NAB | |
-| 35 | 2962.347 | mogamin | |
+| 30 | 3937.000 | KJH | |
+| 31 | 3933.624 | Alex-Schultz | |
+| 32 | 3856.897 | kito-DNPds | |
+| 33 | 2970.379 | Paul-NAB | |
+| 34 | 2962.347 | mogamin | |
+| 35 | 2960.280 | yuki-h | * |
