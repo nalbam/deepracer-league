@@ -7,16 +7,16 @@
 | - | ----- | --------- | - |
 | 1 | 3962.846 | Karl-NAB | |
 | 2 | 3958.175 | Fumiaki | |
-| 3 | 3957.540 | Breadcentric | * |
+| 3 | 3957.540 | Breadcentric | |
 | 4 | 3956.187 | Etaggel | |
 | 5 | 3956.177 | PGS-Tomasz-Panek | |
 | 6 | 3955.775 | nero-DNPds | |
 | 7 | 3955.065 | JasonLian | |
 | 8 | 3953.709 | sola-DNPds | |
-| 9 | 3953.164 | hiroisojp | |
-| 10 | 3953.035 | nalbam-me | |
-| 11 | 3952.554 | Jouni-Cybercom | |
-| 12 | 3952.534 | Aiis-DNP | |
+| 9 | 3953.513 | Aiis-DNP | * |
+| 10 | 3953.164 | hiroisojp | |
+| 11 | 3953.035 | nalbam-me | |
+| 12 | 3952.554 | Jouni-Cybercom | |
 | 13 | 3952.129 | maeda-ai | |
 | 14 | 3951.829 | mogamin | |
 | 15 | 3951.253 | JimWu | |
