@@ -6,10 +6,10 @@ SHELL_DIR=$(dirname $0)
 
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
-SEASONS="2019-05 2019-06 2019-07 2019-08"
+SEASONS="2019-05 2019-06 2019-07 2019-08 2019-09"
 
 FIRST="2019-05"
-LATEST="2019-08"
+LATEST="2019-09"
 
 USERNAME=${CIRCLE_PROJECT_USERNAME:-nalbam}
 REPONAME=${CIRCLE_PROJECT_REPONAME:-deepracer}
