@@ -6,10 +6,10 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 4946.359 | nero-DNPds | |
-| 2 | 4946.130 | PGS-Tomasz-Panek | * |
+| 2 | 4946.130 | PGS-Tomasz-Panek | |
 | 3 | 4943.271 | sola-DNPds | |
 | 4 | 4942.915 | nalbam-me | |
-| 5 | 4941.798 | Aiis-DNP | * |
+| 5 | 4941.798 | Aiis-DNP | |
 | 6 | 4941.751 | JimWu | |
 | 7 | 4941.592 | hiroisojp | |
 | 8 | 4940.273 | kimwooglae | |
@@ -21,22 +21,22 @@
 | 14 | 4925.840 | Maverick | |
 | 15 | 4923.688 | KAGRAZAKA-DNP | |
 | 16 | 4912.306 | Alex-Schultz | |
-| 17 | 3962.846 | Karl-NAB | |
-| 18 | 3958.175 | Fumiaki | |
-| 19 | 3957.540 | Breadcentric | |
-| 20 | 3956.187 | Etaggel | |
-| 21 | 3955.065 | JasonLian | |
-| 22 | 3952.837 | mogamin | |
-| 23 | 3952.554 | Jouni-Cybercom | |
-| 24 | 3952.129 | maeda-ai | |
-| 25 | 3946.386 | hyeonwoo | |
-| 26 | 3945.067 | TonyJ | |
-| 27 | 3944.833 | nalbam | |
-| 28 | 3943.517 | RichardFan | |
-| 29 | 3942.541 | BespinRacer | |
-| 30 | 3942.303 | t-maru078 | |
-| 31 | 3941.339 | RayG | |
-| 32 | 3939.930 | SF | |
-| 33 | 3937.000 | KJH | |
-| 34 | 3856.897 | kito-DNPds | |
+| 17 | 4843.599 | kito-DNPds | * |
+| 18 | 3962.846 | Karl-NAB | |
+| 19 | 3958.175 | Fumiaki | |
+| 20 | 3957.540 | Breadcentric | |
+| 21 | 3956.187 | Etaggel | |
+| 22 | 3955.065 | JasonLian | |
+| 23 | 3952.837 | mogamin | |
+| 24 | 3952.554 | Jouni-Cybercom | |
+| 25 | 3952.129 | maeda-ai | |
+| 26 | 3946.386 | hyeonwoo | |
+| 27 | 3945.067 | TonyJ | |
+| 28 | 3944.833 | nalbam | |
+| 29 | 3943.517 | RichardFan | |
+| 30 | 3942.541 | BespinRacer | |
+| 31 | 3942.303 | t-maru078 | |
+| 32 | 3941.339 | RayG | |
+| 33 | 3939.930 | SF | |
+| 34 | 3937.000 | KJH | |
 | 35 | 2976.942 | ZivHsu | |
