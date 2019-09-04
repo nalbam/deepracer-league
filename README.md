@@ -7,13 +7,13 @@
 | - | ----- | --------- | - |
 | 1 | 4946.467 | PGS-Tomasz-Panek | |
 | 2 | 4946.359 | nero-DNPds | |
-| 3 | 4946.314 | JasonLian | * |
+| 3 | 4946.314 | JasonLian | |
 | 4 | 4943.271 | sola-DNPds | |
 | 5 | 4942.915 | nalbam-me | |
 | 6 | 4942.861 | Aiis-DNP | |
 | 7 | 4941.751 | JimWu | |
 | 8 | 4941.592 | hiroisojp | |
-| 9 | 4940.718 | kimwooglae | * |
+| 9 | 4940.718 | kimwooglae | |
 | 10 | 4939.540 | ABaykov | |
 | 11 | 4939.238 | Jochem | |
 | 12 | 4938.738 | leo-DNPds | |
@@ -21,7 +21,7 @@
 | 14 | 4927.791 | HY-DNP | |
 | 15 | 4925.840 | Maverick | |
 | 16 | 4923.688 | KAGRAZAKA-DNP | |
-| 17 | 4917.640 | Alex-Schultz | |
+| 17 | 4921.096 | Alex-Schultz | * |
 | 18 | 4914.396 | StarlightDreamStudio | |
 | 19 | 4843.629 | kito-DNPds | |
 | 20 | 3962.846 | Karl-NAB | |
