@@ -21,7 +21,7 @@
 | 14 | 4927.791 | HY-DNP | |
 | 15 | 4925.840 | Maverick | |
 | 16 | 4923.688 | KAGRAZAKA-DNP | |
-| 17 | 4917.487 | Alex-Schultz | * |
+| 17 | 4917.640 | Alex-Schultz | * |
 | 18 | 4914.396 | StarlightDreamStudio | |
 | 19 | 4843.629 | kito-DNPds | |
 | 20 | 3962.846 | Karl-NAB | |
