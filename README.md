@@ -7,13 +7,13 @@
 | - | ----- | --------- | - |
 | 1 | 4946.467 | PGS-Tomasz-Panek | |
 | 2 | 4946.359 | nero-DNPds | |
-| 3 | 4945.675 | JasonLian | * |
+| 3 | 4946.314 | JasonLian | * |
 | 4 | 4943.271 | sola-DNPds | |
 | 5 | 4942.915 | nalbam-me | |
 | 6 | 4942.861 | Aiis-DNP | |
 | 7 | 4941.751 | JimWu | |
 | 8 | 4941.592 | hiroisojp | |
-| 9 | 4940.273 | kimwooglae | |
+| 9 | 4940.718 | kimwooglae | * |
 | 10 | 4939.540 | ABaykov | |
 | 11 | 4939.238 | Jochem | |
 | 12 | 4938.738 | leo-DNPds | |
