@@ -10,7 +10,7 @@
 | 3 | 4944.865 | JasonLian | |
 | 4 | 4943.271 | sola-DNPds | |
 | 5 | 4942.915 | nalbam-me | |
-| 6 | 4942.861 | Aiis-DNP | * |
+| 6 | 4942.861 | Aiis-DNP | |
 | 7 | 4941.751 | JimWu | |
 | 8 | 4941.592 | hiroisojp | |
 | 9 | 4940.273 | kimwooglae | |
@@ -21,8 +21,8 @@
 | 14 | 4927.791 | HY-DNP | |
 | 15 | 4925.840 | Maverick | |
 | 16 | 4923.688 | KAGRAZAKA-DNP | |
-| 17 | 4914.396 | StarlightDreamStudio | |
-| 18 | 4912.306 | Alex-Schultz | |
+| 17 | 4917.487 | Alex-Schultz | * |
+| 18 | 4914.396 | StarlightDreamStudio | |
 | 19 | 4843.629 | kito-DNPds | |
 | 20 | 3962.846 | Karl-NAB | |
 | 21 | 3958.175 | Fumiaki | |
