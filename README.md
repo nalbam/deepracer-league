@@ -5,9 +5,9 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4946.359 | nero-DNPds | |
-| 2 | 4946.130 | PGS-Tomasz-Panek | |
-| 3 | 4945.424 | JasonLian | * |
+| 1 | 4946.467 | PGS-Tomasz-Panek | * |
+| 2 | 4946.359 | nero-DNPds | |
+| 3 | 4945.424 | JasonLian | |
 | 4 | 4943.271 | sola-DNPds | |
 | 5 | 4942.915 | nalbam-me | |
 | 6 | 4942.861 | Aiis-DNP | |
