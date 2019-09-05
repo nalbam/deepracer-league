@@ -8,7 +8,7 @@
 | 1 | 4946.864 | PGS-Tomasz-Panek | |
 | 2 | 4946.359 | nero-DNPds | |
 | 3 | 4946.314 | JasonLian | |
-| 4 | 4944.081 | Aiis-DNP | * |
+| 4 | 4944.081 | Aiis-DNP | |
 | 5 | 4943.271 | sola-DNPds | |
 | 6 | 4942.915 | nalbam-me | |
 | 7 | 4941.751 | JimWu | |
@@ -17,13 +17,13 @@
 | 10 | 4939.540 | ABaykov | |
 | 11 | 4939.238 | Jochem | |
 | 12 | 4938.738 | leo-DNPds | |
-| 13 | 4927.832 | Kire | |
+| 13 | 4933.903 | Kire | * |
 | 14 | 4927.791 | HY-DNP | |
 | 15 | 4925.840 | Maverick | |
 | 16 | 4923.688 | KAGRAZAKA-DNP | |
 | 17 | 4922.020 | Alex-Schultz | |
 | 18 | 4914.396 | StarlightDreamStudio | |
-| 19 | 4843.808 | kito-DNPds | * |
+| 19 | 4843.808 | kito-DNPds | |
 | 20 | 3962.846 | Karl-NAB | |
 | 21 | 3958.175 | Fumiaki | |
 | 22 | 3957.540 | Breadcentric | |
