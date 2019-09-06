@@ -24,7 +24,7 @@
 | 17 | 4923.688 | KAGRAZAKA-DNP | |
 | 18 | 4922.020 | Alex-Schultz | |
 | 19 | 4914.396 | StarlightDreamStudio | |
-| 20 | 4844.115 | kito-DNPds | * |
+| 20 | 4844.969 | kito-DNPds | * |
 | 21 | 3962.846 | Karl-NAB | |
 | 22 | 3958.175 | Fumiaki | |
 | 23 | 3957.540 | Breadcentric | |
