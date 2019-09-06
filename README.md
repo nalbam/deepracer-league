@@ -12,12 +12,12 @@
 | 5 | 4943.271 | sola-DNPds | |
 | 6 | 4942.915 | nalbam-me | |
 | 7 | 4941.751 | JimWu | |
-| 8 | 4941.592 | hiroisojp | |
+| 8 | 4941.702 | hiroisojp | * |
 | 9 | 4940.780 | kimwooglae | |
 | 10 | 4939.540 | ABaykov | |
 | 11 | 4939.238 | Jochem | |
 | 12 | 4938.738 | leo-DNPds | |
-| 13 | 4934.159 | Kire | * |
+| 13 | 4934.159 | Kire | |
 | 14 | 4927.791 | HY-DNP | |
 | 15 | 4925.840 | Maverick | |
 | 16 | 4923.688 | KAGRAZAKA-DNP | |
