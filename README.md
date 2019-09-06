@@ -15,7 +15,7 @@
 | 8 | 4941.702 | hiroisojp | |
 | 9 | 4940.780 | kimwooglae | |
 | 10 | 4939.540 | ABaykov | |
-| 11 | 4939.238 | Jochem | |
+| 11 | 4939.415 | Jochem | * |
 | 12 | 4938.738 | leo-DNPds | |
 | 13 | 4934.493 | Kire | |
 | 14 | 4934.418 | TonyJ | |
@@ -24,7 +24,7 @@
 | 17 | 4923.688 | KAGRAZAKA-DNP | |
 | 18 | 4922.020 | Alex-Schultz | |
 | 19 | 4914.396 | StarlightDreamStudio | |
-| 20 | 4844.969 | kito-DNPds | * |
+| 20 | 4844.969 | kito-DNPds | |
 | 21 | 3962.846 | Karl-NAB | |
 | 22 | 3958.175 | Fumiaki | |
 | 23 | 3957.540 | Breadcentric | |
