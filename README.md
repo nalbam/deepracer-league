@@ -19,14 +19,14 @@
 | 12 | 4938.738 | leo-DNPds | |
 | 13 | 4934.644 | Kire | |
 | 14 | 4934.418 | TonyJ | |
-| 15 | 4933.281 | RichardFan | * |
+| 15 | 4933.281 | RichardFan | |
 | 16 | 4927.791 | HY-DNP | |
 | 17 | 4925.840 | Maverick | |
 | 18 | 4923.688 | KAGRAZAKA-DNP | |
 | 19 | 4922.020 | Alex-Schultz | |
 | 20 | 4914.397 | StarlightDreamStudio | |
 | 21 | 4844.969 | kito-DNPds | |
-| 22 | 4292.695 | Karl-NAB | |
+| 22 | 4309.986 | Karl-NAB | * |
 | 23 | 3958.175 | Fumiaki | |
 | 24 | 3957.540 | Breadcentric | |
 | 25 | 3956.187 | Etaggel | |
