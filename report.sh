@@ -155,7 +155,7 @@ _build() {
 
             if [ "${SUB_TIME}" != "" ]; then
                 if [ "${SUB_POINTS}" == "null" ]; then
-                    SUB_POINTS=$(echo "1000-${ARR[0]:3}" | bc)
+                    SUB_POINTS=$(echo "1000-60*${ARR[0]:0:2}-${ARR[0]:3}" | bc)
                 fi
 
                 POINTS=$(echo "${POINTS}+${SUB_POINTS}" | bc)
