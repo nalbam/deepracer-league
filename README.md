@@ -5,28 +5,28 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4952.695 | Karl-NAB | * |
-| 2 | 4946.864 | PGS-Tomasz-Panek | |
-| 3 | 4946.359 | nero-DNPds | |
-| 4 | 4946.314 | JasonLian | |
-| 5 | 4944.081 | Aiis-DNP | |
-| 6 | 4943.271 | sola-DNPds | |
-| 7 | 4942.915 | nalbam-me | |
-| 8 | 4941.751 | JimWu | |
-| 9 | 4941.702 | hiroisojp | |
-| 10 | 4940.780 | kimwooglae | |
-| 11 | 4939.540 | ABaykov | |
-| 12 | 4939.415 | Jochem | |
-| 13 | 4938.738 | leo-DNPds | |
-| 14 | 4934.557 | Kire | |
-| 15 | 4934.418 | TonyJ | |
-| 16 | 4932.728 | RichardFan | |
-| 17 | 4927.791 | HY-DNP | |
-| 18 | 4925.840 | Maverick | |
-| 19 | 4923.688 | KAGRAZAKA-DNP | |
-| 20 | 4922.020 | Alex-Schultz | |
-| 21 | 4914.397 | StarlightDreamStudio | |
-| 22 | 4844.969 | kito-DNPds | |
+| 1 | 4946.864 | PGS-Tomasz-Panek | |
+| 2 | 4946.359 | nero-DNPds | |
+| 3 | 4946.314 | JasonLian | |
+| 4 | 4944.081 | Aiis-DNP | |
+| 5 | 4943.271 | sola-DNPds | |
+| 6 | 4942.915 | nalbam-me | |
+| 7 | 4941.751 | JimWu | |
+| 8 | 4941.702 | hiroisojp | |
+| 9 | 4940.780 | kimwooglae | |
+| 10 | 4939.540 | ABaykov | |
+| 11 | 4939.415 | Jochem | |
+| 12 | 4938.738 | leo-DNPds | |
+| 13 | 4934.557 | Kire | |
+| 14 | 4934.418 | TonyJ | |
+| 15 | 4932.728 | RichardFan | |
+| 16 | 4927.791 | HY-DNP | |
+| 17 | 4925.840 | Maverick | |
+| 18 | 4923.688 | KAGRAZAKA-DNP | |
+| 19 | 4922.020 | Alex-Schultz | |
+| 20 | 4914.397 | StarlightDreamStudio | |
+| 21 | 4844.969 | kito-DNPds | |
+| 22 | 4292.695 | Karl-NAB | * |
 | 23 | 3958.175 | Fumiaki | |
 | 24 | 3957.540 | Breadcentric | |
 | 25 | 3956.187 | Etaggel | |
