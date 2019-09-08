@@ -8,7 +8,7 @@
 | 1 | 4946.864 | PGS-Tomasz-Panek | |
 | 2 | 4946.359 | nero-DNPds | |
 | 3 | 4946.314 | JasonLian | |
-| 4 | 4945.194 | Etaggel | * |
+| 4 | 4945.194 | Etaggel | |
 | 5 | 4944.081 | Aiis-DNP | |
 | 6 | 4943.271 | sola-DNPds | |
 | 7 | 4942.915 | nalbam-me | |
@@ -18,7 +18,7 @@
 | 11 | 4939.540 | ABaykov | |
 | 12 | 4939.415 | Jochem | |
 | 13 | 4938.738 | leo-DNPds | |
-| 14 | 4934.644 | Kire | |
+| 14 | 4934.914 | Kire | * |
 | 15 | 4934.418 | TonyJ | |
 | 16 | 4933.281 | RichardFan | |
 | 17 | 4927.791 | HY-DNP | |
