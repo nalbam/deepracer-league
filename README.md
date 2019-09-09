@@ -21,11 +21,11 @@
 | 14 | 4934.914 | Kire | |
 | 15 | 4934.418 | TonyJ | |
 | 16 | 4933.281 | RichardFan | |
-| 17 | 4927.791 | HY-DNP | |
+| 17 | 4928.130 | HY-DNP | * |
 | 18 | 4925.840 | Maverick | |
 | 19 | 4923.688 | KAGRAZAKA-DNP | |
 | 20 | 4922.020 | Alex-Schultz | |
-| 21 | 4914.604 | StarlightDreamStudio | * |
+| 21 | 4914.604 | StarlightDreamStudio | |
 | 22 | 4844.969 | kito-DNPds | |
 | 23 | 4309.986 | Karl-NAB | |
 | 24 | 3958.175 | Fumiaki | |
