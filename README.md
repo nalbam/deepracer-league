@@ -6,9 +6,9 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 4946.864 | PGS-Tomasz-Panek | |
-| 2 | 4946.359 | nero-DNPds | |
-| 3 | 4946.314 | JasonLian | |
-| 4 | 4946.293 | Breadcentric | * |
+| 2 | 4946.851 | Breadcentric | * |
+| 3 | 4946.359 | nero-DNPds | |
+| 4 | 4946.314 | JasonLian | |
 | 5 | 4946.139 | Etaggel | |
 | 6 | 4944.081 | Aiis-DNP | |
 | 7 | 4943.271 | sola-DNPds | |
