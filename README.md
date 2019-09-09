@@ -17,7 +17,7 @@
 | 10 | 4940.780 | kimwooglae | |
 | 11 | 4940.257 | Jochem | |
 | 12 | 4939.540 | ABaykov | |
-| 13 | 4939.195 | leo-DNPds | * |
+| 13 | 4939.195 | leo-DNPds | |
 | 14 | 4934.914 | Kire | |
 | 15 | 4934.418 | TonyJ | |
 | 16 | 4933.281 | RichardFan | |
@@ -25,7 +25,7 @@
 | 18 | 4925.840 | Maverick | |
 | 19 | 4923.688 | KAGRAZAKA-DNP | |
 | 20 | 4922.020 | Alex-Schultz | |
-| 21 | 4914.397 | StarlightDreamStudio | |
+| 21 | 4914.604 | StarlightDreamStudio | * |
 | 22 | 4844.969 | kito-DNPds | |
 | 23 | 4309.986 | Karl-NAB | |
 | 24 | 3958.175 | Fumiaki | |
