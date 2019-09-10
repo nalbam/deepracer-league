@@ -5,11 +5,11 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4947.075 | Breadcentric | * |
+| 1 | 4947.075 | Breadcentric | |
 | 2 | 4946.864 | PGS-Tomasz-Panek | |
 | 3 | 4946.359 | nero-DNPds | |
 | 4 | 4946.314 | JasonLian | |
-| 5 | 4946.149 | Etaggel | |
+| 5 | 4946.154 | Etaggel | * |
 | 6 | 4944.081 | Aiis-DNP | |
 | 7 | 4943.271 | sola-DNPds | |
 | 8 | 4942.915 | nalbam-me | |
