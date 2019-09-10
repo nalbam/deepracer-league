@@ -10,7 +10,7 @@
 | 3 | 4946.359 | nero-DNPds | |
 | 4 | 4946.314 | JasonLian | |
 | 5 | 4946.154 | Etaggel | |
-| 6 | 4944.081 | Aiis-DNP | |
+| 6 | 4944.271 | Aiis-DNP | * |
 | 7 | 4943.271 | sola-DNPds | |
 | 8 | 4942.915 | nalbam-me | |
 | 9 | 4941.751 | JimWu | |
@@ -24,7 +24,7 @@
 | 17 | 4933.281 | RichardFan | |
 | 18 | 4928.130 | HY-DNP | |
 | 19 | 4925.840 | Maverick | |
-| 20 | 4924.283 | KAGRAZAKA-DNP | * |
+| 20 | 4924.283 | KAGRAZAKA-DNP | |
 | 21 | 4922.020 | Alex-Schultz | |
 | 22 | 4914.604 | StarlightDreamStudio | |
 | 23 | 4844.969 | kito-DNPds | |
