@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4948.432 | Breadcentric | * |
+| 1 | 4948.432 | Breadcentric | |
 | 2 | 4946.911 | PGS-Tomasz-Panek | |
 | 3 | 4946.550 | Etaggel | |
 | 4 | 4946.359 | nero-DNPds | |
@@ -24,7 +24,7 @@
 | 17 | 4933.281 | RichardFan | |
 | 18 | 4929.189 | HY-DNP | |
 | 19 | 4925.840 | Maverick | |
-| 20 | 4924.283 | KAGRAZAKA-DNP | |
+| 20 | 4924.962 | KAGRAZAKA-DNP | * |
 | 21 | 4922.020 | Alex-Schultz | |
 | 22 | 4914.604 | StarlightDreamStudio | |
 | 23 | 4844.969 | kito-DNPds | |
