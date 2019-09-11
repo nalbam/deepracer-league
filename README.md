@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4948.362 | Breadcentric | * |
+| 1 | 4948.432 | Breadcentric | * |
 | 2 | 4946.911 | PGS-Tomasz-Panek | |
 | 3 | 4946.550 | Etaggel | |
 | 4 | 4946.359 | nero-DNPds | |
