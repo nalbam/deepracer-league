@@ -20,7 +20,7 @@
 | 13 | 4940.240 | Jouni-Cybercom | |
 | 14 | 4939.540 | ABaykov | |
 | 15 | 4939.195 | leo-DNPds | |
-| 16 | 4935.227 | Kire | |
+| 16 | 4935.256 | Kire | * |
 | 17 | 4934.418 | TonyJ | |
 | 18 | 4933.281 | RichardFan | |
 | 19 | 4929.189 | HY-DNP | |
@@ -39,4 +39,4 @@
 | 32 | 3941.339 | RayG | |
 | 33 | 3939.930 | SF | |
 | 34 | 3937.000 | KJH | |
-| 35 | 3927.333 | StarlightDreamStudio | * |
+| 35 | 3927.333 | StarlightDreamStudio | |
