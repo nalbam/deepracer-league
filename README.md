@@ -13,10 +13,10 @@
 | 6 | 4944.271 | Aiis-DNP | |
 | 7 | 4943.271 | sola-DNPds | |
 | 8 | 4942.915 | nalbam-me | |
-| 9 | 4942.031 | maeda-ai | * |
+| 9 | 4942.031 | maeda-ai | |
 | 10 | 4941.751 | JimWu | |
 | 11 | 4941.702 | hiroisojp | |
-| 12 | 4940.780 | kimwooglae | |
+| 12 | 4940.939 | kimwooglae | * |
 | 13 | 4940.549 | Jochem | |
 | 14 | 4940.240 | Jouni-Cybercom | |
 | 15 | 4939.540 | ABaykov | |
