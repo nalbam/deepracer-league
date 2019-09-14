@@ -16,8 +16,8 @@
 | 9 | 4942.031 | maeda-ai | |
 | 10 | 4941.751 | JimWu | |
 | 11 | 4941.702 | hiroisojp | |
-| 12 | 4940.939 | kimwooglae | * |
-| 13 | 4940.549 | Jochem | |
+| 12 | 4940.939 | kimwooglae | |
+| 13 | 4940.762 | Jochem | * |
 | 14 | 4940.240 | Jouni-Cybercom | |
 | 15 | 4939.540 | ABaykov | |
 | 16 | 4939.195 | leo-DNPds | |
