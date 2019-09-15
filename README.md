@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 4948.568 | Breadcentric | |
 | 2 | 4946.920 | PGS-Tomasz-Panek | |
-| 3 | 4946.823 | Etaggel | * |
+| 3 | 4946.823 | Etaggel | |
 | 4 | 4946.359 | nero-DNPds | |
 | 5 | 4946.314 | JasonLian | |
 | 6 | 4944.271 | Aiis-DNP | |
@@ -21,7 +21,7 @@
 | 14 | 4940.240 | Jouni-Cybercom | |
 | 15 | 4939.540 | ABaykov | |
 | 16 | 4939.195 | leo-DNPds | |
-| 17 | 4935.256 | Kire | |
+| 17 | 4935.562 | Kire | * |
 | 18 | 4934.418 | TonyJ | |
 | 19 | 4933.281 | RichardFan | |
 | 20 | 4929.189 | HY-DNP | |
