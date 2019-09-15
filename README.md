@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 4948.568 | Breadcentric | |
 | 2 | 4946.920 | PGS-Tomasz-Panek | |
-| 3 | 4946.731 | Etaggel | |
+| 3 | 4946.823 | Etaggel | * |
 | 4 | 4946.359 | nero-DNPds | |
 | 5 | 4946.314 | JasonLian | |
 | 6 | 4944.271 | Aiis-DNP | |
@@ -16,7 +16,7 @@
 | 9 | 4942.031 | maeda-ai | |
 | 10 | 4941.751 | JimWu | |
 | 11 | 4941.702 | hiroisojp | |
-| 12 | 4940.972 | Jochem | * |
+| 12 | 4940.972 | Jochem | |
 | 13 | 4940.939 | kimwooglae | |
 | 14 | 4940.240 | Jouni-Cybercom | |
 | 15 | 4939.540 | ABaykov | |
