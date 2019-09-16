@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 4948.568 | Breadcentric | |
 | 2 | 4946.920 | PGS-Tomasz-Panek | |
-| 3 | 4946.858 | Etaggel | * |
+| 3 | 4946.858 | Etaggel | |
 | 4 | 4946.359 | nero-DNPds | |
 | 5 | 4946.314 | JasonLian | |
 | 6 | 4944.271 | Aiis-DNP | |
@@ -25,18 +25,18 @@
 | 18 | 4934.418 | TonyJ | |
 | 19 | 4933.281 | RichardFan | |
 | 20 | 4929.189 | HY-DNP | |
-| 21 | 4925.840 | Maverick | |
-| 22 | 4924.962 | KAGRAZAKA-DNP | |
-| 23 | 4922.020 | Alex-Schultz | |
-| 24 | 4844.969 | kito-DNPds | |
-| 25 | 4309.986 | Karl-NAB | |
-| 26 | 3958.175 | Fumiaki | |
-| 27 | 3952.837 | mogamin | |
-| 28 | 3946.386 | hyeonwoo | |
-| 29 | 3944.833 | nalbam | |
-| 30 | 3942.541 | BespinRacer | |
-| 31 | 3942.303 | t-maru078 | |
-| 32 | 3941.339 | RayG | |
+| 21 | 4928.632 | RayG | * |
+| 22 | 4925.840 | Maverick | |
+| 23 | 4924.962 | KAGRAZAKA-DNP | |
+| 24 | 4922.020 | Alex-Schultz | |
+| 25 | 4844.969 | kito-DNPds | |
+| 26 | 4309.986 | Karl-NAB | |
+| 27 | 3958.175 | Fumiaki | |
+| 28 | 3952.837 | mogamin | |
+| 29 | 3946.386 | hyeonwoo | |
+| 30 | 3944.833 | nalbam | |
+| 31 | 3942.541 | BespinRacer | |
+| 32 | 3942.303 | t-maru078 | |
 | 33 | 3939.930 | SF | |
 | 34 | 3937.000 | KJH | |
 | 35 | 3927.333 | StarlightDreamStudio | |
