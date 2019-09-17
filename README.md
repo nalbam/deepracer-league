@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4948.569 | Breadcentric | * |
+| 1 | 4948.569 | Breadcentric | |
 | 2 | 4946.920 | PGS-Tomasz-Panek | |
 | 3 | 4946.858 | Etaggel | |
 | 4 | 4946.359 | nero-DNPds | |
@@ -27,14 +27,14 @@
 | 20 | 4932.355 | nalbam | |
 | 21 | 4929.877 | RayG | |
 | 22 | 4929.189 | HY-DNP | |
-| 23 | 4925.840 | Maverick | |
-| 24 | 4924.962 | KAGRAZAKA-DNP | |
-| 25 | 4922.020 | Alex-Schultz | |
-| 26 | 4844.969 | kito-DNPds | |
-| 27 | 4309.986 | Karl-NAB | |
-| 28 | 3958.175 | Fumiaki | |
-| 29 | 3952.837 | mogamin | |
-| 30 | 3946.386 | hyeonwoo | |
+| 23 | 4927.447 | hyeonwoo | * |
+| 24 | 4925.840 | Maverick | |
+| 25 | 4924.962 | KAGRAZAKA-DNP | |
+| 26 | 4922.020 | Alex-Schultz | |
+| 27 | 4844.969 | kito-DNPds | |
+| 28 | 4309.986 | Karl-NAB | |
+| 29 | 3958.175 | Fumiaki | |
+| 30 | 3952.837 | mogamin | |
 | 31 | 3942.541 | BespinRacer | |
 | 32 | 3942.303 | t-maru078 | |
 | 33 | 3939.930 | SF | |
