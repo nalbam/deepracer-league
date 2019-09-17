@@ -24,17 +24,17 @@
 | 17 | 4935.562 | Kire | |
 | 18 | 4934.418 | TonyJ | |
 | 19 | 4933.281 | RichardFan | |
-| 20 | 4929.877 | RayG | * |
-| 21 | 4929.189 | HY-DNP | |
-| 22 | 4925.840 | Maverick | |
-| 23 | 4924.962 | KAGRAZAKA-DNP | |
-| 24 | 4922.020 | Alex-Schultz | |
-| 25 | 4844.969 | kito-DNPds | |
-| 26 | 4309.986 | Karl-NAB | |
-| 27 | 3958.175 | Fumiaki | |
-| 28 | 3952.837 | mogamin | |
-| 29 | 3946.386 | hyeonwoo | |
-| 30 | 3944.833 | nalbam | |
+| 20 | 4932.355 | nalbam | * |
+| 21 | 4929.877 | RayG | |
+| 22 | 4929.189 | HY-DNP | |
+| 23 | 4925.840 | Maverick | |
+| 24 | 4924.962 | KAGRAZAKA-DNP | |
+| 25 | 4922.020 | Alex-Schultz | |
+| 26 | 4844.969 | kito-DNPds | |
+| 27 | 4309.986 | Karl-NAB | |
+| 28 | 3958.175 | Fumiaki | |
+| 29 | 3952.837 | mogamin | |
+| 30 | 3946.386 | hyeonwoo | |
 | 31 | 3942.541 | BespinRacer | |
 | 32 | 3942.303 | t-maru078 | |
 | 33 | 3939.930 | SF | |
