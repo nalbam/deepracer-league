@@ -6,8 +6,8 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 4948.900 | Breadcentric | |
-| 2 | 4946.920 | PGS-Tomasz-Panek | |
-| 3 | 4946.858 | Etaggel | |
+| 2 | 4947.019 | Etaggel | * |
+| 3 | 4946.920 | PGS-Tomasz-Panek | |
 | 4 | 4946.359 | nero-DNPds | |
 | 5 | 4946.345 | JasonLian | |
 | 6 | 4944.271 | Aiis-DNP | |
@@ -25,7 +25,7 @@
 | 18 | 4934.418 | TonyJ | |
 | 19 | 4933.281 | RichardFan | |
 | 20 | 4932.355 | nalbam | |
-| 21 | 4930.063 | RayG | * |
+| 21 | 4930.063 | RayG | |
 | 22 | 4929.189 | HY-DNP | |
 | 23 | 4927.447 | hyeonwoo | |
 | 24 | 4925.840 | Maverick | |
