@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4948.568 | Breadcentric | |
+| 1 | 4948.569 | Breadcentric | * |
 | 2 | 4946.920 | PGS-Tomasz-Panek | |
 | 3 | 4946.858 | Etaggel | |
 | 4 | 4946.359 | nero-DNPds | |
@@ -24,7 +24,7 @@
 | 17 | 4935.562 | Kire | |
 | 18 | 4934.418 | TonyJ | |
 | 19 | 4933.281 | RichardFan | |
-| 20 | 4932.355 | nalbam | * |
+| 20 | 4932.355 | nalbam | |
 | 21 | 4929.877 | RayG | |
 | 22 | 4929.189 | HY-DNP | |
 | 23 | 4925.840 | Maverick | |
