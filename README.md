@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 4952.843 | Karl-NAB | |
 | 2 | 4948.900 | Breadcentric | |
-| 3 | 4947.269 | Etaggel | * |
+| 3 | 4947.269 | Etaggel | |
 | 4 | 4946.920 | PGS-Tomasz-Panek | |
 | 5 | 4946.359 | nero-DNPds | |
 | 6 | 4946.345 | JasonLian | |
@@ -15,7 +15,7 @@
 | 8 | 4943.271 | sola-DNPds | |
 | 9 | 4942.915 | nalbam-me | |
 | 10 | 4942.031 | maeda-ai | |
-| 11 | 4941.751 | JimWu | |
+| 11 | 4941.828 | JimWu | * |
 | 12 | 4941.702 | hiroisojp | |
 | 13 | 4940.972 | Jochem | |
 | 14 | 4940.939 | kimwooglae | |
