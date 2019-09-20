@@ -8,13 +8,13 @@
 | 1 | 4952.843 | Karl-NAB | |
 | 2 | 4948.900 | Breadcentric | |
 | 3 | 4947.269 | Etaggel | |
-| 4 | 4946.920 | PGS-Tomasz-Panek | |
+| 4 | 4947.062 | PGS-Tomasz-Panek | * |
 | 5 | 4946.359 | nero-DNPds | |
 | 6 | 4946.345 | JasonLian | |
 | 7 | 4944.271 | Aiis-DNP | |
 | 8 | 4943.271 | sola-DNPds | |
 | 9 | 4942.915 | nalbam-me | |
-| 10 | 4942.117 | Jouni-Cybercom | * |
+| 10 | 4942.117 | Jouni-Cybercom | |
 | 11 | 4942.031 | maeda-ai | |
 | 12 | 4941.879 | JimWu | |
 | 13 | 4941.702 | hiroisojp | |
