@@ -14,8 +14,8 @@
 | 7 | 4944.271 | Aiis-DNP | |
 | 8 | 4943.271 | sola-DNPds | |
 | 9 | 4942.915 | nalbam-me | |
-| 10 | 4942.031 | maeda-ai | |
-| 11 | 4941.968 | Jouni-Cybercom | * |
+| 10 | 4942.117 | Jouni-Cybercom | * |
+| 11 | 4942.031 | maeda-ai | |
 | 12 | 4941.879 | JimWu | |
 | 13 | 4941.702 | hiroisojp | |
 | 14 | 4941.129 | kimwooglae | |
