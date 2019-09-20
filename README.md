@@ -15,16 +15,16 @@
 | 8 | 4943.271 | sola-DNPds | |
 | 9 | 4942.915 | nalbam-me | |
 | 10 | 4942.031 | maeda-ai | |
-| 11 | 4941.879 | JimWu | |
-| 12 | 4941.702 | hiroisojp | |
-| 13 | 4941.129 | kimwooglae | |
-| 14 | 4940.972 | Jochem | |
-| 15 | 4940.240 | Jouni-Cybercom | |
+| 11 | 4941.968 | Jouni-Cybercom | * |
+| 12 | 4941.879 | JimWu | |
+| 13 | 4941.702 | hiroisojp | |
+| 14 | 4941.129 | kimwooglae | |
+| 15 | 4940.972 | Jochem | |
 | 16 | 4939.540 | ABaykov | |
 | 17 | 4939.195 | leo-DNPds | |
 | 18 | 4935.562 | Kire | |
 | 19 | 4934.418 | TonyJ | |
-| 20 | 4933.870 | RichardFan | * |
+| 20 | 4933.870 | RichardFan | |
 | 21 | 4932.355 | nalbam | |
 | 22 | 4930.104 | RayG | |
 | 23 | 4929.189 | HY-DNP | |
