@@ -212,6 +212,8 @@ _message() {
     echo "*DeepRacer Virtual Circuit Scoreboard*" > ${SHELL_DIR}/build/message.log
     cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
 
+    echo "${SLACK_TOKEN}"
+
     # readme
     IDX=1
     while read LINE; do
