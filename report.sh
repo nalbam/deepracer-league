@@ -11,12 +11,6 @@ SEASONS="2019-05 2019-06 2019-07 2019-08 2019-09"
 FIRST="2019-05"
 LATEST="2019-09"
 
-USERNAME=${CIRCLE_PROJECT_USERNAME:-nalbam}
-REPONAME=${CIRCLE_PROJECT_REPONAME:-deepracer}
-
-GIT_USERNAME="bot"
-GIT_USEREMAIL="bot@nalbam.com"
-
 CHANGED=
 
 # command -v tput > /dev/null && TPUT=true
@@ -194,14 +188,14 @@ _message() {
         ARR=(${LINE})
 
         if [ "x${COUNT}" != "x0" ]; then
-            echo "${IDX}\t${ARR[0]}\t${ARR[1]}" >> ${MESSAGE}
+            echo "${IDX}\t${ARR[0]}\t${ARR[1]}\n" >> ${MESSAGE}
             echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | |" >> ${README}
         else
             CHANGED=true
 
             _result "changed ${ARR[0]} ${ARR[1]}"
 
-            echo "${IDX}\t${ARR[0]}\t${ARR[1]}\t<<<<<<<" >> ${MESSAGE}
+            echo "${IDX}\t${ARR[0]}\t${ARR[1]}\t<<<<<<<\n" >> ${MESSAGE}
             echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | * |" >> ${README}
         fi
 
@@ -209,10 +203,15 @@ _message() {
     done < ${SHELL_DIR}/cache/points.log
 
     # message
-    echo "*DeepRacer Virtual Circuit Scoreboard*" > ${SHELL_DIR}/build/message.log
+    echo "*DeepRacer Virtual Circuit Scoreboard*\n" > ${SHELL_DIR}/build/message.log
     cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
 
-    echo "${SLACK_TOKEN}"
+    # slack message
+    json="{\"text\":\"$(cat ${SHELL_DIR}/build/message.log)\"}"
+    echo $json > ${SHELL_DIR}/build/slack_message.json
+
+    # commit message
+    printf "$(date +%Y%m%d-%H%M)" > ${SHELL_DIR}/build/commit_message.txt
 
     # readme
     IDX=1
@@ -257,37 +256,6 @@ _json() {
     echo "]}" >> ${JSON}
 }
 
-_git_push() {
-    _command "_git_push"
-
-    if [ -z ${GITHUB_TOKEN} ]; then
-        return
-    fi
-
-    DATE=$(date +%Y%m%d-%H%M)
-
-    git config --global user.name "${GIT_USERNAME}"
-    git config --global user.email "${GIT_USEREMAIL}"
-
-    git add --all
-    git commit -m "${DATE}"
-
-    git push -q https://${GITHUB_TOKEN}@github.com/${USERNAME}/${REPONAME}.git master
-}
-
-_slack() {
-    _command "_slack"
-
-    if [ -z ${SLACK_TOKEN} ]; then
-        return
-    fi
-
-    json="{\"text\":\"$(cat ${SHELL_DIR}/build/message.log)\"}"
-
-    webhook_url="https://hooks.slack.com/services/${SLACK_TOKEN}"
-    curl -s -d "payload=${json}" "${webhook_url}"
-}
-
 __main__() {
     _prepare
 
@@ -295,9 +263,8 @@ __main__() {
     _message
     _json
 
-    if [ ! -z ${CHANGED} ]; then
-        _git_push
-        _slack
+    if [ -z ${CHANGED} ]; then
+        _error
     fi
 
     _success
