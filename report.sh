@@ -247,7 +247,7 @@ _json() {
             echo "," >> ${JSON}
         fi
 
-        echo "{\"no\":${IDX},\"name\":\"${ARR[1]}\",\"point\":${ARR[0]}}" >> ${JSON}
+        printf "{\"no\":${IDX},\"name\":\"${ARR[1]}\",\"point\":${ARR[0]}}" >> ${JSON}
 
         IDX=$(( ${IDX} + 1 ))
     done < ${SHELL_DIR}/build/points.log
