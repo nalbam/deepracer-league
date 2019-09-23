@@ -16,7 +16,7 @@
 | 9 | 4942.915 | nalbam-me | |
 | 10 | 4942.117 | Jouni-Cybercom | |
 | 11 | 4942.031 | maeda-ai | |
-| 12 | 4941.891 | JimWu | * |
+| 12 | 4941.891 | JimWu | |
 | 13 | 4941.702 | hiroisojp | |
 | 14 | 4941.129 | kimwooglae | |
 | 15 | 4940.972 | Jochem | |
@@ -29,14 +29,14 @@
 | 22 | 4931.377 | RayG | |
 | 23 | 4929.189 | HY-DNP | |
 | 24 | 4927.447 | hyeonwoo | |
-| 25 | 4925.840 | Maverick | |
-| 26 | 4924.962 | KAGRAZAKA-DNP | |
-| 27 | 4922.020 | Alex-Schultz | |
-| 28 | 4844.969 | kito-DNPds | |
-| 29 | 3958.175 | Fumiaki | |
-| 30 | 3952.837 | mogamin | |
-| 31 | 3942.541 | BespinRacer | |
-| 32 | 3942.303 | t-maru078 | |
-| 33 | 3939.930 | SF | |
+| 25 | 4925.925 | SF | * |
+| 26 | 4925.840 | Maverick | |
+| 27 | 4924.962 | KAGRAZAKA-DNP | |
+| 28 | 4922.020 | Alex-Schultz | |
+| 29 | 4844.969 | kito-DNPds | |
+| 30 | 3958.175 | Fumiaki | |
+| 31 | 3952.837 | mogamin | |
+| 32 | 3942.541 | BespinRacer | |
+| 33 | 3942.303 | t-maru078 | |
 | 34 | 3937.075 | Carl | |
 | 35 | 3937.000 | KJH | |
