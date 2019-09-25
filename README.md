@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4953.203 | Karl-NAB | * |
+| 1 | 4953.203 | Karl-NAB | |
 | 2 | 4948.900 | Breadcentric | |
 | 3 | 4947.269 | Etaggel | |
 | 4 | 4947.062 | PGS-Tomasz-Panek | |
@@ -30,13 +30,13 @@
 | 23 | 4929.189 | HY-DNP | |
 | 24 | 4927.447 | hyeonwoo | |
 | 25 | 4926.527 | SF | |
-| 26 | 4925.840 | Maverick | |
-| 27 | 4924.962 | KAGRAZAKA-DNP | |
-| 28 | 4922.020 | Alex-Schultz | |
-| 29 | 4844.969 | kito-DNPds | |
-| 30 | 3958.175 | Fumiaki | |
-| 31 | 3952.837 | mogamin | |
-| 32 | 3942.541 | BespinRacer | |
-| 33 | 3942.303 | t-maru078 | |
+| 26 | 4924.962 | KAGRAZAKA-DNP | |
+| 27 | 4922.020 | Alex-Schultz | |
+| 28 | 4844.969 | kito-DNPds | |
+| 29 | 3958.175 | Fumiaki | |
+| 30 | 3952.837 | mogamin | |
+| 31 | 3942.541 | BespinRacer | |
+| 32 | 3942.303 | t-maru078 | |
+| 33 | 3937.442 | Maverick | * |
 | 34 | 3937.075 | Carl | |
 | 35 | 3937.000 | KJH | |
