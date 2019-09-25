@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 4952.843 | Karl-NAB | |
+| 1 | 4953.203 | Karl-NAB | * |
 | 2 | 4948.900 | Breadcentric | |
 | 3 | 4947.269 | Etaggel | |
 | 4 | 4947.062 | PGS-Tomasz-Panek | |
@@ -29,7 +29,7 @@
 | 22 | 4931.880 | RayG | |
 | 23 | 4929.189 | HY-DNP | |
 | 24 | 4927.447 | hyeonwoo | |
-| 25 | 4926.527 | SF | * |
+| 25 | 4926.527 | SF | |
 | 26 | 4925.840 | Maverick | |
 | 27 | 4924.962 | KAGRAZAKA-DNP | |
 | 28 | 4922.020 | Alex-Schultz | |
