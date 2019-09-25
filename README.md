@@ -18,10 +18,10 @@
 | 11 | 4942.031 | maeda-ai | |
 | 12 | 4941.891 | JimWu | |
 | 13 | 4941.702 | hiroisojp | |
-| 14 | 4941.208 | kimwooglae | * |
+| 14 | 4941.208 | kimwooglae | |
 | 15 | 4940.972 | Jochem | |
-| 16 | 4939.540 | ABaykov | |
-| 17 | 4939.195 | leo-DNPds | |
+| 16 | 4939.589 | leo-DNPds | * |
+| 17 | 4939.540 | ABaykov | |
 | 18 | 4935.562 | Kire | |
 | 19 | 4934.418 | TonyJ | |
 | 20 | 4933.870 | RichardFan | |
