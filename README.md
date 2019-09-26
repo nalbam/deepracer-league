@@ -26,13 +26,13 @@
 | 19 | 4934.418 | TonyJ | |
 | 20 | 4933.870 | RichardFan | |
 | 21 | 4932.355 | nalbam | |
-| 22 | 4931.984 | RayG | * |
-| 23 | 4929.189 | HY-DNP | |
-| 24 | 4928.896 | hyeonwoo | |
-| 25 | 4927.536 | KAGRAZAKA-DNP | |
-| 26 | 4926.921 | SF | |
-| 27 | 4922.020 | Alex-Schultz | |
-| 28 | 4887.162 | BespinRacer | |
+| 22 | 4931.984 | RayG | |
+| 23 | 4930.032 | BespinRacer | * |
+| 24 | 4929.189 | HY-DNP | |
+| 25 | 4928.896 | hyeonwoo | |
+| 26 | 4927.536 | KAGRAZAKA-DNP | |
+| 27 | 4926.921 | SF | |
+| 28 | 4922.020 | Alex-Schultz | |
 | 29 | 4844.969 | kito-DNPds | |
 | 30 | 3958.175 | Fumiaki | |
 | 31 | 3952.837 | mogamin | |
