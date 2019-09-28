@@ -27,7 +27,7 @@
 | 20 | 4934.418 | TonyJ | |
 | 21 | 4933.870 | RichardFan | |
 | 22 | 4932.355 | nalbam | |
-| 23 | 4932.249 | BespinRacer | * |
+| 23 | 4932.353 | BespinRacer | * |
 | 24 | 4931.984 | RayG | |
 | 25 | 4929.189 | HY-DNP | |
 | 26 | 4927.536 | KAGRAZAKA-DNP | |
