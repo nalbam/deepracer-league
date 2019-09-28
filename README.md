@@ -16,7 +16,7 @@
 | 9 | 4942.915 | nalbam-me | |
 | 10 | 4942.117 | Jouni-Cybercom | |
 | 11 | 4942.031 | maeda-ai | |
-| 12 | 4941.945 | JimWu | |
+| 12 | 4941.954 | JimWu | * |
 | 13 | 4941.702 | hiroisojp | |
 | 14 | 4941.208 | kimwooglae | |
 | 15 | 4940.972 | Jochem | |
@@ -26,7 +26,7 @@
 | 19 | 4934.806 | hyeonwoo | |
 | 20 | 4934.418 | TonyJ | |
 | 21 | 4933.870 | RichardFan | |
-| 22 | 4932.403 | BespinRacer | * |
+| 22 | 4932.403 | BespinRacer | |
 | 23 | 4932.355 | nalbam | |
 | 24 | 4931.984 | RayG | |
 | 25 | 4929.189 | HY-DNP | |
