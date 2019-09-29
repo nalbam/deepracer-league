@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 4953.203 | Karl-NAB | |
 | 2 | 4948.900 | Breadcentric | |
-| 3 | 4948.264 | Fumiaki | * |
+| 3 | 4948.643 | Fumiaki | * |
 | 4 | 4947.269 | Etaggel | |
 | 5 | 4947.062 | PGS-Tomasz-Panek | |
 | 6 | 4946.359 | nero-DNPds | |
