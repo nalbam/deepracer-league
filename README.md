@@ -15,7 +15,7 @@
 | 8 | 4944.271 | Aiis-DNP | |
 | 9 | 4943.271 | sola-DNPds | |
 | 10 | 4942.915 | nalbam-me | |
-| 11 | 4942.708 | Jouni-Cybercom | |
+| 11 | 4942.790 | Jouni-Cybercom | * |
 | 12 | 4942.097 | JimWu | |
 | 13 | 4942.031 | maeda-ai | |
 | 14 | 4941.702 | hiroisojp | |
@@ -34,7 +34,7 @@
 | 27 | 4929.189 | HY-DNP | |
 | 28 | 4927.536 | KAGRAZAKA-DNP | |
 | 29 | 4926.921 | SF | |
-| 30 | 4925.622 | t-maru078 | * |
+| 30 | 4925.622 | t-maru078 | |
 | 31 | 4922.020 | Alex-Schultz | |
 | 32 | 4844.969 | kito-DNPds | |
 | 33 | 3937.442 | Maverick | |
