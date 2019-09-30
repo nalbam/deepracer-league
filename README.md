@@ -14,8 +14,8 @@
 | 7 | 4946.345 | JasonLian | |
 | 8 | 4944.271 | Aiis-DNP | |
 | 9 | 4943.271 | sola-DNPds | |
-| 10 | 4942.915 | nalbam-me | |
-| 11 | 4942.790 | Jouni-Cybercom | * |
+| 10 | 4942.935 | Jouni-Cybercom | * |
+| 11 | 4942.915 | nalbam-me | |
 | 12 | 4942.097 | JimWu | |
 | 13 | 4942.031 | maeda-ai | |
 | 14 | 4941.702 | hiroisojp | |
