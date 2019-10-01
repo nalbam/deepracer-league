@@ -197,9 +197,7 @@ _build_summary() {
 _build() {
     _load_leaderboard
 
-    if [ "${MODE}" == "clear" ]; then
-        _load_extras
-    fi
+    _load_extras
 
     _build_summary
 }
