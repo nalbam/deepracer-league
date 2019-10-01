@@ -4,6 +4,8 @@ OS_NAME="$(uname | awk '{print tolower($0)}')"
 
 SHELL_DIR=$(dirname $0)
 
+MODE=$1
+
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
 SEASONS="2019-05 2019-06 2019-07 2019-08 2019-09 2019-10"
@@ -46,6 +48,10 @@ _prepare() {
     _command "_prepare"
 
     rm -rf ${SHELL_DIR}/build
+
+    if [ "${MODE}" == "clear" ]; then
+        rm -rf ${SHELL_DIR}/cache
+    fi
 
     mkdir -p ${SHELL_DIR}/build
     mkdir -p ${SHELL_DIR}/cache
@@ -111,9 +117,9 @@ _build() {
                 _result "_build ${SVAL} ${NAME}"
             done
 
-            if [ "${JDX}" == "50" ]; then
-                break
-            fi
+            # if [ "${JDX}" == "50" ]; then
+            #     break
+            # fi
 
             JDX=$(( ${JDX} + 1 ))
         done < ${CACHE_FILE}
