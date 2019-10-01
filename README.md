@@ -5,8 +5,8 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5937.289 | nero-DNPds | <<< |
-| 2 | 5908.341 | t-maru078 | |
+| 1 | 5937.289 | nero-DNPds | |
+| 2 | 5908.846 | t-maru078 | <<< |
 | 3 | 5874.202 | BespinRacer | |
 | 4 | 4953.296 | Karl-NAB | |
 | 5 | 4948.898 | Breadcentric | |
