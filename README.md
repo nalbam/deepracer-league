@@ -6,10 +6,10 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5937.289 | nero-DNPds | |
-| 2 | 5930.748 | PGS-Tomasz-Panek | <<< |
+| 2 | 5930.748 | PGS-Tomasz-Panek | |
 | 3 | 5930.543 | nalbam-me | |
-| 4 | 5919.929 | BespinRacer | |
-| 5 | 5908.888 | t-maru078 | <<< |
+| 4 | 5921.548 | BespinRacer | <<< |
+| 5 | 5908.888 | t-maru078 | |
 | 6 | 4953.296 | Karl-NAB | |
 | 7 | 4948.898 | Breadcentric | |
 | 8 | 4948.864 | Fumiaki | |
