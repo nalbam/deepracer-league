@@ -9,19 +9,19 @@
 | 2 | 5936.147 | Breadcentric | |
 | 3 | 5930.748 | PGS-Tomasz-Panek | |
 | 4 | 5930.690 | nalbam-me | |
-| 5 | 5926.414 | kimwooglae | <<< |
-| 6 | 5921.548 | BespinRacer | |
-| 7 | 5908.888 | t-maru078 | |
-| 8 | 4953.296 | Karl-NAB | |
-| 9 | 4948.864 | Fumiaki | |
-| 10 | 4947.274 | Etaggel | <<< |
-| 11 | 4946.342 | JasonLian | |
-| 12 | 4944.273 | Aiis-DNP | |
-| 13 | 4943.274 | sola-DNPds | |
-| 14 | 4942.940 | Jouni-Cybercom | |
-| 15 | 4942.098 | JimWu | |
-| 16 | 4942.034 | maeda-ai | |
-| 17 | 4941.706 | hiroisojp | |
+| 5 | 5927.017 | hiroisojp | <<< |
+| 6 | 5926.414 | kimwooglae | |
+| 7 | 5921.548 | BespinRacer | |
+| 8 | 5908.888 | t-maru078 | |
+| 9 | 4953.296 | Karl-NAB | |
+| 10 | 4948.864 | Fumiaki | |
+| 11 | 4947.274 | Etaggel | |
+| 12 | 4946.342 | JasonLian | |
+| 13 | 4944.273 | Aiis-DNP | |
+| 14 | 4943.274 | sola-DNPds | |
+| 15 | 4942.940 | Jouni-Cybercom | |
+| 16 | 4942.098 | JimWu | |
+| 17 | 4942.034 | maeda-ai | |
 | 18 | 4940.973 | Jochem | |
 | 19 | 4939.588 | leo-DNPds | |
 | 20 | 4939.540 | ABaykov | |
