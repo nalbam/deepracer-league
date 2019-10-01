@@ -6,18 +6,18 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5937.289 | nero-DNPds | |
-| 2 | 5908.846 | t-maru078 | <<< |
-| 3 | 5874.202 | BespinRacer | |
-| 4 | 4953.296 | Karl-NAB | |
-| 5 | 4948.898 | Breadcentric | |
-| 6 | 4948.864 | Fumiaki | |
-| 7 | 4947.274 | Etaggel | |
-| 8 | 4947.059 | PGS-Tomasz-Panek | |
-| 9 | 4946.342 | JasonLian | |
-| 10 | 4944.273 | Aiis-DNP | |
-| 11 | 4943.274 | sola-DNPds | |
-| 12 | 4942.940 | Jouni-Cybercom | |
-| 13 | 4942.916 | nalbam-me | |
+| 2 | 5930.543 | nalbam-me | <<< |
+| 3 | 5908.846 | t-maru078 | |
+| 4 | 5874.202 | BespinRacer | |
+| 5 | 4953.296 | Karl-NAB | |
+| 6 | 4948.898 | Breadcentric | |
+| 7 | 4948.864 | Fumiaki | |
+| 8 | 4947.274 | Etaggel | |
+| 9 | 4947.059 | PGS-Tomasz-Panek | |
+| 10 | 4946.342 | JasonLian | |
+| 11 | 4944.273 | Aiis-DNP | |
+| 12 | 4943.274 | sola-DNPds | |
+| 13 | 4942.940 | Jouni-Cybercom | |
 | 14 | 4942.098 | JimWu | |
 | 15 | 4942.034 | maeda-ai | |
 | 16 | 4941.706 | hiroisojp | |
