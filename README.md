@@ -8,12 +8,12 @@
 | 1 | 5937.289 | nero-DNPds | |
 | 2 | 5930.748 | PGS-Tomasz-Panek | |
 | 3 | 5930.543 | nalbam-me | |
-| 4 | 5921.548 | BespinRacer | <<< |
-| 5 | 5908.888 | t-maru078 | |
-| 6 | 4953.296 | Karl-NAB | |
-| 7 | 4948.898 | Breadcentric | |
-| 8 | 4948.864 | Fumiaki | |
-| 9 | 4947.274 | Etaggel | |
+| 4 | 5921.548 | BespinRacer | |
+| 5 | 5917.834 | Etaggel | <<< |
+| 6 | 5908.888 | t-maru078 | |
+| 7 | 4953.296 | Karl-NAB | |
+| 8 | 4948.898 | Breadcentric | |
+| 9 | 4948.864 | Fumiaki | |
 | 10 | 4946.342 | JasonLian | |
 | 11 | 4944.273 | Aiis-DNP | |
 | 12 | 4943.274 | sola-DNPds | |
