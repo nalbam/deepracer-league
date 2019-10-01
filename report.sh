@@ -125,9 +125,9 @@ _load_extra() {
             _result "_build ${SVAL} ${NAME}"
         done
 
-        # if [ "${JDX}" == "50" ]; then
-        #     break
-        # fi
+        if [ "${JDX}" == "99" ]; then
+            break
+        fi
 
         JDX=$(( ${JDX} + 1 ))
     done < ${CACHE_FILE}
