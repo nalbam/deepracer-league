@@ -6,9 +6,9 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5937.289 | nero-DNPds | |
-| 2 | 5930.543 | nalbam-me | <<< |
-| 3 | 5908.846 | t-maru078 | |
-| 4 | 5874.202 | BespinRacer | |
+| 2 | 5930.543 | nalbam-me | |
+| 3 | 5919.929 | BespinRacer | <<< |
+| 4 | 5908.846 | t-maru078 | |
 | 5 | 4953.296 | Karl-NAB | |
 | 6 | 4948.898 | Breadcentric | |
 | 7 | 4948.864 | Fumiaki | |
