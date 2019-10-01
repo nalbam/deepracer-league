@@ -7,9 +7,9 @@
 | - | ----- | --------- | - |
 | 1 | 5937.289 | nero-DNPds | |
 | 2 | 5930.748 | PGS-Tomasz-Panek | |
-| 3 | 5930.543 | nalbam-me | |
+| 3 | 5930.690 | nalbam-me | <<< |
 | 4 | 5921.548 | BespinRacer | |
-| 5 | 5917.834 | Etaggel | <<< |
+| 5 | 5917.834 | Etaggel | |
 | 6 | 5908.888 | t-maru078 | |
 | 7 | 4953.296 | Karl-NAB | |
 | 8 | 4948.898 | Breadcentric | |
