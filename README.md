@@ -9,10 +9,10 @@
 | 2 | 5936.624 | Breadcentric | |
 | 3 | 5930.748 | PGS-Tomasz-Panek | |
 | 4 | 5930.690 | nalbam-me | |
-| 5 | 5927.017 | hiroisojp | |
+| 5 | 5927.739 | hiroisojp | <<< |
 | 6 | 5926.414 | kimwooglae | |
 | 7 | 5921.548 | BespinRacer | |
-| 8 | 5917.834 | Etaggel | <<< |
+| 8 | 5917.834 | Etaggel | |
 | 9 | 5908.888 | t-maru078 | |
 | 10 | 4953.296 | Karl-NAB | |
 | 11 | 4948.864 | Fumiaki | |
