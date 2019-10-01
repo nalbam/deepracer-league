@@ -6,13 +6,13 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5937.289 | nero-DNPds | |
-| 2 | 5930.748 | PGS-Tomasz-Panek | |
-| 3 | 5930.690 | nalbam-me | <<< |
-| 4 | 5921.548 | BespinRacer | |
-| 5 | 5917.834 | Etaggel | |
-| 6 | 5908.888 | t-maru078 | |
-| 7 | 4953.296 | Karl-NAB | |
-| 8 | 4948.898 | Breadcentric | |
+| 2 | 5936.147 | Breadcentric | <<< |
+| 3 | 5930.748 | PGS-Tomasz-Panek | |
+| 4 | 5930.690 | nalbam-me | |
+| 5 | 5921.548 | BespinRacer | |
+| 6 | 5917.834 | Etaggel | |
+| 7 | 5908.888 | t-maru078 | |
+| 8 | 4953.296 | Karl-NAB | |
 | 9 | 4948.864 | Fumiaki | |
 | 10 | 4946.342 | JasonLian | |
 | 11 | 4944.273 | Aiis-DNP | |
