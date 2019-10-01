@@ -8,11 +8,11 @@
 | 1 | 5937.289 | nero-DNPds | |
 | 2 | 5936.624 | Breadcentric | |
 | 3 | 5933.053 | JimWu | |
-| 4 | 5930.791 | nalbam-me | <<< |
+| 4 | 5930.791 | nalbam-me | |
 | 5 | 5930.748 | PGS-Tomasz-Panek | |
 | 6 | 5928.174 | hiroisojp | |
 | 7 | 5926.414 | kimwooglae | |
-| 8 | 5921.548 | BespinRacer | |
+| 8 | 5922.067 | BespinRacer | <<< |
 | 9 | 5917.834 | Etaggel | |
 | 10 | 5908.888 | t-maru078 | |
 | 11 | 4953.296 | Karl-NAB | |
