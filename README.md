@@ -6,20 +6,20 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5937.289 | nero-DNPds | |
-| 2 | 5936.790 | Breadcentric | |
-| 3 | 5933.053 | JimWu | |
-| 4 | 5930.791 | nalbam-me | |
-| 5 | 5930.748 | PGS-Tomasz-Panek | |
-| 6 | 5929.387 | hiroisojp | |
-| 7 | 5927.931 | ABaykov | <<< |
-| 8 | 5926.414 | kimwooglae | |
-| 9 | 5922.419 | TonyJ | |
-| 10 | 5922.067 | BespinRacer | |
-| 11 | 5917.834 | Etaggel | |
-| 12 | 5908.888 | t-maru078 | |
-| 13 | 4953.296 | Karl-NAB | |
-| 14 | 4948.864 | Fumiaki | |
-| 15 | 4946.342 | JasonLian | |
+| 2 | 5937.070 | JasonLian | <<< |
+| 3 | 5936.790 | Breadcentric | |
+| 4 | 5933.053 | JimWu | |
+| 5 | 5930.791 | nalbam-me | |
+| 6 | 5930.748 | PGS-Tomasz-Panek | |
+| 7 | 5929.387 | hiroisojp | |
+| 8 | 5927.931 | ABaykov | |
+| 9 | 5926.414 | kimwooglae | |
+| 10 | 5922.419 | TonyJ | |
+| 11 | 5922.067 | BespinRacer | |
+| 12 | 5917.834 | Etaggel | |
+| 13 | 5908.888 | t-maru078 | |
+| 14 | 4953.296 | Karl-NAB | |
+| 15 | 4948.864 | Fumiaki | |
 | 16 | 4944.273 | Aiis-DNP | |
 | 17 | 4943.274 | sola-DNPds | |
 | 18 | 4942.940 | Jouni-Cybercom | |
