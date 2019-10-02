@@ -8,12 +8,12 @@
 | 1 | 5937.289 | nero-DNPds | |
 | 2 | 5937.288 | JasonLian | |
 | 3 | 5936.790 | Breadcentric | |
-| 4 | 5933.183 | JimWu | |
+| 4 | 5933.219 | JimWu | <<< |
 | 5 | 5932.001 | nalbam-me | |
 | 6 | 5931.691 | kimwooglae | |
 | 7 | 5930.748 | PGS-Tomasz-Panek | |
 | 8 | 5929.387 | hiroisojp | |
-| 9 | 5928.808 | leo-DNPds | <<< |
+| 9 | 5928.808 | leo-DNPds | |
 | 10 | 5927.931 | ABaykov | |
 | 11 | 5922.419 | TonyJ | |
 | 12 | 5922.067 | BespinRacer | |
