@@ -9,7 +9,7 @@
 | 2 | 5937.807 | Breadcentric | |
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
-| 5 | 5933.219 | JimWu | |
+| 5 | 5933.238 | JimWu | <<< |
 | 6 | 5932.836 | nalbam-me | |
 | 7 | 5931.691 | kimwooglae | |
 | 8 | 5929.387 | hiroisojp | |
@@ -19,7 +19,7 @@
 | 12 | 5922.067 | BespinRacer | |
 | 13 | 5917.834 | Etaggel | |
 | 14 | 5908.888 | t-maru078 | |
-| 15 | 5902.050 | GWP | <<< |
+| 15 | 5902.050 | GWP | |
 | 16 | 5901.350 | Alex-Schultz | |
 | 17 | 5899.328 | Karl-NAB | |
 | 18 | 4948.864 | Fumiaki | |
