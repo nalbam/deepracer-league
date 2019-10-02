@@ -8,9 +8,9 @@
 | 1 | 5937.289 | nero-DNPds | |
 | 2 | 5937.288 | JasonLian | |
 | 3 | 5936.790 | Breadcentric | |
-| 4 | 5933.053 | JimWu | |
-| 5 | 5931.691 | kimwooglae | <<< |
-| 6 | 5930.791 | nalbam-me | |
+| 4 | 5933.183 | JimWu | <<< |
+| 5 | 5931.691 | kimwooglae | |
+| 6 | 5931.536 | nalbam-me | <<< |
 | 7 | 5930.748 | PGS-Tomasz-Panek | |
 | 8 | 5929.387 | hiroisojp | |
 | 9 | 5927.931 | ABaykov | |
@@ -18,7 +18,7 @@
 | 11 | 5922.067 | BespinRacer | |
 | 12 | 5917.834 | Etaggel | |
 | 13 | 5908.888 | t-maru078 | |
-| 14 | 5899.328 | Karl-NAB | <<< |
+| 14 | 5899.328 | Karl-NAB | |
 | 15 | 4948.864 | Fumiaki | |
 | 16 | 4944.273 | Aiis-DNP | |
 | 17 | 4943.274 | sola-DNPds | |
