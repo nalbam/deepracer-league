@@ -6,10 +6,10 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5937.807 | Breadcentric | |
-| 2 | 5937.491 | JasonLian | <<< |
+| 2 | 5937.491 | JasonLian | |
 | 3 | 5937.289 | nero-DNPds | |
 | 4 | 5933.219 | JimWu | |
-| 5 | 5932.001 | nalbam-me | |
+| 5 | 5932.836 | nalbam-me | <<< |
 | 6 | 5931.691 | kimwooglae | |
 | 7 | 5930.748 | PGS-Tomasz-Panek | |
 | 8 | 5929.387 | hiroisojp | |
