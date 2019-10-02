@@ -5,10 +5,10 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5937.289 | nero-DNPds | |
-| 2 | 5937.288 | JasonLian | |
-| 3 | 5936.790 | Breadcentric | |
-| 4 | 5933.219 | JimWu | <<< |
+| 1 | 5937.807 | Breadcentric | <<< |
+| 2 | 5937.289 | nero-DNPds | |
+| 3 | 5937.288 | JasonLian | |
+| 4 | 5933.219 | JimWu | |
 | 5 | 5932.001 | nalbam-me | |
 | 6 | 5931.691 | kimwooglae | |
 | 7 | 5930.748 | PGS-Tomasz-Panek | |
