@@ -9,23 +9,23 @@
 | 2 | 5937.288 | JasonLian | |
 | 3 | 5936.790 | Breadcentric | |
 | 4 | 5933.183 | JimWu | |
-| 5 | 5932.001 | nalbam-me | <<< |
+| 5 | 5932.001 | nalbam-me | |
 | 6 | 5931.691 | kimwooglae | |
 | 7 | 5930.748 | PGS-Tomasz-Panek | |
 | 8 | 5929.387 | hiroisojp | |
-| 9 | 5927.931 | ABaykov | |
-| 10 | 5922.419 | TonyJ | |
-| 11 | 5922.067 | BespinRacer | |
-| 12 | 5917.834 | Etaggel | |
-| 13 | 5908.888 | t-maru078 | |
-| 14 | 5899.328 | Karl-NAB | |
-| 15 | 4948.864 | Fumiaki | |
-| 16 | 4944.273 | Aiis-DNP | |
-| 17 | 4943.274 | sola-DNPds | |
-| 18 | 4942.940 | Jouni-Cybercom | |
-| 19 | 4942.034 | maeda-ai | |
-| 20 | 4940.973 | Jochem | |
-| 21 | 4939.588 | leo-DNPds | |
+| 9 | 5928.808 | leo-DNPds | <<< |
+| 10 | 5927.931 | ABaykov | |
+| 11 | 5922.419 | TonyJ | |
+| 12 | 5922.067 | BespinRacer | |
+| 13 | 5917.834 | Etaggel | |
+| 14 | 5908.888 | t-maru078 | |
+| 15 | 5899.328 | Karl-NAB | |
+| 16 | 4948.864 | Fumiaki | |
+| 17 | 4944.273 | Aiis-DNP | |
+| 18 | 4943.274 | sola-DNPds | |
+| 19 | 4942.940 | Jouni-Cybercom | |
+| 20 | 4942.034 | maeda-ai | |
+| 21 | 4940.973 | Jochem | |
 | 22 | 4937.950 | mogamin | |
 | 23 | 4935.566 | Kire | |
 | 24 | 4934.802 | hyeonwoo | |
