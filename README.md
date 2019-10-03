@@ -10,7 +10,7 @@
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
 | 5 | 5933.238 | JimWu | |
-| 6 | 5933.200 | nalbam-me | <<< |
+| 6 | 5933.200 | nalbam-me | |
 | 7 | 5931.691 | kimwooglae | |
 | 8 | 5929.387 | hiroisojp | |
 | 9 | 5928.808 | leo-DNPds | |
@@ -23,20 +23,20 @@
 | 16 | 5902.050 | GWP | |
 | 17 | 5901.350 | Alex-Schultz | |
 | 18 | 5899.328 | Karl-NAB | |
-| 19 | 4948.864 | Fumiaki | |
-| 20 | 4944.273 | Aiis-DNP | |
-| 21 | 4943.274 | sola-DNPds | |
-| 22 | 4942.940 | Jouni-Cybercom | |
-| 23 | 4942.034 | maeda-ai | |
-| 24 | 4940.973 | Jochem | |
-| 25 | 4937.950 | mogamin | |
-| 26 | 4935.566 | Kire | |
-| 27 | 4934.802 | hyeonwoo | |
-| 28 | 4932.351 | nalbam | |
-| 29 | 4931.985 | RayG | |
-| 30 | 4929.189 | HY-DNP | |
-| 31 | 4927.538 | KAGRAZAKA-DNP | |
-| 32 | 4926.918 | SF | |
-| 33 | 4925.840 | Maverick | |
-| 34 | 4914.609 | StarlightDreamStudio | |
-| 35 | 4907.201 | woodstocktimes | |
+| 19 | 5892.072 | woodstocktimes | <<< |
+| 20 | 4948.864 | Fumiaki | |
+| 21 | 4944.273 | Aiis-DNP | |
+| 22 | 4943.274 | sola-DNPds | |
+| 23 | 4942.940 | Jouni-Cybercom | |
+| 24 | 4942.034 | maeda-ai | |
+| 25 | 4940.973 | Jochem | |
+| 26 | 4937.950 | mogamin | |
+| 27 | 4935.566 | Kire | |
+| 28 | 4934.802 | hyeonwoo | |
+| 29 | 4932.351 | nalbam | |
+| 30 | 4931.985 | RayG | |
+| 31 | 4929.189 | HY-DNP | |
+| 32 | 4927.538 | KAGRAZAKA-DNP | |
+| 33 | 4926.918 | SF | |
+| 34 | 4925.840 | Maverick | |
+| 35 | 4914.609 | StarlightDreamStudio | |
