@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5938.181 | Breadcentric | <<< |
+| 1 | 5938.181 | Breadcentric | |
 | 2 | 5937.822 | PGS-Tomasz-Panek | |
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
@@ -15,7 +15,7 @@
 | 8 | 5929.387 | hiroisojp | |
 | 9 | 5928.808 | leo-DNPds | |
 | 10 | 5927.931 | ABaykov | |
-| 11 | 5922.419 | TonyJ | |
+| 11 | 5923.629 | TonyJ | <<< |
 | 12 | 5922.067 | BespinRacer | |
 | 13 | 5917.834 | Etaggel | |
 | 14 | 5908.888 | t-maru078 | |
