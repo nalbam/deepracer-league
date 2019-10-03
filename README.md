@@ -10,7 +10,7 @@
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
 | 5 | 5933.238 | JimWu | |
-| 6 | 5932.836 | nalbam-me | |
+| 6 | 5933.200 | nalbam-me | <<< |
 | 7 | 5931.691 | kimwooglae | |
 | 8 | 5929.387 | hiroisojp | |
 | 9 | 5928.808 | leo-DNPds | |
@@ -18,7 +18,7 @@
 | 11 | 5923.629 | TonyJ | |
 | 12 | 5922.067 | BespinRacer | |
 | 13 | 5917.834 | Etaggel | |
-| 14 | 5914.759 | Robin-Castro | <<< |
+| 14 | 5914.759 | Robin-Castro | |
 | 15 | 5908.888 | t-maru078 | |
 | 16 | 5902.050 | GWP | |
 | 17 | 5901.350 | Alex-Schultz | |
