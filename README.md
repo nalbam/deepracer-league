@@ -10,8 +10,8 @@
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
 | 5 | 5934.197 | Aiis-DNP | |
-| 6 | 5933.497 | Jouni-Cybercom | <<< |
-| 7 | 5933.238 | JimWu | |
+| 6 | 5933.497 | Jouni-Cybercom | |
+| 7 | 5933.316 | JimWu | <<< |
 | 8 | 5933.200 | nalbam-me | |
 | 9 | 5931.691 | kimwooglae | |
 | 10 | 5929.387 | hiroisojp | |
