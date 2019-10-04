@@ -9,7 +9,7 @@
 | 2 | 5937.822 | PGS-Tomasz-Panek | |
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
-| 5 | 5934.197 | Aiis-DNP | <<< |
+| 5 | 5934.197 | Aiis-DNP | |
 | 6 | 5933.238 | JimWu | |
 | 7 | 5933.200 | nalbam-me | |
 | 8 | 5931.691 | kimwooglae | |
@@ -17,7 +17,7 @@
 | 10 | 5928.808 | leo-DNPds | |
 | 11 | 5927.931 | ABaykov | |
 | 12 | 5923.629 | TonyJ | |
-| 13 | 5922.067 | BespinRacer | |
+| 13 | 5922.375 | BespinRacer | <<< |
 | 14 | 5917.834 | Etaggel | |
 | 15 | 5914.759 | Robin-Castro | |
 | 16 | 5908.888 | t-maru078 | |
