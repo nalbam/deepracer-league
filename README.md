@@ -10,7 +10,7 @@
 | 3 | 5937.491 | JasonLian | |
 | 4 | 5937.289 | nero-DNPds | |
 | 5 | 5934.197 | Aiis-DNP | |
-| 6 | 5933.782 | Jouni-Cybercom | <<< |
+| 6 | 5933.782 | Jouni-Cybercom | |
 | 7 | 5933.316 | JimWu | |
 | 8 | 5933.200 | nalbam-me | |
 | 9 | 5931.691 | kimwooglae | |
@@ -20,7 +20,7 @@
 | 13 | 5923.629 | TonyJ | |
 | 14 | 5922.375 | BespinRacer | |
 | 15 | 5917.834 | Etaggel | |
-| 16 | 5914.759 | Robin-Castro | |
+| 16 | 5914.828 | Robin-Castro | <<< |
 | 17 | 5908.888 | t-maru078 | |
 | 18 | 5902.050 | GWP | |
 | 19 | 5901.350 | Alex-Schultz | |
