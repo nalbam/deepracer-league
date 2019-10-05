@@ -14,10 +14,10 @@
 | 7 | 5933.316 | JimWu | |
 | 8 | 5933.200 | nalbam-me | |
 | 9 | 5931.691 | kimwooglae | |
-| 10 | 5930.527 | Jochem | <<< |
+| 10 | 5930.527 | Jochem | |
 | 11 | 5929.387 | hiroisojp | |
 | 12 | 5928.808 | leo-DNPds | |
-| 13 | 5927.931 | ABaykov | |
+| 13 | 5928.211 | ABaykov | <<< |
 | 14 | 5923.629 | TonyJ | |
 | 15 | 5922.375 | BespinRacer | |
 | 16 | 5917.834 | Etaggel | |
