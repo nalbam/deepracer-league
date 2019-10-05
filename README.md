@@ -21,14 +21,14 @@
 | 14 | 5923.629 | TonyJ | |
 | 15 | 5922.375 | BespinRacer | |
 | 16 | 5917.834 | Etaggel | |
-| 17 | 5917.534 | Robin-Castro | |
+| 17 | 5917.795 | Robin-Castro | <<< |
 | 18 | 5908.888 | t-maru078 | |
 | 19 | 5902.050 | GWP | |
 | 20 | 5901.350 | Alex-Schultz | |
 | 21 | 5899.328 | Karl-NAB | |
 | 22 | 5892.072 | woodstocktimes | |
 | 23 | 4948.864 | Fumiaki | |
-| 24 | 4946.495 | RichardFan | <<< |
+| 24 | 4946.495 | RichardFan | |
 | 25 | 4943.274 | sola-DNPds | |
 | 26 | 4942.034 | maeda-ai | |
 | 27 | 4937.950 | mogamin | |
