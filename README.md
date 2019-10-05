@@ -14,14 +14,14 @@
 | 7 | 5933.316 | JimWu | |
 | 8 | 5933.200 | nalbam-me | |
 | 9 | 5931.691 | kimwooglae | |
-| 10 | 5929.905 | Jochem | |
+| 10 | 5930.527 | Jochem | <<< |
 | 11 | 5929.387 | hiroisojp | |
 | 12 | 5928.808 | leo-DNPds | |
 | 13 | 5927.931 | ABaykov | |
 | 14 | 5923.629 | TonyJ | |
 | 15 | 5922.375 | BespinRacer | |
 | 16 | 5917.834 | Etaggel | |
-| 17 | 5917.795 | Robin-Castro | <<< |
+| 17 | 5917.795 | Robin-Castro | |
 | 18 | 5908.888 | t-maru078 | |
 | 19 | 5902.050 | GWP | |
 | 20 | 5901.350 | Alex-Schultz | |
