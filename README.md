@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5944.317 | Karl-NAB | <<< |
+| 1 | 5944.317 | Karl-NAB | |
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.100 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
@@ -15,14 +15,14 @@
 | 8 | 5933.782 | Jouni-Cybercom | |
 | 9 | 5933.316 | JimWu | |
 | 10 | 5933.200 | nalbam-me | |
-| 11 | 5932.703 | kimwooglae | <<< |
+| 11 | 5932.703 | kimwooglae | |
 | 12 | 5930.987 | Jochem | |
 | 13 | 5929.387 | hiroisojp | |
 | 14 | 5928.808 | leo-DNPds | |
 | 15 | 5928.211 | ABaykov | |
 | 16 | 5923.629 | TonyJ | |
 | 17 | 5922.375 | BespinRacer | |
-| 18 | 5920.920 | RayG | |
+| 18 | 5921.788 | RayG | <<< |
 | 19 | 5917.795 | Robin-Castro | |
 | 20 | 5915.790 | SF | |
 | 21 | 5908.888 | t-maru078 | |
