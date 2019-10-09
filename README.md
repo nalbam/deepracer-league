@@ -18,13 +18,13 @@
 | 11 | 5932.703 | kimwooglae | |
 | 12 | 5930.987 | Jochem | |
 | 13 | 5929.387 | hiroisojp | |
-| 14 | 5928.808 | leo-DNPds | |
-| 15 | 5928.614 | ABaykov | |
+| 14 | 5929.084 | ABaykov | <<< |
+| 15 | 5928.808 | leo-DNPds | |
 | 16 | 5923.629 | TonyJ | |
 | 17 | 5922.851 | RayG | |
 | 18 | 5922.375 | BespinRacer | |
 | 19 | 5917.856 | Robin-Castro | |
-| 20 | 5915.950 | SF | <<< |
+| 20 | 5915.950 | SF | |
 | 21 | 5910.712 | Alex-Schultz | |
 | 22 | 5908.888 | t-maru078 | |
 | 23 | 5902.073 | StarlightDreamStudio | |
