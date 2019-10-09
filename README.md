@@ -13,7 +13,7 @@
 | 6 | 5937.289 | nero-DNPds | |
 | 7 | 5934.197 | Aiis-DNP | |
 | 8 | 5933.782 | Jouni-Cybercom | |
-| 9 | 5933.328 | JimWu | <<< |
+| 9 | 5933.328 | JimWu | |
 | 10 | 5933.200 | nalbam-me | |
 | 11 | 5932.703 | kimwooglae | |
 | 12 | 5930.987 | Jochem | |
@@ -24,7 +24,7 @@
 | 17 | 5922.851 | RayG | |
 | 18 | 5922.375 | BespinRacer | |
 | 19 | 5917.804 | Robin-Castro | |
-| 20 | 5915.791 | SF | |
+| 20 | 5915.860 | SF | <<< |
 | 21 | 5910.281 | Alex-Schultz | |
 | 22 | 5908.888 | t-maru078 | |
 | 23 | 5902.073 | StarlightDreamStudio | |
