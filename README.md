@@ -24,19 +24,19 @@
 | 17 | 5922.851 | RayG | |
 | 18 | 5922.375 | BespinRacer | |
 | 19 | 5917.856 | Robin-Castro | |
-| 20 | 5915.950 | SF | |
-| 21 | 5910.845 | Alex-Schultz | |
-| 22 | 5908.888 | t-maru078 | |
-| 23 | 5902.471 | StarlightDreamStudio | <<< |
-| 24 | 5902.050 | GWP | |
-| 25 | 5892.072 | woodstocktimes | |
-| 26 | 4948.864 | Fumiaki | |
-| 27 | 4946.495 | RichardFan | |
-| 28 | 4943.274 | sola-DNPds | |
-| 29 | 4942.034 | maeda-ai | |
-| 30 | 4937.950 | mogamin | |
-| 31 | 4935.566 | Kire | |
-| 32 | 4934.802 | hyeonwoo | |
-| 33 | 4932.351 | nalbam | |
-| 34 | 4929.189 | HY-DNP | |
-| 35 | 4927.538 | KAGRAZAKA-DNP | |
+| 20 | 5916.687 | KAGRAZAKA-DNP | <<< |
+| 21 | 5915.950 | SF | |
+| 22 | 5910.845 | Alex-Schultz | |
+| 23 | 5908.888 | t-maru078 | |
+| 24 | 5902.471 | StarlightDreamStudio | |
+| 25 | 5902.050 | GWP | |
+| 26 | 5892.072 | woodstocktimes | |
+| 27 | 4948.864 | Fumiaki | |
+| 28 | 4946.495 | RichardFan | |
+| 29 | 4943.274 | sola-DNPds | |
+| 30 | 4942.034 | maeda-ai | |
+| 31 | 4937.950 | mogamin | |
+| 32 | 4935.566 | Kire | |
+| 33 | 4934.802 | hyeonwoo | |
+| 34 | 4932.351 | nalbam | |
+| 35 | 4929.189 | HY-DNP | |
