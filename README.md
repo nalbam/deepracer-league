@@ -25,9 +25,9 @@
 | 18 | 5922.375 | BespinRacer | |
 | 19 | 5917.856 | Robin-Castro | |
 | 20 | 5915.950 | SF | |
-| 21 | 5910.845 | Alex-Schultz | <<< |
+| 21 | 5910.845 | Alex-Schultz | |
 | 22 | 5908.888 | t-maru078 | |
-| 23 | 5902.073 | StarlightDreamStudio | |
+| 23 | 5902.471 | StarlightDreamStudio | <<< |
 | 24 | 5902.050 | GWP | |
 | 25 | 5892.072 | woodstocktimes | |
 | 26 | 4948.864 | Fumiaki | |
