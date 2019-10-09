@@ -16,7 +16,7 @@
 | 9 | 5933.328 | JimWu | |
 | 10 | 5933.200 | nalbam-me | |
 | 11 | 5932.703 | kimwooglae | |
-| 12 | 5930.987 | Jochem | |
+| 12 | 5931.388 | Jochem | <<< |
 | 13 | 5929.387 | hiroisojp | |
 | 14 | 5929.084 | ABaykov | |
 | 15 | 5928.808 | leo-DNPds | |
@@ -24,7 +24,7 @@
 | 17 | 5922.851 | RayG | |
 | 18 | 5922.375 | BespinRacer | |
 | 19 | 5917.856 | Robin-Castro | |
-| 20 | 5916.687 | KAGRAZAKA-DNP | <<< |
+| 20 | 5916.687 | KAGRAZAKA-DNP | |
 | 21 | 5915.950 | SF | |
 | 22 | 5910.845 | Alex-Schultz | |
 | 23 | 5908.888 | t-maru078 | |
