@@ -24,8 +24,8 @@
 | 17 | 5922.851 | RayG | |
 | 18 | 5922.375 | BespinRacer | |
 | 19 | 5917.804 | Robin-Castro | |
-| 20 | 5915.860 | SF | <<< |
-| 21 | 5910.281 | Alex-Schultz | |
+| 20 | 5915.860 | SF | |
+| 21 | 5910.712 | Alex-Schultz | <<< |
 | 22 | 5908.888 | t-maru078 | |
 | 23 | 5902.073 | StarlightDreamStudio | |
 | 24 | 5902.050 | GWP | |
