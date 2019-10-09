@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5945.137 | Karl-NAB | <<< |
+| 1 | 5945.137 | Karl-NAB | |
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.100 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
@@ -19,7 +19,7 @@
 | 12 | 5930.987 | Jochem | |
 | 13 | 5929.387 | hiroisojp | |
 | 14 | 5928.808 | leo-DNPds | |
-| 15 | 5928.211 | ABaykov | |
+| 15 | 5928.614 | ABaykov | <<< |
 | 16 | 5923.629 | TonyJ | |
 | 17 | 5922.851 | RayG | |
 | 18 | 5922.375 | BespinRacer | |
