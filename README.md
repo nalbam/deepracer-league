@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5945.246 | Karl-NAB | <<< |
+| 1 | 5945.246 | Karl-NAB | |
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.100 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
@@ -29,14 +29,14 @@
 | 22 | 5910.845 | Alex-Schultz | |
 | 23 | 5908.888 | t-maru078 | |
 | 24 | 5902.471 | StarlightDreamStudio | |
-| 25 | 5902.050 | GWP | |
-| 26 | 5892.072 | woodstocktimes | |
-| 27 | 4948.864 | Fumiaki | |
-| 28 | 4946.495 | RichardFan | |
-| 29 | 4943.274 | sola-DNPds | |
-| 30 | 4942.034 | maeda-ai | |
-| 31 | 4937.950 | mogamin | |
-| 32 | 4935.566 | Kire | |
-| 33 | 4934.802 | hyeonwoo | |
-| 34 | 4932.351 | nalbam | |
-| 35 | 4929.189 | HY-DNP | |
+| 25 | 5892.072 | woodstocktimes | |
+| 26 | 4948.864 | Fumiaki | |
+| 27 | 4946.495 | RichardFan | |
+| 28 | 4943.274 | sola-DNPds | |
+| 29 | 4942.034 | maeda-ai | |
+| 30 | 4937.950 | mogamin | |
+| 31 | 4935.566 | Kire | |
+| 32 | 4934.802 | hyeonwoo | |
+| 33 | 4932.351 | nalbam | |
+| 34 | 4929.189 | HY-DNP | |
+| 35 | 4925.840 | Maverick | <<< |
