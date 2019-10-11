@@ -23,8 +23,8 @@
 | 16 | 5928.808 | leo-DNPds | |
 | 17 | 5923.629 | TonyJ | |
 | 18 | 5922.873 | RayG | |
-| 19 | 5922.608 | BespinRacer | <<< |
-| 20 | 5918.582 | Robin-Castro | |
+| 19 | 5922.608 | BespinRacer | |
+| 20 | 5918.661 | Robin-Castro | <<< |
 | 21 | 5916.687 | KAGRAZAKA-DNP | |
 | 22 | 5916.057 | SF | |
 | 23 | 5910.845 | Alex-Schultz | |
