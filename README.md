@@ -24,7 +24,7 @@
 | 17 | 5923.629 | TonyJ | |
 | 18 | 5922.873 | RayG | |
 | 19 | 5922.375 | BespinRacer | |
-| 20 | 5918.439 | Robin-Castro | <<< |
+| 20 | 5918.582 | Robin-Castro | <<< |
 | 21 | 5916.687 | KAGRAZAKA-DNP | |
 | 22 | 5916.057 | SF | |
 | 23 | 5910.845 | Alex-Schultz | |
