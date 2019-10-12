@@ -24,12 +24,12 @@
 | 17 | 5923.629 | TonyJ | |
 | 18 | 5922.873 | RayG | |
 | 19 | 5922.608 | BespinRacer | |
-| 20 | 5918.995 | Robin-Castro | <<< |
+| 20 | 5918.995 | Robin-Castro | |
 | 21 | 5916.687 | KAGRAZAKA-DNP | |
 | 22 | 5916.057 | SF | |
 | 23 | 5910.845 | Alex-Schultz | |
 | 24 | 5908.888 | t-maru078 | |
-| 25 | 5902.471 | StarlightDreamStudio | |
+| 25 | 5903.347 | StarlightDreamStudio | <<< |
 | 26 | 5902.050 | GWP | |
 | 27 | 5892.072 | woodstocktimes | |
 | 28 | 4948.864 | Fumiaki | |
