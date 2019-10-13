@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5945.585 | Karl-NAB | <<< |
+| 1 | 5945.585 | Karl-NAB | |
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.100 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
@@ -33,7 +33,7 @@
 | 26 | 5902.050 | GWP | |
 | 27 | 5892.072 | woodstocktimes | |
 | 28 | 4948.864 | Fumiaki | |
-| 29 | 4946.495 | RichardFan | |
+| 29 | 4946.680 | RichardFan | <<< |
 | 30 | 4942.034 | maeda-ai | |
 | 31 | 4937.950 | mogamin | |
 | 32 | 4935.566 | Kire | |
