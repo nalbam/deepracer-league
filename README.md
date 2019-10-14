@@ -13,7 +13,7 @@
 | 6 | 5937.289 | nero-DNPds | |
 | 7 | 5934.197 | Aiis-DNP | |
 | 8 | 5933.782 | Jouni-Cybercom | |
-| 9 | 5933.328 | JimWu | |
+| 9 | 5933.661 | JimWu | <<< |
 | 10 | 5933.200 | nalbam-me | |
 | 11 | 5933.154 | sola-DNPds | |
 | 12 | 5932.703 | kimwooglae | |
@@ -24,7 +24,7 @@
 | 17 | 5923.629 | TonyJ | |
 | 18 | 5922.873 | RayG | |
 | 19 | 5922.608 | BespinRacer | |
-| 20 | 5919.111 | Robin-Castro | |
+| 20 | 5919.572 | Robin-Castro | <<< |
 | 21 | 5916.687 | KAGRAZAKA-DNP | |
 | 22 | 5916.057 | SF | |
 | 23 | 5910.845 | Alex-Schultz | |
@@ -33,7 +33,7 @@
 | 26 | 5902.050 | GWP | |
 | 27 | 5892.072 | woodstocktimes | |
 | 28 | 4948.864 | Fumiaki | |
-| 29 | 4946.680 | RichardFan | <<< |
+| 29 | 4946.680 | RichardFan | |
 | 30 | 4942.034 | maeda-ai | |
 | 31 | 4937.950 | mogamin | |
 | 32 | 4935.566 | Kire | |
