@@ -7,7 +7,7 @@
 | - | ----- | --------- | - |
 | 1 | 5945.741 | Karl-NAB | |
 | 2 | 5938.308 | Breadcentric | |
-| 3 | 5938.237 | Etaggel | <<< |
+| 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
 | 5 | 5937.491 | JasonLian | |
 | 6 | 5937.289 | nero-DNPds | |
@@ -29,7 +29,7 @@
 | 22 | 5916.057 | SF | |
 | 23 | 5910.845 | Alex-Schultz | |
 | 24 | 5908.888 | t-maru078 | |
-| 25 | 5903.347 | StarlightDreamStudio | |
+| 25 | 5903.386 | StarlightDreamStudio | <<< |
 | 26 | 5902.050 | GWP | |
 | 27 | 5892.072 | woodstocktimes | |
 | 28 | 4948.864 | Fumiaki | |
