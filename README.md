@@ -25,9 +25,9 @@
 | 18 | 5922.873 | RayG | |
 | 19 | 5922.608 | BespinRacer | |
 | 20 | 5919.572 | Robin-Castro | |
-| 21 | 5916.687 | KAGRAZAKA-DNP | |
-| 22 | 5916.324 | hyeonwoo | |
-| 23 | 5916.313 | SF | <<< |
+| 21 | 5916.799 | SF | <<< |
+| 22 | 5916.687 | KAGRAZAKA-DNP | |
+| 23 | 5916.324 | hyeonwoo | |
 | 24 | 5910.845 | Alex-Schultz | |
 | 25 | 5909.045 | t-maru078 | |
 | 26 | 5903.386 | StarlightDreamStudio | |
