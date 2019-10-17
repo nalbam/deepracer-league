@@ -24,7 +24,7 @@
 | 17 | 5925.312 | TonyJ | |
 | 18 | 5922.873 | RayG | |
 | 19 | 5922.608 | BespinRacer | |
-| 20 | 5919.572 | Robin-Castro | |
+| 20 | 5919.575 | Robin-Castro | <<< |
 | 21 | 5916.799 | SF | |
 | 22 | 5916.687 | KAGRAZAKA-DNP | |
 | 23 | 5916.324 | hyeonwoo | |
@@ -34,7 +34,7 @@
 | 27 | 5902.050 | GWP | |
 | 28 | 5892.072 | woodstocktimes | |
 | 29 | 4948.864 | Fumiaki | |
-| 30 | 4946.978 | RichardFan | <<< |
+| 30 | 4946.978 | RichardFan | |
 | 31 | 4942.034 | maeda-ai | |
 | 32 | 4937.950 | mogamin | |
 | 33 | 4935.566 | Kire | |
