@@ -27,7 +27,7 @@
 | 20 | 5919.572 | Robin-Castro | |
 | 21 | 5916.687 | KAGRAZAKA-DNP | |
 | 22 | 5916.324 | hyeonwoo | |
-| 23 | 5916.206 | SF | <<< |
+| 23 | 5916.313 | SF | <<< |
 | 24 | 5910.845 | Alex-Schultz | |
 | 25 | 5909.045 | t-maru078 | |
 | 26 | 5903.386 | StarlightDreamStudio | |
