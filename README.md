@@ -21,13 +21,13 @@
 | 14 | 5929.387 | hiroisojp | |
 | 15 | 5929.084 | ABaykov | |
 | 16 | 5928.808 | leo-DNPds | |
-| 17 | 5925.772 | TonyJ | <<< |
+| 17 | 5925.772 | TonyJ | |
 | 18 | 5922.873 | RayG | |
-| 19 | 5922.608 | BespinRacer | |
-| 20 | 5919.575 | Robin-Castro | |
-| 21 | 5916.799 | SF | |
-| 22 | 5916.687 | KAGRAZAKA-DNP | |
-| 23 | 5916.324 | hyeonwoo | |
+| 19 | 5922.743 | hyeonwoo | <<< |
+| 20 | 5922.608 | BespinRacer | |
+| 21 | 5919.575 | Robin-Castro | |
+| 22 | 5916.799 | SF | |
+| 23 | 5916.687 | KAGRAZAKA-DNP | |
 | 24 | 5910.845 | Alex-Schultz | |
 | 25 | 5909.045 | t-maru078 | |
 | 26 | 5903.386 | StarlightDreamStudio | |
