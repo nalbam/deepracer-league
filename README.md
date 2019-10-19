@@ -25,7 +25,7 @@
 | 18 | 5922.873 | RayG | |
 | 19 | 5922.743 | hyeonwoo | |
 | 20 | 5922.608 | BespinRacer | |
-| 21 | 5919.586 | Robin-Castro | <<< |
+| 21 | 5919.648 | Robin-Castro | <<< |
 | 22 | 5916.799 | SF | |
 | 23 | 5916.687 | KAGRAZAKA-DNP | |
 | 24 | 5910.845 | Alex-Schultz | |
