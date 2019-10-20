@@ -28,8 +28,8 @@
 | 21 | 5919.808 | Robin-Castro | |
 | 22 | 5916.799 | SF | |
 | 23 | 5916.687 | KAGRAZAKA-DNP | |
-| 24 | 5910.845 | Alex-Schultz | <<< |
-| 25 | 5909.045 | t-maru078 | |
+| 24 | 5909.045 | t-maru078 | |
+| 25 | 5903.386 | StarlightDreamStudio | <<< |
 | 26 | 5902.050 | GWP | |
 | 27 | 5892.072 | woodstocktimes | |
 | 28 | 4948.864 | Fumiaki | |
