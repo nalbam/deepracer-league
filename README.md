@@ -21,7 +21,7 @@
 | 14 | 5929.387 | hiroisojp | |
 | 15 | 5929.084 | ABaykov | |
 | 16 | 5928.808 | leo-DNPds | |
-| 17 | 5926.853 | mogamin | <<< |
+| 17 | 5926.853 | mogamin | |
 | 18 | 5925.772 | TonyJ | |
 | 19 | 5923.254 | RayG | |
 | 20 | 5922.743 | hyeonwoo | |
@@ -32,11 +32,11 @@
 | 25 | 5910.845 | Alex-Schultz | |
 | 26 | 5909.045 | t-maru078 | |
 | 27 | 5903.386 | StarlightDreamStudio | |
-| 28 | 5902.050 | GWP | |
-| 29 | 5892.072 | woodstocktimes | |
-| 30 | 4948.864 | Fumiaki | |
-| 31 | 4946.978 | RichardFan | |
-| 32 | 4942.034 | maeda-ai | |
-| 33 | 4935.566 | Kire | |
-| 34 | 4932.351 | nalbam | |
-| 35 | 4929.189 | HY-DNP | |
+| 28 | 5892.072 | woodstocktimes | |
+| 29 | 4948.864 | Fumiaki | |
+| 30 | 4946.978 | RichardFan | |
+| 31 | 4942.034 | maeda-ai | |
+| 32 | 4935.566 | Kire | |
+| 33 | 4932.351 | nalbam | |
+| 34 | 4929.189 | HY-DNP | |
+| 35 | 4925.840 | Maverick | <<< |
