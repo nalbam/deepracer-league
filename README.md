@@ -9,7 +9,7 @@
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
-| 5 | 5937.617 | JasonLian | |
+| 5 | 5937.623 | JasonLian | <<< |
 | 6 | 5937.289 | nero-DNPds | |
 | 7 | 5934.197 | Aiis-DNP | |
 | 8 | 5933.782 | Jouni-Cybercom | |
@@ -32,7 +32,7 @@
 | 25 | 5910.845 | Alex-Schultz | |
 | 26 | 5909.045 | t-maru078 | |
 | 27 | 5903.386 | StarlightDreamStudio | |
-| 28 | 5902.050 | GWP | <<< |
+| 28 | 5902.050 | GWP | |
 | 29 | 5892.072 | woodstocktimes | |
 | 30 | 4948.864 | Fumiaki | |
 | 31 | 4946.978 | RichardFan | |
