@@ -28,15 +28,15 @@
 | 21 | 5919.808 | Robin-Castro | |
 | 22 | 5916.799 | SF | |
 | 23 | 5916.687 | KAGRAZAKA-DNP | |
-| 24 | 5910.845 | Alex-Schultz | <<< |
-| 25 | 5909.045 | t-maru078 | |
-| 26 | 5903.386 | StarlightDreamStudio | |
-| 27 | 5902.050 | GWP | |
-| 28 | 5892.072 | woodstocktimes | |
-| 29 | 4948.864 | Fumiaki | |
-| 30 | 4946.978 | RichardFan | |
-| 31 | 4942.034 | maeda-ai | |
-| 32 | 4937.950 | mogamin | |
-| 33 | 4935.566 | Kire | |
-| 34 | 4932.351 | nalbam | |
-| 35 | 4929.189 | HY-DNP | |
+| 24 | 5909.045 | t-maru078 | |
+| 25 | 5903.386 | StarlightDreamStudio | |
+| 26 | 5902.050 | GWP | |
+| 27 | 5892.072 | woodstocktimes | |
+| 28 | 4948.864 | Fumiaki | |
+| 29 | 4946.978 | RichardFan | |
+| 30 | 4942.034 | maeda-ai | |
+| 31 | 4937.950 | mogamin | |
+| 32 | 4935.566 | Kire | |
+| 33 | 4932.351 | nalbam | |
+| 34 | 4929.189 | HY-DNP | |
+| 35 | 4925.840 | Maverick | <<< |
