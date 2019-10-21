@@ -125,7 +125,7 @@ _load_extra() {
             _result "_build ${SVAL} ${NAME}"
         done
 
-        if [ "${JDX}" == "99" ]; then
+        if [ "${JDX}" == "100" ]; then
             break
         fi
 
