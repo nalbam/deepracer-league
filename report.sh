@@ -90,7 +90,7 @@ _load_leaderboard() {
 _load_extra() {
     SEASON=$1
 
-    _command "_build ${SEASON} extra"
+    _command "_build ${SEASON} extra ----------------------------"
 
     CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
 
