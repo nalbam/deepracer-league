@@ -9,7 +9,7 @@
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
-| 5 | 5937.688 | JasonLian | |
+| 5 | 5937.714 | JasonLian | <<< |
 | 6 | 5937.289 | nero-DNPds | |
 | 7 | 5934.197 | Aiis-DNP | |
 | 8 | 5933.782 | Jouni-Cybercom | |
@@ -19,7 +19,7 @@
 | 12 | 5932.703 | kimwooglae | |
 | 13 | 5931.388 | Jochem | |
 | 14 | 5929.387 | hiroisojp | |
-| 15 | 5929.133 | leo-DNPds | <<< |
+| 15 | 5929.133 | leo-DNPds | |
 | 16 | 5929.084 | ABaykov | |
 | 17 | 5926.853 | mogamin | |
 | 18 | 5925.772 | TonyJ | |
