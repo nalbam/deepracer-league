@@ -23,7 +23,7 @@
 | 16 | 5929.084 | ABaykov | |
 | 17 | 5926.853 | mogamin | |
 | 18 | 5925.772 | TonyJ | |
-| 19 | 5923.691 | hyeonwoo | <<< |
+| 19 | 5923.691 | hyeonwoo | |
 | 20 | 5923.337 | RayG | |
 | 21 | 5922.608 | BespinRacer | |
 | 22 | 5919.808 | Robin-Castro | |
@@ -35,7 +35,7 @@
 | 28 | 5902.050 | GWP | |
 | 29 | 5892.072 | woodstocktimes | |
 | 30 | 4948.864 | Fumiaki | |
-| 31 | 4946.978 | RichardFan | |
+| 31 | 4947.033 | RichardFan | <<< |
 | 32 | 4942.034 | maeda-ai | |
 | 33 | 4935.566 | Kire | |
 | 34 | 4932.351 | nalbam | |
