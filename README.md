@@ -22,12 +22,12 @@
 | 15 | 5929.133 | leo-DNPds | |
 | 16 | 5929.084 | ABaykov | |
 | 17 | 5926.853 | mogamin | |
-| 18 | 5925.772 | TonyJ | |
-| 19 | 5923.691 | hyeonwoo | |
-| 20 | 5923.337 | RayG | |
-| 21 | 5922.608 | BespinRacer | |
-| 22 | 5919.850 | Robin-Castro | |
-| 23 | 5918.354 | Kire | <<< |
+| 18 | 5926.185 | Kire | <<< |
+| 19 | 5925.772 | TonyJ | |
+| 20 | 5923.691 | hyeonwoo | |
+| 21 | 5923.337 | RayG | |
+| 22 | 5922.608 | BespinRacer | |
+| 23 | 5919.850 | Robin-Castro | |
 | 24 | 5916.813 | SF | |
 | 25 | 5916.687 | KAGRAZAKA-DNP | |
 | 26 | 5910.845 | Alex-Schultz | |
