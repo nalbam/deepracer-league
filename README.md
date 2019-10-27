@@ -5,7 +5,7 @@
 <!-- leaderboard -->
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
-| 1 | 5945.741 | Karl-NAB | |
+| 1 | 5945.990 | Karl-NAB | <<< |
 | 2 | 5938.308 | Breadcentric | |
 | 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
@@ -29,7 +29,7 @@
 | 22 | 5922.608 | BespinRacer | |
 | 23 | 5920.278 | Robin-Castro | |
 | 24 | 5916.813 | SF | |
-| 25 | 5916.687 | KAGRAZAKA-DNP | <<< |
+| 25 | 5916.687 | KAGRAZAKA-DNP | |
 | 26 | 5910.845 | Alex-Schultz | |
 | 27 | 5909.804 | t-maru078 | |
 | 28 | 5903.614 | StarlightDreamStudio | |
