@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5945.990 | Karl-NAB | |
-| 2 | 5938.308 | Breadcentric | |
+| 2 | 5939.458 | Breadcentric | <<< |
 | 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
 | 5 | 5937.714 | JasonLian | |
@@ -18,7 +18,7 @@
 | 11 | 5933.154 | sola-DNPds | |
 | 12 | 5932.703 | kimwooglae | |
 | 13 | 5931.388 | Jochem | |
-| 14 | 5930.493 | ABaykov | <<< |
+| 14 | 5930.493 | ABaykov | |
 | 15 | 5929.387 | hiroisojp | |
 | 16 | 5929.133 | leo-DNPds | |
 | 17 | 5927.609 | mogamin | |
