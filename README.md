@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5945.990 | Karl-NAB | |
-| 2 | 5940.438 | Breadcentric | <<< |
+| 2 | 5940.515 | Breadcentric | <<< |
 | 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
 | 5 | 5937.714 | JasonLian | |
