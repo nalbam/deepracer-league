@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5945.990 | Karl-NAB | |
-| 2 | 5940.006 | Breadcentric | |
+| 2 | 5940.130 | Breadcentric | <<< |
 | 3 | 5938.237 | Etaggel | |
 | 4 | 5937.822 | PGS-Tomasz-Panek | |
 | 5 | 5937.714 | JasonLian | |
@@ -24,7 +24,7 @@
 | 17 | 5927.609 | mogamin | |
 | 18 | 5926.785 | Kire | |
 | 19 | 5925.772 | TonyJ | |
-| 20 | 5925.216 | hyeonwoo | <<< |
+| 20 | 5925.216 | hyeonwoo | |
 | 21 | 5923.337 | RayG | |
 | 22 | 5922.608 | BespinRacer | |
 | 23 | 5920.278 | Robin-Castro | |
