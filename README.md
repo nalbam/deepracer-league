@@ -7,14 +7,14 @@
 | - | ----- | --------- | - |
 | 1 | 5945.990 | Karl-NAB | |
 | 2 | 5940.515 | Breadcentric | |
-| 3 | 5940.234 | Fumiaki | <<< |
+| 3 | 5940.234 | Fumiaki | |
 | 4 | 5938.237 | Etaggel | |
 | 5 | 5937.822 | PGS-Tomasz-Panek | |
 | 6 | 5937.714 | JasonLian | |
 | 7 | 5937.289 | nero-DNPds | |
 | 8 | 5934.197 | Aiis-DNP | |
 | 9 | 5933.782 | Jouni-Cybercom | |
-| 10 | 5933.661 | JimWu | |
+| 10 | 5933.703 | JimWu | <<< |
 | 11 | 5933.200 | nalbam-me | |
 | 12 | 5933.154 | sola-DNPds | |
 | 13 | 5932.703 | kimwooglae | |
