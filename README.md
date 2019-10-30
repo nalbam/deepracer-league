@@ -13,8 +13,8 @@
 | 6 | 5937.714 | JasonLian | |
 | 7 | 5937.289 | nero-DNPds | |
 | 8 | 5934.197 | Aiis-DNP | |
-| 9 | 5933.782 | Jouni-Cybercom | |
-| 10 | 5933.703 | JimWu | |
+| 9 | 5933.784 | JimWu | <<< |
+| 10 | 5933.782 | Jouni-Cybercom | |
 | 11 | 5933.200 | nalbam-me | |
 | 12 | 5933.154 | sola-DNPds | |
 | 13 | 5932.703 | kimwooglae | |
@@ -24,7 +24,7 @@
 | 17 | 5929.133 | leo-DNPds | |
 | 18 | 5927.609 | mogamin | |
 | 19 | 5926.785 | Kire | |
-| 20 | 5925.888 | hyeonwoo | <<< |
+| 20 | 5925.888 | hyeonwoo | |
 | 21 | 5925.772 | TonyJ | |
 | 22 | 5923.337 | RayG | |
 | 23 | 5922.608 | BespinRacer | |
