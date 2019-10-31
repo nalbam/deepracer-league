@@ -13,7 +13,7 @@
 | 6 | 5937.714 | JasonLian | |
 | 7 | 5937.289 | nero-DNPds | |
 | 8 | 5934.197 | Aiis-DNP | |
-| 9 | 5933.784 | JimWu | <<< |
+| 9 | 5933.784 | JimWu | |
 | 10 | 5933.782 | Jouni-Cybercom | |
 | 11 | 5933.200 | nalbam-me | |
 | 12 | 5933.154 | sola-DNPds | |
@@ -29,8 +29,8 @@
 | 22 | 5923.337 | RayG | |
 | 23 | 5922.608 | BespinRacer | |
 | 24 | 5920.278 | Robin-Castro | |
-| 25 | 5916.935 | SF | |
-| 26 | 5916.687 | KAGRAZAKA-DNP | |
+| 25 | 5917.019 | KAGRAZAKA-DNP | <<< |
+| 26 | 5916.935 | SF | |
 | 27 | 5910.845 | Alex-Schultz | |
 | 28 | 5909.804 | t-maru078 | |
 | 29 | 5903.614 | StarlightDreamStudio | |

@@ -1,8 +1,9 @@
 00:07.306 "Karl-NAB" null
-00:07.388 "iceman-NCTU-CGI" null
-00:07.512 "rogAWS" null
+00:07.369 "iceman-NCTU-CGI" null
+00:07.386 "Ting-NCTU-CGI" null
+00:07.436 "rogAWS" null
+00:07.443 "Eric-NCTU-CGI" null
 00:07.581 "JJ" null
-00:07.651 "Eric-NCTU-CGI" null
 00:07.895 "Momotaro-DevelopersIO" null
 00:08.009 "ShikaSenbei-DevelopersIO" null
 00:08.018 "ShibaInu-DevelopersIO" null
@@ -18,6 +19,7 @@
 00:08.427 "think" null
 00:08.440 "OneDudeDesign" null
 00:08.457 "yojio" null
+00:08.464 "Yeti" null
 00:08.500 "Narashika-DevelopersIO" null
 00:08.509 "kimwooglae" null
 00:08.529 "rosscomp1" null
@@ -27,7 +29,6 @@
 00:08.630 "Fumiaki" null
 00:08.647 "TonyJ" null
 00:08.648 "RayG" null
-00:08.689 "Yeti" null
 00:08.695 "RichardFan" null
 00:08.728 "Mentaiko-DevelopersIO" null
 00:08.773 "Robin-Castro" null
@@ -62,6 +63,7 @@
 00:09.799 "NicolasPinell" null
 00:09.811 "aws-challenger" null
 00:09.839 "Andrew-B6" null
+00:09.862 "AD313" null
 00:09.912 "Treebeard" null
 00:09.918 "ChangsooCap" null
 00:09.922 "PolishThunder" null
@@ -79,7 +81,7 @@
 00:10.185 "fgozali" null
 00:10.201 "mc" null
 00:10.218 "TheJJ" null
-00:10.244 "GummyBear" null
+00:10.223 "GummyBear" null
 00:10.265 "BradRacer" null
 00:10.282 "Common-Kingfisher" null
 00:10.305 "Priit" null
@@ -96,10 +98,8 @@
 00:10.515 "PlavaMultipla" null
 00:10.561 "romandmo" null
 00:10.635 "BloatedRacerMan" null
-00:10.648 "hirosys" null
-00:10.653 "TheJJ-Naspers" null
 00:12.319 "hiroisojp" null
-00:10.851 "KAGRAZAKA-DNP" null
+00:10.519 "KAGRAZAKA-DNP" null
 00:15.816 "t-maru078" null
 01:41.360 "T-Matsu" null
 00:17.477 "akari-DevelopersIO" null
@@ -121,7 +121,7 @@
 00:10.664 "AndreiU" null
 00:11.752 "KozmoRacer" null
 00:16.376 "Covfefe" null
-00:12.079 "gbrejeiro" null
+00:11.920 "gbrejeiro" null
 00:11.620 "KozmoShanghai" null
 00:11.818 "shivamgarg" null
 00:11.525 "mayurmadnani" null
@@ -138,4 +138,5 @@
 00:11.455 "LokeshLalwani" null
 00:12.280 "Qi" null
 00:12.681 "jonathan9879" null
+00:10.653 "TheJJ-Naspers" null
 00:11.308 "Shendy" null
