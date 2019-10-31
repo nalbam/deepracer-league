@@ -6,7 +6,7 @@
 | # | Score | RacerName |   |
 | - | ----- | --------- | - |
 | 1 | 5945.990 | Karl-NAB | |
-| 2 | 5940.658 | Breadcentric | <<< |
+| 2 | 5940.658 | Breadcentric | |
 | 3 | 5940.234 | Fumiaki | |
 | 4 | 5938.237 | Etaggel | |
 | 5 | 5937.822 | PGS-Tomasz-Panek | |
@@ -35,8 +35,8 @@
 | 28 | 5909.804 | t-maru078 | |
 | 29 | 5903.832 | StarlightDreamStudio | |
 | 30 | 5902.050 | GWP | |
-| 31 | 5892.072 | woodstocktimes | |
-| 32 | 4947.309 | RichardFan | |
-| 33 | 4942.034 | maeda-ai | |
-| 34 | 4932.351 | nalbam | |
-| 35 | 4929.189 | HY-DNP | |
+| 31 | 4947.309 | RichardFan | |
+| 32 | 4942.034 | maeda-ai | |
+| 33 | 4932.351 | nalbam | |
+| 34 | 4929.189 | HY-DNP | |
+| 35 | 4925.840 | Maverick | <<< |
