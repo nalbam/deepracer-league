@@ -31,7 +31,7 @@
 | 24 | 5920.278 | Robin-Castro | |
 | 25 | 5917.019 | KAGRAZAKA-DNP | |
 | 26 | 5916.935 | SF | |
-| 27 | 5911.607 | t-maru078 | <<< |
+| 27 | 5911.886 | t-maru078 | <<< |
 | 28 | 5910.845 | Alex-Schultz | |
 | 29 | 5903.832 | StarlightDreamStudio | |
 | 30 | 5902.050 | GWP | |
