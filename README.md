@@ -31,11 +31,11 @@
 | 24 | 5920.278 | Robin-Castro | |
 | 25 | 5917.019 | KAGRAZAKA-DNP | |
 | 26 | 5916.935 | SF | |
-| 27 | 5910.845 | Alex-Schultz | |
-| 28 | 5909.804 | t-maru078 | |
+| 27 | 5911.282 | t-maru078 | <<< |
+| 28 | 5910.845 | Alex-Schultz | |
 | 29 | 5903.832 | StarlightDreamStudio | |
 | 30 | 5902.050 | GWP | |
-| 31 | 5892.072 | woodstocktimes | <<< |
+| 31 | 5892.072 | woodstocktimes | |
 | 32 | 4947.309 | RichardFan | |
 | 33 | 4942.034 | maeda-ai | |
 | 34 | 4932.351 | nalbam | |
