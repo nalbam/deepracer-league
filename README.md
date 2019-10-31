@@ -29,11 +29,11 @@
 | 22 | 5923.337 | RayG | |
 | 23 | 5922.608 | BespinRacer | |
 | 24 | 5920.278 | Robin-Castro | |
-| 25 | 5917.019 | KAGRAZAKA-DNP | <<< |
+| 25 | 5917.019 | KAGRAZAKA-DNP | |
 | 26 | 5916.935 | SF | |
 | 27 | 5910.845 | Alex-Schultz | |
 | 28 | 5909.804 | t-maru078 | |
-| 29 | 5903.614 | StarlightDreamStudio | |
+| 29 | 5903.832 | StarlightDreamStudio | <<< |
 | 30 | 5902.050 | GWP | |
 | 31 | 5892.072 | woodstocktimes | |
 | 32 | 4947.309 | RichardFan | |
