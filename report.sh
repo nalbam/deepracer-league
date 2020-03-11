@@ -4,16 +4,13 @@ OS_NAME="$(uname | awk '{print tolower($0)}')"
 
 SHELL_DIR=$(dirname $0)
 
-MODE=$1
-
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
 SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
 
-FIRST="2020-03-tt"
-LATEST="2020-03-h2h"
+# SEASON=$1
 
-CHANGED=
+G_CHANGED=
 
 # command -v tput > /dev/null && TPUT=true
 TPUT=
@@ -49,198 +46,95 @@ _prepare() {
 
     rm -rf ${SHELL_DIR}/build
 
-    if [ "${MODE}" == "clear" ]; then
-        rm -rf ${SHELL_DIR}/cache
-    fi
-
     mkdir -p ${SHELL_DIR}/build
     mkdir -p ${SHELL_DIR}/cache
-
-    if [ -f ${SHELL_DIR}/build/points.log ]; then
-        rm -rf ${SHELL_DIR}/build/points.log
-    fi
-
-    echo
-}
-
-_load_leaderboard() {
-    # leaderboard
-    for SEASON in ${SEASONS}; do
-        _command "_build ${SEASON}"
-
-        CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
-
-        # if [ -f ${CACHE_FILE} ] && [ "${SEASON}" != "${LATEST}" ]; then
-        #     _result "_build ${SEASON} cached"
-        #     continue
-        # fi
-
-        URL="${URL_TEMPLATE}${SEASON}"
-
-        curl -sL ${URL} \
-            | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
-            > ${CACHE_FILE}
-
-        _result "_build ${SEASON} loaded"
-    done
-
-    echo
-}
-
-_load_extra() {
-    SEASON=$1
-
-    _command "_build ${SEASON} extra ----------------------------"
-
-    CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
-
-    if [ ! -f ${CACHE_FILE} ]; then
-        _result "_build ${SEASON} not found"
-        continue
-    fi
-
-    JDX=1
-    while read LINE; do
-        NAME="$(echo ${LINE} | cut -d'"' -f2)"
-
-        for SVAL in ${SEASONS}; do
-            if [ "${SVAL}" == "${SEASON}" ]; then
-                continue
-            fi
-
-            LOG_TEMP=${SHELL_DIR}/cache/${SVAL}.log
-
-            COUNT=$(cat ${LOG_TEMP} | grep "\"${NAME}\"" | wc -l | xargs)
-
-            if [ "x${COUNT}" != "x0" ]; then
-                continue
-            fi
-
-            URL="${URL_TEMPLATE}${SVAL}&item.additionalFields.racerName=${NAME}"
-
-            curl -sL ${URL} \
-                | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
-                >> ${LOG_TEMP}
-
-            _result "_build ${SVAL} ${NAME}"
-        done
-
-        if [ "${JDX}" == "100" ]; then
-            break
-        fi
-
-        JDX=$(( ${JDX} + 1 ))
-    done < ${CACHE_FILE}
-}
-
-_load_extras() {
-    # extra
-    for SEASON in ${SEASONS}; do
-        _load_extra ${SEASON}
-    done
-
-    echo
-}
-
-_build_summary() {
-    # summary
-    _command "_build summary"
-
-    while read LINE; do
-        ARR=(${LINE})
-
-        NAME="$(echo ${LINE} | cut -d'"' -f2)"
-
-        TIME="${ARR[0]}"
-        POINTS="${ARR[2]}"
-
-        for SEASON in ${SEASONS}; do
-            if [ "${SEASON}" == "${FIRST}" ]; then
-                continue
-            fi
-
-            CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
-
-            if [ ! -f ${CACHE_FILE} ]; then
-                _result "_build ${SEASON} not found"
-                continue
-            fi
-
-            ARR=($(cat ${CACHE_FILE} | grep "\"${NAME}\"" | head -1))
-
-            SUB_TIME="${ARR[0]}"
-            SUB_POINTS="${ARR[2]}"
-
-            if [ "${SUB_TIME}" != "" ]; then
-                if [ "${SUB_POINTS}" == "null" ]; then
-                    SUB_POINTS=$(echo "1000-60*${ARR[0]:0:2}-${ARR[0]:3}" | bc)
-                fi
-
-                POINTS=$(echo "${POINTS}+${SUB_POINTS}" | bc)
-            fi
-        done
-
-        echo "${POINTS} ${NAME}" >> ${SHELL_DIR}/build/points.log
-    done < ${SHELL_DIR}/cache/${FIRST}.log
-
-    # backup
-    if [ -f ${SHELL_DIR}/cache/points.log ]; then
-        cp ${SHELL_DIR}/cache/points.log ${SHELL_DIR}/build/backup.log
-    fi
-
-    # print
-    cat ${SHELL_DIR}/build/points.log | sort -r -g | head -35 > ${SHELL_DIR}/cache/points.log
 
     echo
 }
 
 _build() {
-    _load_leaderboard
+    for SEASON in ${SEASONS}; do
+        _load ${SEASON}
+        _message ${SEASON}
+    done
+}
 
-    # _load_extras
+_load() {
+    SEASON=$1
 
-    # _build_summary
+    _command "_load ${SEASON} ..."
+
+    if [ -f ${SHELL_DIR}/cache/${SEASON}.log ]; then
+        cp -rf ${SHELL_DIR}/cache/${SEASON}.log ${SHELL_DIR}/build/${SEASON}.log
+    fi
+
+    URL="${URL_TEMPLATE}${SEASON}"
+
+    curl -sL ${URL} \
+        | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
+        > ${SHELL_DIR}/cache/${SEASON}.log
+
+    _result "_load ${SEASON} done"
+
+    echo
 }
 
 _message() {
-    _command "_message"
+    SEASON=$1
 
-    MESSAGE=${SHELL_DIR}/build/message.tmp
-    README=${SHELL_DIR}/build/readme.tmp
+    _command "_message ${SEASON} ..."
 
-    echo "| # | Score | RacerName |   |" > ${README}
-    echo "| - | ----- | --------- | - |" >> ${README}
+    MESSAGE=${SHELL_DIR}/build/message-${SEASON}.tmp
+
+    CHANGED=
 
     IDX=1
     while read LINE; do
-        if [ -f ${SHELL_DIR}/build/backup.log ]; then
-            COUNT=$(cat ${SHELL_DIR}/build/backup.log | grep "${LINE}" | wc -l | xargs)
+        if [ -f ${SHELL_DIR}/build/${SEASON}.log ]; then
+            COUNT=$(cat ${SHELL_DIR}/build/${SEASON}.log | grep "${LINE}" | wc -l | xargs)
         else
             COUNT="0"
         fi
 
         ARR=(${LINE})
 
+        RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
+
         if [ "x${COUNT}" != "x0" ]; then
-            echo "${IDX}\t${ARR[0]}\t${ARR[1]}\n" >> ${MESSAGE}
-            echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | |" >> ${README}
+            echo "${IDX}\t${ARR[0]}\t${RACER}\n" >> ${MESSAGE}
         else
             CHANGED=true
 
-            _result "changed ${ARR[0]} ${ARR[1]}"
+            _result "changed ${ARR[0]} ${RACER}"
 
-            echo "${IDX}\t${ARR[0]}\t${ARR[1]}\t<<<\n" >> ${MESSAGE}
-            echo "| ${IDX} | ${ARR[0]} | ${ARR[1]} | <<< |" >> ${README}
+            echo "${IDX}\t${ARR[0]}\t${RACER}\t<<<\n" >> ${MESSAGE}
+        fi
+
+        if [ "${IDX}" == "20" ]; then
+            break
         fi
 
         IDX=$(( ${IDX} + 1 ))
-    done < ${SHELL_DIR}/cache/points.log
+    done < ${SHELL_DIR}/cache/${SEASON}.log
 
     echo
 
+    if [ "${CHANGED}" == "" ]; then
+        return
+    fi
+
+    G_CHANGED=true
+
     # message
-    echo "*DeepRacer Virtual Circuit Scoreboard*\n" > ${SHELL_DIR}/build/message.log
+    echo "*AWS Virtual Circuit - ${SEASON}*\n" >> ${SHELL_DIR}/build/message.log
     cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
+    echo "" >> ${SHELL_DIR}/build/message.log
+}
+
+_slack() {
+    if [ "${G_CHANGED}" == "" ]; then
+        _error "Not changed"
+    fi
 
     # slack message
     json="{\"text\":\"$(cat ${SHELL_DIR}/build/message.log)\"}"
@@ -248,63 +142,16 @@ _message() {
 
     # commit message
     printf "$(date +%Y%m%d-%H%M)" > ${SHELL_DIR}/build/commit_message.txt
-
-    # readme
-    IDX=1
-    while read LINE; do
-        COUNT="$(echo ${LINE} | grep "\-\- leaderboard \-\-" | wc -l | xargs)"
-
-        if [ "x${COUNT}" != "x0" ]; then
-            break
-        fi
-
-        IDX=$(( ${IDX} + 1 ))
-    done < ${SHELL_DIR}/README.md
-
-    sed "${IDX}q" ${SHELL_DIR}/README.md > ${SHELL_DIR}/build/readme.md
-    cat ${README} >> ${SHELL_DIR}/build/readme.md
-
-    if [ ! -z ${CHANGED} ]; then
-        cp -rf ${SHELL_DIR}/build/readme.md ${SHELL_DIR}/README.md
-    fi
 }
 
-_json() {
-    _command "_json"
-
-    JSON=${SHELL_DIR}/cache/points.json
-
-    echo "{\"deepracer\":[" > ${JSON}
-
-    IDX=1
-    while read LINE; do
-        ARR=(${LINE})
-
-        if [ "${IDX}" != "1" ]; then
-            echo "," >> ${JSON}
-        fi
-
-        printf "{\"no\":${IDX},\"name\":\"${ARR[1]}\",\"point\":${ARR[0]}}" >> ${JSON}
-
-        IDX=$(( ${IDX} + 1 ))
-    done < ${SHELL_DIR}/build/points.log
-
-    echo "]}" >> ${JSON}
-}
-
-__main__() {
+_run() {
     _prepare
 
     _build
-    _message
 
-    # _json
-
-    if [ -z ${CHANGED} ]; then
-        _error "not changed."
-    fi
+    _slack
 
     _success
 }
 
-__main__
+_run
