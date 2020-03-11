@@ -70,10 +70,10 @@ _load_leaderboard() {
 
         CACHE_FILE=${SHELL_DIR}/cache/${SEASON}.log
 
-        if [ -f ${CACHE_FILE} ] && [ "${SEASON}" != "${LATEST}" ]; then
-            _result "_build ${SEASON} cached"
-            continue
-        fi
+        # if [ -f ${CACHE_FILE} ] && [ "${SEASON}" != "${LATEST}" ]; then
+        #     _result "_build ${SEASON} cached"
+        #     continue
+        # fi
 
         URL="${URL_TEMPLATE}${SEASON}"
 
@@ -197,9 +197,9 @@ _build_summary() {
 _build() {
     _load_leaderboard
 
-    _load_extras
+    # _load_extras
 
-    _build_summary
+    # _build_summary
 }
 
 _message() {
