@@ -88,6 +88,11 @@ _message() {
 
     CHANGED=
 
+    MAX_IDX=20
+    if [ "${SEASON}" == "2020-03-h2h" ]; then
+        MAX_IDX=32
+    fi
+
     IDX=1
     while read LINE; do
         if [ -f ${SHELL_DIR}/build/${SEASON}.log ]; then
@@ -111,7 +116,7 @@ _message() {
             echo "${NO}\t${ARR[0]}\t${RACER}\t<<<\n" >> ${MESSAGE}
         fi
 
-        if [ "${IDX}" == "20" ]; then
+        if [ "${IDX}" == "${MAX_IDX}" ]; then
             break
         fi
 
