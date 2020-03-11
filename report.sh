@@ -98,16 +98,17 @@ _message() {
 
         ARR=(${LINE})
 
+        NO=$(printf %02d $IDX)
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
 
         if [ "x${COUNT}" != "x0" ]; then
-            echo "${IDX}\t${ARR[0]}\t${RACER}\n" >> ${MESSAGE}
+            echo "${NO}\t${ARR[0]}\t${RACER}\n" >> ${MESSAGE}
         else
             CHANGED=true
 
             _result "changed ${ARR[0]} ${RACER}"
 
-            echo "${IDX}\t${ARR[0]}\t${RACER}\t<<<\n" >> ${MESSAGE}
+            echo "${NO}\t${ARR[0]}\t${RACER}\t<<<\n" >> ${MESSAGE}
         fi
 
         if [ "${IDX}" == "20" ]; then
@@ -128,7 +129,7 @@ _message() {
     # message
     echo "*AWS Virtual Circuit - ${SEASON}*\n" >> ${SHELL_DIR}/build/message.log
     cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
-    echo "" >> ${SHELL_DIR}/build/message.log
+    echo "\n" >> ${SHELL_DIR}/build/message.log
 }
 
 _slack() {
