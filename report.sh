@@ -120,12 +120,12 @@ _message() {
         NO=$(printf %02d $IDX)
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
 
-        _racer ${RACER}
-
         if [ "x${COUNT}" != "x0" ]; then
             echo "${NO}\t${ARR[0]}\t${RACER}\n" >> ${MESSAGE}
         else
             CHANGED=true
+
+            _racer ${RACER}
 
             _result "changed ${ARR[0]} ${RACER}"
 
