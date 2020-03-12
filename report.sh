@@ -79,6 +79,20 @@ _load() {
     echo
 }
 
+_racer() {
+    RACER=$1
+
+    RACERS=${SHELL_DIR}/racers.json
+
+    USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.racers[] | select(.racername==$RACER) | "\(.username)"')"
+
+    if [ "${USERNAME}" != "" ]; then
+        RACER="${RACER} (@${USERNAME})"
+    fi
+
+    # return ${USERNAME}
+}
+
 _message() {
     SEASON=$1
 
@@ -105,6 +119,8 @@ _message() {
 
         NO=$(printf %02d $IDX)
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
+
+        _racer ${RACER}
 
         if [ "x${COUNT}" != "x0" ]; then
             echo "${NO}\t${ARR[0]}\t${RACER}\n" >> ${MESSAGE}
