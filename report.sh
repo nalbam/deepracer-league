@@ -6,11 +6,11 @@ SHELL_DIR=$(dirname $0)
 
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
-SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
+# SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
 
-# SEASON=$1
+SEASON=$1
 
-G_CHANGED=
+CHANGED=
 
 # command -v tput > /dev/null && TPUT=true
 TPUT=
@@ -38,13 +38,13 @@ _success() {
 
 _error() {
     _echo "- $@" 1
-    exit 1
+    exit 0
 }
 
 _prepare() {
     _command "_prepare"
 
-    rm -rf ${SHELL_DIR}/build
+    # rm -rf ${SHELL_DIR}/build
 
     mkdir -p ${SHELL_DIR}/build
     mkdir -p ${SHELL_DIR}/cache
@@ -52,16 +52,7 @@ _prepare() {
     echo
 }
 
-_build() {
-    for SEASON in ${SEASONS}; do
-        _load ${SEASON}
-        _message ${SEASON}
-    done
-}
-
 _load() {
-    SEASON=$1
-
     _command "_load ${SEASON} ..."
 
     if [ -f ${SHELL_DIR}/cache/${SEASON}.log ]; then
@@ -95,12 +86,10 @@ _racer() {
     # return ${USERNAME}
 }
 
-_message() {
-    SEASON=$1
+_build() {
+    _command "_build ${SEASON} ..."
 
-    _command "_message ${SEASON} ..."
-
-    MESSAGE=${SHELL_DIR}/build/message-${SEASON}.tmp
+    MESSAGE=${SHELL_DIR}/build/slack_message-${SEASON}.json
 
     CHANGED=
 
@@ -108,6 +97,9 @@ _message() {
     if [ "${SEASON}" == "2020-03-h2h" ]; then
         MAX_IDX=32
     fi
+
+    echo "{\"blocks\":[" > ${MESSAGE}
+    echo "{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*AWS Virtual Circuit - ${SEASON}*\"}}," >> ${MESSAGE}
 
     IDX=1
     while read LINE; do
@@ -123,7 +115,7 @@ _message() {
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
 
         if [ "x${COUNT}" != "x0" ]; then
-            echo "${NO}\t${ARR[0]}\t${RACER}\n" >> ${MESSAGE}
+            echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${ARR[0]}   ${RACER}\"}]}," >> ${MESSAGE}
         else
             CHANGED=true
 
@@ -131,7 +123,7 @@ _message() {
 
             _result "changed ${ARR[0]} ${RACER}"
 
-            echo "${NO}\t${ARR[0]}\t${RACER}\t<<<\n" >> ${MESSAGE}
+            echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${ARR[0]}   ${RACER}  <<<\"}]}," >> ${MESSAGE}
         fi
 
         if [ "${IDX}" == "${MAX_IDX}" ]; then
@@ -141,39 +133,27 @@ _message() {
         IDX=$(( ${IDX} + 1 ))
     done < ${SHELL_DIR}/cache/${SEASON}.log
 
-    echo
+    echo "{\"type\":\"divider\"}" >> ${MESSAGE}
+    echo "]}" >> ${MESSAGE}
 
     if [ "${CHANGED}" == "" ]; then
-        return
-    fi
-
-    G_CHANGED=true
-
-    # message
-    echo "*AWS Virtual Circuit - ${SEASON}*\n" >> ${SHELL_DIR}/build/message.log
-    cat ${MESSAGE} >> ${SHELL_DIR}/build/message.log
-    echo "\n" >> ${SHELL_DIR}/build/message.log
-}
-
-_slack() {
-    if [ "${G_CHANGED}" == "" ]; then
+        rm -rf ${MESSAGE}
         _error "Not changed"
     fi
 
-    # slack message
-    json="{\"text\":\"$(cat ${SHELL_DIR}/build/message.log)\"}"
-    echo $json > ${SHELL_DIR}/build/slack_message.json
-
     # commit message
     printf "$(date +%Y%m%d-%H%M)" > ${SHELL_DIR}/build/commit_message.txt
+
+    _result "_build ${SEASON} done"
+
+    echo
 }
 
 _run() {
     _prepare
 
+    _load
     _build
-
-    _slack
 
     _success
 }

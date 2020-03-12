@@ -14,7 +14,36 @@ jobs:
 
       - name: Report
         run: |
-          bash ./report.sh
+          bash ./report.sh "2020-03-tt"
+          bash ./report.sh "2020-03-oa"
+          bash ./report.sh "2020-03-h2h"
+
+      - name: Post to Slack
+        uses: opspresso/action-builder@master
+        with:
+          args: --slack
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          JSON_PATH: ./build/slack_message-2020-03-tt.json
+          LOOSE_ERROR: "true"
+
+      - name: Post to Slack
+        uses: opspresso/action-builder@master
+        with:
+          args: --slack
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          JSON_PATH: ./build/slack_message-2020-03-oa.json
+          LOOSE_ERROR: "true"
+
+      - name: Post to Slack
+        uses: opspresso/action-builder@master
+        with:
+          args: --slack
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          JSON_PATH: ./build/slack_message-2020-03-h2h.json
+          LOOSE_ERROR: "true"
 
       - name: Commit & Push
         uses: opspresso/action-builder@master
@@ -23,12 +52,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE_PATH: ./build/commit_message.txt
-
-      - name: Post to Slack
-        uses: opspresso/action-builder@master
-        with:
-          args: --slack
-        env:
-          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          JSON_PATH: ./build/slack_message.json
-          LOOSE_ERROR: "true"
