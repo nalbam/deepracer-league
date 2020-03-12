@@ -84,10 +84,12 @@ _racer() {
 
     RACERS=${SHELL_DIR}/racers.json
 
-    USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.racers[] | select(.racername==$RACER) | "\(.username)"')"
+    if [ -f ${RACERS} ]; then
+        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.racers[] | select(.racername==$RACER) | "\(.username)"')"
 
-    if [ "${USERNAME}" != "" ]; then
-        RACER="${RACER}  @${USERNAME}"
+        if [ "${USERNAME}" != "" ]; then
+            RACER="${RACER}  @${USERNAME}"
+        fi
     fi
 
     # return ${USERNAME}
