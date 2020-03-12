@@ -65,7 +65,7 @@ _load() {
     _command "_load ${SEASON} ..."
 
     if [ -f ${SHELL_DIR}/cache/${SEASON}.log ]; then
-        cp -rf ${SHELL_DIR}/cache/${SEASON}.log ${SHELL_DIR}/build/${SEASON}.log
+        cat ${SHELL_DIR}/cache/${SEASON}.log > ${SHELL_DIR}/build/${SEASON}.log
     fi
 
     URL="${URL_TEMPLATE}${SEASON}"
