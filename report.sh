@@ -83,6 +83,8 @@ _racer() {
         fi
     fi
 
+    RACER="${RACER}  :tada:"
+
     # return ${USERNAME}
 }
 
@@ -114,17 +116,15 @@ _build() {
         NO=$(printf %02d $IDX)
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
 
-        if [ "x${COUNT}" != "x0" ]; then
-            echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${ARR[0]}   ${RACER}\"}]}," >> ${MESSAGE}
-        else
+        if [ "x${COUNT}" == "x0" ]; then
             CHANGED=true
 
             _racer ${RACER}
 
             _result "changed ${ARR[0]} ${RACER}"
-
-            echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${ARR[0]}   ${RACER}  <<<\"}]}," >> ${MESSAGE}
         fi
+
+        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${ARR[0]}   ${RACER}\"}]}," >> ${MESSAGE}
 
         if [ "${IDX}" == "${MAX_IDX}" ]; then
             break
