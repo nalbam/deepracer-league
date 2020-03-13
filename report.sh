@@ -114,17 +114,20 @@ _build() {
         ARR=(${LINE})
 
         NO=$(printf %02d $IDX)
+        RECORD="${ARR[0]}"
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
 
         if [ "x${COUNT}" == "x0" ]; then
             CHANGED=true
 
+            RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${SEASON}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
+
             _racer ${RACER}
 
-            _result "changed ${ARR[0]} ${RACER}"
+            _result "changed ${RECORD} ${RACER}"
         fi
 
-        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${ARR[0]}   ${RACER}\"}]}," >> ${MESSAGE}
+        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${RECORD}   ${RACER}\"}]}," >> ${MESSAGE}
 
         if [ "${IDX}" == "${MAX_IDX}" ]; then
             break
