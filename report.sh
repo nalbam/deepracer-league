@@ -83,7 +83,7 @@ _racer() {
         fi
     fi
 
-    RACER="${RACER}  :tada:"
+    RACER="${RACER}   :tada:"
 
     # return ${USERNAME}
 }
