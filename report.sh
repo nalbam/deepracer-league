@@ -79,7 +79,7 @@ _racer() {
         USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.racers[] | select(.racername==$RACER) | "\(.username)"')"
 
         if [ "${USERNAME}" != "" ]; then
-            RACER="${RACER}  @${USERNAME}"
+            RACER="${RACER}   @${USERNAME}"
         fi
     fi
 
