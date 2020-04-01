@@ -14,9 +14,9 @@ jobs:
 
       - name: Report
         run: |
-          bash ./report.sh "2020-03-tt"
-          bash ./report.sh "2020-03-oa"
-          bash ./report.sh "2020-03-h2h"
+          bash ./report.sh "2020-04-tt"
+          bash ./report.sh "2020-04-oa"
+          bash ./report.sh "2020-04-h2h"
 
       - name: Post to Slack
         uses: opspresso/action-builder@master
@@ -24,7 +24,7 @@ jobs:
           args: --slack
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          JSON_PATH: ./build/slack_message-2020-03-tt.json
+          JSON_PATH: ./build/slack_message-2020-04-tt.json
           LOOSE_ERROR: "true"
 
       - name: Post to Slack
@@ -33,7 +33,7 @@ jobs:
           args: --slack
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          JSON_PATH: ./build/slack_message-2020-03-oa.json
+          JSON_PATH: ./build/slack_message-2020-04-oa.json
           LOOSE_ERROR: "true"
 
       - name: Post to Slack
@@ -42,7 +42,7 @@ jobs:
           args: --slack
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          JSON_PATH: ./build/slack_message-2020-03-h2h.json
+          JSON_PATH: ./build/slack_message-2020-04-h2h.json
           LOOSE_ERROR: "true"
 
       - name: Commit & Push

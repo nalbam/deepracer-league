@@ -6,7 +6,7 @@ SHELL_DIR=$(dirname $0)
 
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
-# SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
+# SEASONS="2020-04-tt 2020-04-oa 2020-04-h2h"
 
 SEASON=$1
 
@@ -96,7 +96,7 @@ _build() {
     CHANGED=
 
     MAX_IDX=20
-    if [ "${SEASON}" == "2020-03-h2h" ]; then
+    if [ "${SEASON}" == "2020-04-h2h" ]; then
         MAX_IDX=32
     fi
 
