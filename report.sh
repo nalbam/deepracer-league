@@ -6,9 +6,9 @@ SHELL_DIR=$(dirname $0)
 
 URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
 
-# SEASONS="2020-04-tt 2020-04-oa 2020-04-h2h"
+# SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
 
-SEASON=$1
+# SEASON=$1
 
 CHANGED=
 
@@ -38,7 +38,7 @@ _success() {
 
 _error() {
     _echo "- $@" 1
-    exit 0
+    # exit 1
 }
 
 _prepare() {
@@ -53,7 +53,10 @@ _prepare() {
 }
 
 _load() {
-    _command "_load ${SEASON} ..."
+    LEAGUE=$1
+    SEASON=$2
+
+    _command "_load ${LEAGUE} ${SEASON} ..."
 
     if [ -f ${SHELL_DIR}/cache/${SEASON}.log ]; then
         cat ${SHELL_DIR}/cache/${SEASON}.log > ${SHELL_DIR}/build/${SEASON}.log
@@ -65,7 +68,7 @@ _load() {
         | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
         > ${SHELL_DIR}/cache/${SEASON}.log
 
-    _result "_load ${SEASON} done"
+    _result "_load ${LEAGUE} ${SEASON} done"
 
     echo
 }
@@ -89,14 +92,17 @@ _racer() {
 }
 
 _build() {
-    _command "_build ${SEASON} ..."
+    LEAGUE=$1
+    SEASON=$2
 
-    MESSAGE=${SHELL_DIR}/build/slack_message-${SEASON}.json
+    _command "_build ${LEAGUE} ${SEASON} ..."
+
+    MESSAGE=${SHELL_DIR}/build/slack_message-${LEAGUE}.json
 
     CHANGED=
 
     MAX_IDX=20
-    if [ "${SEASON}" == "2020-04-h2h" ]; then
+    if [ "${LEAGUE}" == "h2h" ]; then
         MAX_IDX=32
     fi
 
@@ -120,7 +126,9 @@ _build() {
         if [ "x${COUNT}" == "x0" ]; then
             CHANGED=true
 
-            RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${SEASON}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
+            if [ -f ${SHELL_DIR}/build/${SEASON}.log ]; then
+                RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${SEASON}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
+            fi
 
             _racer ${RACER}
 
@@ -147,7 +155,7 @@ _build() {
     # commit message
     printf "$(date +%Y%m%d-%H%M)" > ${SHELL_DIR}/build/commit_message.txt
 
-    _result "_build ${SEASON} done"
+    _result "_build ${LEAGUE} ${SEASON} done"
 
     echo
 }
@@ -155,8 +163,18 @@ _build() {
 _run() {
     _prepare
 
-    _load
-    _build
+    LIST=${SHELL_DIR}/build/league.txt
+
+    cat ${SHELL_DIR}/league.json \
+        | jq -r '.[] | "\(.league) \(.season)"' \
+        > ${LIST}
+
+    while read VAL; do
+        ARR=(${VAL})
+
+        _load ${ARR[0]} ${ARR[1]}
+        _build ${ARR[0]} ${ARR[1]}
+    done < ${LIST}
 
     _success
 }
