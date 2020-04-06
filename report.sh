@@ -76,10 +76,12 @@ _load() {
 _racer() {
     RACER=$1
 
+    USERNAME=
+
     RACERS=${SHELL_DIR}/racers.json
 
     if [ -f ${RACERS} ]; then
-        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.racers[] | select(.racername==$RACER) | "\(.username)"')"
+        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
 
         if [ "${USERNAME}" != "" ]; then
             RACER="${RACER}   @${USERNAME}"
@@ -87,19 +89,17 @@ _racer() {
     fi
 
     RACER="${RACER}   :tada:"
-
-    # return ${USERNAME}
 }
 
 _build() {
     LEAGUE=$1
     SEASON=$2
 
+    CHANGED=
+
     _command "_build ${LEAGUE} ${SEASON} ..."
 
     MESSAGE=${SHELL_DIR}/build/slack_message-${LEAGUE}.json
-
-    CHANGED=
 
     MAX_IDX=20
     if [ "${LEAGUE}" == "h2h" ]; then
@@ -169,8 +169,8 @@ _run() {
         | jq -r '.[] | "\(.league) \(.season)"' \
         > ${LIST}
 
-    while read VAL; do
-        ARR=(${VAL})
+    while read LINE; do
+        ARR=(${LINE})
 
         _load ${ARR[0]} ${ARR[1]}
         _build ${ARR[0]} ${ARR[1]}
