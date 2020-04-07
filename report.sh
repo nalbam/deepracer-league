@@ -135,7 +135,8 @@ _build() {
             _result "changed ${RECORD} ${RACER}"
         fi
 
-        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${NO}   ${RECORD}   ${RACER}\"}]}," >> ${MESSAGE}
+        TEXT="${NO}   ${RECORD}   ${RACER}"
+        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${TEXT}\"}]}," >> ${MESSAGE}
 
         if [ "${IDX}" == "${MAX_IDX}" ]; then
             break
