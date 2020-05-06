@@ -4,7 +4,7 @@ OS_NAME="$(uname | awk '{print tolower($0)}')"
 
 SHELL_DIR=$(dirname $0)
 
-URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-"
+URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23"
 
 # SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
 
@@ -55,95 +55,75 @@ _prepare() {
 _load() {
     LEAGUE=$1
     SEASON=$2
+    FILENAME=$3
 
-    _command "_load ${LEAGUE} ${SEASON} ..."
+    _command "_load ${SEASON} ..."
 
-    if [ -f ${SHELL_DIR}/cache/${SEASON}.log ]; then
-        cat ${SHELL_DIR}/cache/${SEASON}.log > ${SHELL_DIR}/build/${SEASON}.log
+    if [ -f ${SHELL_DIR}/cache/${FILENAME}.log ]; then
+        cat ${SHELL_DIR}/cache/${FILENAME}.log > ${SHELL_DIR}/build/${FILENAME}.log
     fi
 
     URL="${URL_TEMPLATE}${SEASON}"
 
     curl -sL ${URL} \
         | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
-        > ${SHELL_DIR}/cache/${SEASON}.log
+        > ${SHELL_DIR}/cache/${FILENAME}.log
 
-    _result "_load ${LEAGUE} ${SEASON} done"
+    _result "_load ${SEASON} done"
 
     echo
-}
-
-_racer() {
-    RACER=$1
-
-    USERNAME=
-
-    RACERS=${SHELL_DIR}/racers.json
-
-    if [ -f ${RACERS} ]; then
-        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
-
-        if [ "${USERNAME}" != "" ]; then
-            RACER="${RACER}   @${USERNAME}"
-        fi
-    fi
-
-    RACER="${RACER}   :tada:"
 }
 
 _build() {
     LEAGUE=$1
     SEASON=$2
+    FILENAME=$3
 
     CHANGED=
 
-    _command "_build ${LEAGUE} ${SEASON} ..."
+    _command "_build ${SEASON} ..."
 
     MESSAGE=${SHELL_DIR}/build/slack_message-${LEAGUE}.json
-
-    MAX_IDX=20
-    if [ "${LEAGUE}" == "h2h" ]; then
-        MAX_IDX=32
-    fi
 
     echo "{\"blocks\":[" > ${MESSAGE}
     echo "{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*AWS Virtual Circuit - ${SEASON}*\"}}," >> ${MESSAGE}
 
-    IDX=1
-    while read LINE; do
-        if [ -f ${SHELL_DIR}/build/${SEASON}.log ]; then
-            COUNT=$(cat ${SHELL_DIR}/build/${SEASON}.log | grep "${LINE}" | wc -l | xargs)
-        else
-            COUNT="0"
-        fi
+    RACERS=${SHELL_DIR}/build/racers.txt
 
+    cat ${SHELL_DIR}/racers.json \
+        | jq -r '.[] | "\(.racername) \(.username)"' \
+        > ${RACERS}
+
+    while read LINE; do
         ARR=(${LINE})
 
-        NO=$(printf %02d $IDX)
-        RECORD="${ARR[0]}"
-        RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
+        if [ -f ${SHELL_DIR}/cache/${FILENAME}.log ]; then
+            RECORD="$(cat ${SHELL_DIR}/cache/${FILENAME}.log | grep "${ARR[0]}")"
 
-        if [ "x${COUNT}" == "x0" ]; then
-            CHANGED=true
+            ARR2=(${RECORD})
 
-            if [ -f ${SHELL_DIR}/build/${SEASON}.log ]; then
-                RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${SEASON}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
+            RACER=$(echo "${ARR2[1]}" | sed -e 's/^"//' -e 's/"$//')
+
+            if [ -f ${SHELL_DIR}/cache/${FILENAME}-racers.log ]; then
+                ARR3=($(cat ${SHELL_DIR}/cache/${FILENAME}-racers.log | grep "${ARR[0]}" | tail -1))
+
+                if [ "${ARR2[0]}" != "${ARR3[0]}" ]; then
+                    echo "${RECORD}" >> ${SHELL_DIR}/cache/${FILENAME}-racers.log
+
+                    CHANGED=true
+
+                    TEXT="${ARR2[0]}    ~${ARR3[0]}~    ${RACER}"
+                    echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${TEXT}\"}]}," >> ${MESSAGE}
+                fi
+            else
+                echo "${RECORD}" >> ${SHELL_DIR}/cache/${FILENAME}-racers.log
+
+                CHANGED=true
+
+                echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${RECORD}\"}]}," >> ${MESSAGE}
             fi
-
-            _racer ${RACER}
-
-            _result "changed ${RECORD} ${RACER}"
         fi
-
-        TEXT="${NO}   ${RECORD}   ${RACER}"
-        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${TEXT}\"}]}," >> ${MESSAGE}
-
-        if [ "${IDX}" == "${MAX_IDX}" ]; then
-            break
-        fi
-
-        IDX=$(( ${IDX} + 1 ))
-    done < ${SHELL_DIR}/cache/${SEASON}.log
+    done < ${RACERS}
 
     echo "{\"type\":\"divider\"}" >> ${MESSAGE}
     echo "]}" >> ${MESSAGE}
@@ -156,7 +136,7 @@ _build() {
     # commit message
     printf "$(date +%Y%m%d-%H%M)" > ${SHELL_DIR}/build/commit_message.txt
 
-    _result "_build ${LEAGUE} ${SEASON} done"
+    _result "_build ${SEASON} done"
 
     echo
 }
@@ -167,14 +147,14 @@ _run() {
     LIST=${SHELL_DIR}/build/league.txt
 
     cat ${SHELL_DIR}/league.json \
-        | jq -r '.[] | "\(.league) \(.season)"' \
+        | jq -r '.[] | "\(.league) \(.season) \(.filename)"' \
         > ${LIST}
 
     while read LINE; do
         ARR=(${LINE})
 
-        _load ${ARR[0]} ${ARR[1]}
-        _build ${ARR[0]} ${ARR[1]}
+        _load ${ARR[0]} ${ARR[1]} ${ARR[2]}
+        _build ${ARR[0]} ${ARR[1]} ${ARR[2]}
     done < ${LIST}
 
     _success

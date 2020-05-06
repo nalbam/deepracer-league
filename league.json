@@ -1,13 +1,16 @@
 [{
     "league": "tt",
-    "season": "2020-05-tt"
+    "season": "virtual-season-2020-05-tt",
+    "filename": "2020-05-tt"
   },
   {
     "league": "oa",
-    "season": "2020-05-oa"
+    "season": "virtual-season-2020-05-oa",
+    "filename": "2020-05-oa"
   },
   {
     "league": "h2h",
-    "season": "2020-05-h2h"
+    "season": "virtual-season-2020-05-h2h",
+    "filename": "2020-05-h2h"
   }
 ]
