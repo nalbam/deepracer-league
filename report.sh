@@ -57,7 +57,7 @@ _load() {
     SEASON=$2
     FILENAME=$3
 
-    _command "_load ${SEASON} ..."
+    _command "_load ${LEAGUE} ${SEASON} ..."
 
     if [ -f ${SHELL_DIR}/cache/${FILENAME}.log ]; then
         cat ${SHELL_DIR}/cache/${FILENAME}.log > ${SHELL_DIR}/build/${FILENAME}.log
@@ -69,9 +69,27 @@ _load() {
         | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
         > ${SHELL_DIR}/cache/${FILENAME}.log
 
-    _result "_load ${SEASON} done"
+    _result "_load ${LEAGUE} ${SEASON} done"
 
     echo
+}
+
+_racer() {
+    RACER=$1
+
+    USERNAME=
+
+    RACERS=${SHELL_DIR}/racers.json
+
+    if [ -f ${RACERS} ]; then
+        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
+
+        if [ "${USERNAME}" != "" ]; then
+            RACER="${RACER}   @${USERNAME}"
+        fi
+    fi
+
+    RACER="${RACER}   :tada:"
 }
 
 _build() {
@@ -81,49 +99,53 @@ _build() {
 
     CHANGED=
 
-    _command "_build ${SEASON} ..."
+    _command "_build ${LEAGUE} ${SEASON} ..."
 
     MESSAGE=${SHELL_DIR}/build/slack_message-${LEAGUE}.json
+
+    MAX_IDX=20
+    if [ "${LEAGUE}" == "h2h" ]; then
+        MAX_IDX=32
+    fi
 
     echo "{\"blocks\":[" > ${MESSAGE}
     echo "{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*AWS Virtual Circuit - ${SEASON}*\"}}," >> ${MESSAGE}
 
-    RACERS=${SHELL_DIR}/build/racers.txt
-
-    cat ${SHELL_DIR}/racers.json \
-        | jq -r '.[] | "\(.racername) \(.username)"' \
-        > ${RACERS}
-
+    IDX=1
     while read LINE; do
+        if [ -f ${SHELL_DIR}/build/${FILENAME}.log ]; then
+            COUNT=$(cat ${SHELL_DIR}/build/${FILENAME}.log | grep "${LINE}" | wc -l | xargs)
+        else
+            COUNT="0"
+        fi
+
         ARR=(${LINE})
 
-        if [ -f ${SHELL_DIR}/cache/${FILENAME}.log ]; then
-            RECORD="$(cat ${SHELL_DIR}/cache/${FILENAME}.log | grep "${ARR[0]}")"
+        NO=$(printf %02d $IDX)
+        RECORD="${ARR[0]}"
+        RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
 
-            ARR2=(${RECORD})
+        if [ "x${COUNT}" == "x0" ]; then
+            CHANGED=true
 
-            RACER=$(echo "${ARR2[1]}" | sed -e 's/^"//' -e 's/"$//')
-
-            if [ -f ${SHELL_DIR}/cache/${FILENAME}-racers.log ]; then
-                ARR3=($(cat ${SHELL_DIR}/cache/${FILENAME}-racers.log | grep "${ARR[0]}" | tail -1))
-
-                if [ "${ARR2[0]}" != "${ARR3[0]}" ]; then
-                    echo "${RECORD}" >> ${SHELL_DIR}/cache/${FILENAME}-racers.log
-
-                    CHANGED=true
-
-                    TEXT="${ARR2[0]}    ~${ARR3[0]}~    ${RACER}"
-                    echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${TEXT}\"}]}," >> ${MESSAGE}
-                fi
-            else
-                echo "${RECORD}" >> ${SHELL_DIR}/cache/${FILENAME}-racers.log
-
-                CHANGED=true
-
-                echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${RECORD}\"}]}," >> ${MESSAGE}
+            if [ -f ${SHELL_DIR}/build/${FILENAME}.log ]; then
+                RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${FILENAME}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
             fi
+
+            _racer ${RACER}
+
+            _result "changed ${RECORD} ${RACER}"
         fi
-    done < ${RACERS}
+
+        TEXT="${NO}   ${RECORD}   ${RACER}"
+        echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${TEXT}\"}]}," >> ${MESSAGE}
+
+        if [ "${IDX}" == "${MAX_IDX}" ]; then
+            break
+        fi
+
+        IDX=$(( ${IDX} + 1 ))
+    done < ${SHELL_DIR}/cache/${FILENAME}.log
 
     echo "{\"type\":\"divider\"}" >> ${MESSAGE}
     echo "]}" >> ${MESSAGE}
@@ -136,7 +158,7 @@ _build() {
     # commit message
     printf "$(date +%Y%m%d-%H%M)" > ${SHELL_DIR}/build/commit_message.txt
 
-    _result "_build ${SEASON} done"
+    _result "_build ${LEAGUE} ${SEASON} done"
 
     echo
 }
