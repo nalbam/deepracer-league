@@ -4,7 +4,11 @@ OS_NAME="$(uname | awk '{print tolower($0)}')"
 
 SHELL_DIR=$(dirname $0)
 
-URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23"
+# URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23inperson&tags.id=deepracer-leaderboard%23eventid%23summit-season-2020-05-tt"
+# URL_TEMPLATE="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23virtual&tags.id=deepracer-leaderboard%23eventid%23virtual-season-2020-05-tt"
+
+URL_TEMPLATE1="https://aws.amazon.com/api/dirs/items/search?item.directoryId=deepracer-leaderboard&sort_by=item.additionalFields.position&sort_order=asc&size=100&item.locale=en_US&tags.id=deepracer-leaderboard%23recordtype%23individual&tags.id=deepracer-leaderboard%23eventtype%23"
+URL_TEMPLATE2="&tags.id=deepracer-leaderboard%23eventid%23"
 
 # SEASONS="2020-03-tt 2020-03-oa 2020-03-h2h"
 
@@ -53,9 +57,10 @@ _prepare() {
 }
 
 _load() {
-    LEAGUE=$1
-    SEASON=$2
-    FILENAME=$3
+    TARGET=$1
+    LEAGUE=$2
+    SEASON=$3
+    FILENAME=$4
 
     _command "_load ${LEAGUE} ${SEASON} ..."
 
@@ -63,7 +68,7 @@ _load() {
         cat ${SHELL_DIR}/cache/${FILENAME}.log > ${SHELL_DIR}/build/${FILENAME}.log
     fi
 
-    URL="${URL_TEMPLATE}${SEASON}"
+    URL="${URL_TEMPLATE1}${LEAGUE}${URL_TEMPLATE2}${SEASON}"
 
     curl -sL ${URL} \
         | jq -r '.items[].item | "\(.additionalFields.lapTime) \"\(.additionalFields.racerName)\" \(.additionalFields.points)"' \
@@ -93,18 +98,19 @@ _racer() {
 }
 
 _build() {
-    LEAGUE=$1
-    SEASON=$2
-    FILENAME=$3
+    TARGET=$1
+    LEAGUE=$2
+    SEASON=$3
+    FILENAME=$4
 
     CHANGED=
 
     _command "_build ${LEAGUE} ${SEASON} ..."
 
-    MESSAGE=${SHELL_DIR}/build/slack_message-${LEAGUE}.json
+    MESSAGE=${SHELL_DIR}/build/slack_message-${TARGET}.json
 
     MAX_IDX=20
-    if [ "${LEAGUE}" == "h2h" ]; then
+    if [ "${TARGET}" == "h2h" ]; then
         MAX_IDX=32
     fi
 
@@ -169,14 +175,14 @@ _run() {
     LIST=${SHELL_DIR}/build/league.txt
 
     cat ${SHELL_DIR}/league.json \
-        | jq -r '.[] | "\(.league) \(.season) \(.filename)"' \
+        | jq -r '.[] | "\(.target) \(.league) \(.season) \(.filename)"' \
         > ${LIST}
 
     while read LINE; do
         ARR=(${LINE})
 
-        _load ${ARR[0]} ${ARR[1]} ${ARR[2]}
-        _build ${ARR[0]} ${ARR[1]} ${ARR[2]}
+        _load ${ARR[0]} ${ARR[1]} ${ARR[2]} ${ARR[3]}
+        _build ${ARR[0]} ${ARR[1]} ${ARR[2]} ${ARR[3]}
     done < ${LIST}
 
     _success
