@@ -43,6 +43,24 @@ jobs:
           JSON_PATH: ./build/slack_message-h2h.json
           LOOSE_ERROR: "true"
 
+      - name: Post to Slack
+        uses: opspresso/action-builder@master
+        with:
+          args: --slack
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          JSON_PATH: ./build/slack_message-s-tt.json
+          LOOSE_ERROR: "true"
+
+      - name: Post to Slack
+        uses: opspresso/action-builder@master
+        with:
+          args: --slack
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          JSON_PATH: ./build/slack_message-s-h2h.json
+          LOOSE_ERROR: "true"
+
       - name: Commit & Push
         uses: opspresso/action-builder@master
         with:

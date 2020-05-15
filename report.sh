@@ -115,7 +115,7 @@ _build() {
     fi
 
     echo "{\"blocks\":[" > ${MESSAGE}
-    echo "{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*AWS Virtual Circuit - ${SEASON}*\"}}," >> ${MESSAGE}
+    echo "{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*AWS DeepRacer - ${SEASON}*\"}}," >> ${MESSAGE}
 
     IDX=1
     while read LINE; do
