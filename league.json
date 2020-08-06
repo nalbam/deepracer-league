@@ -1,31 +1,32 @@
-[{
+[
+  {
     "target": "tt",
     "league": "virtual",
-    "season": "virtual-season-2020-07-tt",
-    "filename": "2020-07-tt"
+    "season": "virtual-season-2020-08-tt",
+    "filename": "2020-08-tt"
   },
   {
     "target": "oa",
     "league": "virtual",
-    "season": "virtual-season-2020-07-oa",
-    "filename": "2020-07-oa"
+    "season": "virtual-season-2020-08-oa",
+    "filename": "2020-08-oa"
   },
   {
     "target": "h2h",
     "league": "virtual",
-    "season": "virtual-season-2020-07-h2h",
-    "filename": "2020-07-h2h"
+    "season": "virtual-season-2020-08-h2h",
+    "filename": "2020-08-h2h"
   },
   {
     "target": "s-tt",
     "league": "inperson",
-    "season": "summit-season-2020-07-tt",
-    "filename": "summit-2020-07-tt"
+    "season": "summit-season-2020-08-tt",
+    "filename": "summit-2020-08-tt"
   },
   {
     "target": "s-h2h",
     "league": "inperson",
-    "season": "summit-season-2020-07-h2h",
-    "filename": "summit-2020-07-h2h"
+    "season": "summit-season-2020-08-h2h",
+    "filename": "summit-2020-08-h2h"
   }
 ]
