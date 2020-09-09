@@ -233,8 +233,8 @@ _run() {
         SEASON=${SEASON}-${YYYY}-${MM}-${TYPE}
 
         _load   ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}
-        _racers ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}
-        _build  ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}-racers
+        # _racers ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}
+        _build  ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}
     done < ${LEAGUES}
 
     _success
