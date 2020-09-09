@@ -127,9 +127,9 @@ _build() {
 
         ARR=(${LINE})
 
-        NO=$(printf %02d $IDX)
-        RECORD="${ARR[0]}"
         RACER=$(echo "${ARR[1]}" | sed -e 's/^"//' -e 's/"$//')
+
+        RECORD="${ARR[0]}"
 
         if [ "x${COUNT}" == "x0" ]; then
             CHANGED=true
@@ -143,7 +143,10 @@ _build() {
             _result "changed ${RECORD} ${RACER}"
         fi
 
+        NO=$(printf %02d $IDX)
+
         TEXT="${NO}   ${RECORD}   ${RACER}"
+
         echo "{\"type\":\"context\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\"${TEXT}\"}]}," >> ${MESSAGE}
 
         if [ "${IDX}" == "${MAX_IDX}" ]; then

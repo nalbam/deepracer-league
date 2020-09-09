@@ -16,6 +16,14 @@ jobs:
         run: |
           bash ./report.sh
 
+      - name: Commit & Push
+        uses: opspresso/action-builder@master
+        with:
+          args: --commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE_PATH: ./build/commit_message.txt
+
       - name: Post to Slack
         uses: opspresso/action-builder@master
         with:
@@ -60,11 +68,3 @@ jobs:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           JSON_PATH: ./build/slack_message-s-h2h.json
           LOOSE_ERROR: "true"
-
-      - name: Commit & Push
-        uses: opspresso/action-builder@master
-        with:
-          args: --commit
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE_PATH: ./build/commit_message.txt
