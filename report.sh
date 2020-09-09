@@ -48,10 +48,13 @@ _error() {
 _prepare() {
     _command "_prepare"
 
+    YYYY=$(date +%Y)
+    MM=$(date +%m)
+
     # rm -rf ${SHELL_DIR}/build
 
-    mkdir -p ${SHELL_DIR}/build
-    mkdir -p ${SHELL_DIR}/cache
+    mkdir -p ${SHELL_DIR}/build/${YYYY}/${MM}
+    mkdir -p ${SHELL_DIR}/cache/${YYYY}/${MM}
 
     echo
 }
@@ -79,6 +82,47 @@ _load() {
     echo
 }
 
+_racers() {
+    TARGET=$1
+    LEAGUE=$2
+    SEASON=$3
+    FILENAME=$4
+
+    RACERS=${SHELL_DIR}/racers.txt
+
+    if [ ! -f ${RACERS} ]; then
+        return
+    fi
+
+    _command "_racers ${LEAGUE} ${SEASON} ..."
+
+    if [ -f ${SHELL_DIR}/cache/${FILENAME}-racers.log ]; then
+        cat ${SHELL_DIR}/cache/${FILENAME}-racers.log > ${SHELL_DIR}/build/${FILENAME}-racers.log
+        rm -rf ${SHELL_DIR}/cache/${FILENAME}-racers.log
+        touch ${SHELL_DIR}/cache/${FILENAME}-racers.log
+    fi
+
+    while read LINE; do
+        ARR=(${LINE})
+
+        if [ -f ${SHELL_DIR}/cache/${FILENAME}.log ]; then
+            RECORD="$(cat ${SHELL_DIR}/cache/${FILENAME}.log | grep "${ARR[0]}")"
+
+            if [ "${RECORD}" != "" ]; then
+                ARR2=(${RECORD})
+
+                RACER=$(echo "${ARR2[1]}" | sed -e 's/^"//' -e 's/"$//')
+
+                echo "${RECORD}" >> ${SHELL_DIR}/cache/${FILENAME}-racers.log
+            fi
+        fi
+    done < ${RACERS}
+
+    _result "_racers ${LEAGUE} ${SEASON} done"
+
+    echo
+}
+
 _build() {
     TARGET=$1
     LEAGUE=$2
@@ -89,10 +133,10 @@ _build() {
 
     _command "_build ${LEAGUE} ${SEASON} ..."
 
-    MESSAGE=${SHELL_DIR}/build/slack_message-${TARGET}.json
+    MESSAGE=${SHELL_DIR}/build/slack_message-${LEAGUE}-${TARGET}.json
 
     MAX_IDX=20
-    if [ "${TARGET}" == "h2h" ]; then
+    if [ "${LEAGUE}-${TARGET}" == "virtual-h2h" ]; then
         MAX_IDX=32
     fi
 
@@ -117,7 +161,9 @@ _build() {
             CHANGED=true
 
             if [ -f ${SHELL_DIR}/build/${FILENAME}.log ]; then
-                RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${FILENAME}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
+                OLD_RECORD=$(cat ${SHELL_DIR}/build/${FILENAME}.log | grep "\"${RACER}\"" | cut -d' ' -f1)
+
+                RECORD="${RECORD}   ~${OLD_RECORD}~"
             fi
 
             _username ${RACER}
@@ -159,7 +205,13 @@ _username() {
 
     USERNAME=
 
-    RACERS=${SHELL_DIR}/racers.json
+    RACERS=${SHELL_DIR}/racers.txt
+
+    RACERS=${SHELL_DIR}/racers.txt
+
+    if [ ! -f ${RACERS} ]; then
+        return
+    fi
 
     if [ -f ${RACERS} ]; then
         USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
@@ -175,18 +227,21 @@ _username() {
 _run() {
     _prepare
 
-    LIST=${SHELL_DIR}/build/league.txt
-
-    cat ${SHELL_DIR}/league.json \
-        | jq -r '.[] | "\(.target) \(.league) \(.season) \(.filename)"' \
-        > ${LIST}
+    LEAGUES=${SHELL_DIR}/league.txt
 
     while read LINE; do
         ARR=(${LINE})
 
-        _load ${ARR[0]} ${ARR[1]} ${ARR[2]} ${ARR[3]}
-        _build ${ARR[0]} ${ARR[1]} ${ARR[2]} ${ARR[3]}
-    done < ${LIST}
+        LEAGUE=${ARR[0]}
+        SEASON=${ARR[1]}
+        TYPE=${ARR[2]}
+
+        SEASON=${SEASON}-${YYYY}-${MM}-${TYPE}
+
+        _load   ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}
+        _racers ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}
+        _build  ${TYPE} ${LEAGUE} ${SEASON} ${YYYY}/${MM}/${SEASON}-racers
+    done < ${LEAGUES}
 
     _success
 }

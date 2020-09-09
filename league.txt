@@ -1,0 +1,5 @@
+inperson summit-season h2h
+inperson summit-season tt
+virtual virtual-season h2h
+virtual virtual-season oa
+virtual virtual-season tt
