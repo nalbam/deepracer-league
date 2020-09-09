@@ -203,21 +203,15 @@ _build() {
 _username() {
     RACER=$1
 
-    USERNAME=
-
     RACERS=${SHELL_DIR}/racers.txt
-
-    RACERS=${SHELL_DIR}/racers.txt
-
-    if [ ! -f ${RACERS} ]; then
-        return
-    fi
 
     if [ -f ${RACERS} ]; then
-        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
+        LINE="$(cat ${RACERS} | grep "\"${RACER}\"")"
 
-        if [ "${USERNAME}" != "" ]; then
-            RACER="${RACER}   @${USERNAME}"
+        if [ "${LINE}" != "" ]; then
+            ARR=(${LINE})
+
+            RACER="${RACER}   @${ARR[1]}"
         fi
     fi
 
