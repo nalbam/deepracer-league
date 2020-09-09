@@ -79,24 +79,6 @@ _load() {
     echo
 }
 
-_racer() {
-    RACER=$1
-
-    USERNAME=
-
-    RACERS=${SHELL_DIR}/racers.json
-
-    if [ -f ${RACERS} ]; then
-        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
-
-        if [ "${USERNAME}" != "" ]; then
-            RACER="${RACER}   @${USERNAME}"
-        fi
-    fi
-
-    RACER="${RACER}   :tada:"
-}
-
 _build() {
     TARGET=$1
     LEAGUE=$2
@@ -138,7 +120,7 @@ _build() {
                 RECORD="${RECORD}   ~$(cat ${SHELL_DIR}/build/${FILENAME}.log | grep "${ARR[1]}" | cut -d' ' -f1)~"
             fi
 
-            _racer ${RACER}
+            _username ${RACER}
 
             _result "changed ${RECORD} ${RACER}"
         fi
@@ -170,6 +152,24 @@ _build() {
     _result "_build ${LEAGUE} ${SEASON} done"
 
     echo
+}
+
+_username() {
+    RACER=$1
+
+    USERNAME=
+
+    RACERS=${SHELL_DIR}/racers.json
+
+    if [ -f ${RACERS} ]; then
+        USERNAME="$(cat ${RACERS} | jq -r --arg RACER "${RACER}" '.[] | select(.racername==$RACER) | "\(.username)"')"
+
+        if [ "${USERNAME}" != "" ]; then
+            RACER="${RACER}   @${USERNAME}"
+        fi
+    fi
+
+    RACER="${RACER}   :tada:"
 }
 
 _run() {
